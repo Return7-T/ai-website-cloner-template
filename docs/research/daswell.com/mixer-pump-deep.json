@@ -1,0 +1,930 @@
+{
+  "mainSelector": "entry-content single-content",
+  "header": {
+    "height": 109,
+    "position": "static",
+    "bg": "rgba(0, 0, 0, 0)",
+    "logo": "https://daswell.com/wp-content/uploads/2025/10/logo.png",
+    "navLinks": [
+      {
+        "text": "Home",
+        "href": "https://daswell.com/"
+      },
+      {
+        "text": "Cases",
+        "href": "https://daswell.com/project/"
+      },
+      {
+        "text": "Construction Machinery",
+        "href": "https://daswell.com/concrete-machinery-projects/"
+      },
+      {
+        "text": "Powder Processing",
+        "href": "https://daswell.com/powder-cases/"
+      },
+      {
+        "text": "Crusher",
+        "href": "https://daswell.com/crusher-cases/"
+      },
+      {
+        "text": "Become Our Distributor",
+        "href": "https://daswell.com/dealer/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://daswell.com/about-us/"
+      },
+      {
+        "text": "DASWELL in Philippines",
+        "href": "https://daswell.com/philippines/"
+      },
+      {
+        "text": "DASWELL in Indonesia",
+        "href": "https://daswell.com/indonesia/"
+      },
+      {
+        "text": "DASWELL in Egypt",
+        "href": "https://daswell.com/egypt/"
+      },
+      {
+        "text": "News",
+        "href": "https://daswell.com/news/"
+      },
+      {
+        "text": "Construction Machinery",
+        "href": "https://daswell.com/concrete-machinery-news/"
+      },
+      {
+        "text": "Powder Processing",
+        "href": "https://daswell.com/powder-processing-news/"
+      },
+      {
+        "text": "Blogs",
+        "href": "https://daswell.com/blogs/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://daswell.com/contact-us/"
+      },
+      {
+        "text": "Construction Equipment",
+        "href": "https://daswell.com/construction/"
+      },
+      {
+        "text": "Concrete Mixer Pumps",
+        "href": "https://daswell.com/concrete-pumps/concrete-mixer-pump/"
+      },
+      {
+        "text": "Trailer Concrete Pumps",
+        "href": "https://daswell.com/concrete-pumps/trailer-concrete-pump/"
+      },
+      {
+        "text": "Self Loading Concrete Mixers",
+        "href": "https://daswell.com/concrete-mixers/self-loading-concrete-mixer/"
+      },
+      {
+        "text": "Concrete Batching Plants",
+        "href": "https://daswell.com/concrete-mixers/concrete-batch-plant/"
+      },
+      {
+        "text": "Twin Shaft Concrete Mixer Pump",
+        "href": "https://daswell.com/concrete-pumps/twin-shaft-concrete-mixer-pump/"
+      },
+      {
+        "text": "Concrete Pumps",
+        "href": "https://daswell.com/concrete-pumps/"
+      },
+      {
+        "text": "Concrete Mixers",
+        "href": "https://daswell.com/concrete-mixers/"
+      },
+      {
+        "text": "Bolted Silo",
+        "href": "https://daswell.com/concrete-mixers/bolted-silo/"
+      },
+      {
+        "text": "Others",
+        "href": "https://daswell.com/construction/#others"
+      },
+      {
+        "text": "Crushing and Screening",
+        "href": "https://daswell.com/crushers/"
+      },
+      {
+        "text": "Stone Crushing Plant",
+        "href": "https://daswell.com/crushers/stone-crushing-plant/"
+      },
+      {
+        "text": "Mobile Crushing Plant",
+        "href": "https://daswell.com/crushers/mobile-crushing-plant/"
+      },
+      {
+        "text": "Jaw Crusher",
+        "href": "https://daswell.com/crushers/jaw-crusher/"
+      },
+      {
+        "text": "Cone Crusher",
+        "href": "https://daswell.com/crushers/cone-crusher/"
+      }
+    ],
+    "buttons": [
+      "",
+      "",
+      "",
+      "Search",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Get a Quote",
+      "WhatsApp: +86 177 3771 2027",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "sectionCount": 36,
+  "sections": [
+    {
+      "i": 0,
+      "tag": "div",
+      "id": null,
+      "cls": "kb-row-layout-wrap kb-row-layout-id1157_916f52-1d alignfull kt-row-has-bg wp-block-kadence-rowlayout",
+      "top": 109,
+      "height": 842,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": "url(\"https://daswell.com/wp-content/uploads/2025/03/pro_detail.jpg\")",
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [
+        {
+          "t": "h1",
+          "text": "Concrete Mixer Pump"
+        }
+      ],
+      "imgCount": 1,
+      "tableCount": 0,
+      "linkCount": 5,
+      "listItems": 0,
+      "text": "Home » Concrete Pumps » Concrete Mixer Pump <img fetchpriority=\"high\" decoding=\"async\" width=\"680\" height=\"476\" src=\"https://daswell.com/wp-content/uploads/2025"
+    },
+    {
+      "i": 1,
+      "tag": "h2",
+      "id": null,
+      "cls": "wp-block-heading",
+      "top": 1015,
+      "height": 42,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "Daswell Efficient Concrete Mixer Pump for Maximum Productivity"
+    },
+    {
+      "i": 2,
+      "tag": "p",
+      "id": null,
+      "cls": "wp-block-paragraph",
+      "top": 1071,
+      "height": 136,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "The concrete mixer pump is a machine that combines the functions of a concrete mixer and a concrete pump into one machine, allowing concrete to be mixed at the "
+    },
+    {
+      "i": 3,
+      "tag": "p",
+      "id": null,
+      "cls": "wp-block-paragraph",
+      "top": 1239,
+      "height": 68,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "The mixer pump machine can discharge the mixed concrete directly into the integrated pumping hopper. And our high-performance concrete mixer hydraulic pumping s"
+    },
+    {
+      "i": 4,
+      "tag": "p",
+      "id": null,
+      "cls": "modal-trigger wp-block-paragraph",
+      "top": 1339,
+      "height": 68,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "Choosing a reputable concrete mixer pump manufacturer is critical for your investment. Our proven systems combine reliability with industry-leading performance "
+    },
+    {
+      "i": 5,
+      "tag": "h2",
+      "id": "toc-heading-1",
+      "cls": "wp-block-heading",
+      "top": 1449,
+      "height": 42,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "Delicate Components of Daswell Concrete Mixer Pumps for Efficient Work"
+    },
+    {
+      "i": 6,
+      "tag": "p",
+      "id": null,
+      "cls": "wp-block-paragraph",
+      "top": 1505,
+      "height": 68,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "Our concrete mixer pumps are engineered with advanced components for making sure high quality. These machines have unmatched reliability, efficiency, and durabi"
+    },
+    {
+      "i": 7,
+      "tag": "div",
+      "id": null,
+      "cls": "wp-block-kadence-image kb-image1157_37a4fd-56",
+      "top": 1605,
+      "height": 560,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 1,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "<img decoding=\"async\" width=\"820\" height=\"560\" src=\"https://daswell.com/wp-content/uploads/2025/04/main-parts-details-of-concrete-mixer-pump.jpg\" alt=\"Main part"
+    },
+    {
+      "i": 8,
+      "tag": "div",
+      "id": null,
+      "cls": "wp-block-kadence-tabs alignnone",
+      "top": 2182,
+      "height": 1195,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 3,
+      "listItems": 3,
+      "text": "Power and Hydraulic SystemMixing and Delivery SystemControl and Safety System Main Oil Pump. We utilize premium imported options—Kawasaki (Korea) or Rexroth for"
+    },
+    {
+      "i": 9,
+      "tag": "h2",
+      "id": "toc-heading-2",
+      "cls": "wp-block-heading",
+      "top": 3419,
+      "height": 42,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "5 Reasons You Should Choose Daswell Concrete Mixer Pump Manufacturer"
+    },
+    {
+      "i": 10,
+      "tag": "p",
+      "id": null,
+      "cls": "wp-block-paragraph",
+      "top": 3475,
+      "height": 68,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "When you invest in a concrete mixer with a pump, durability, efficiency, and long-term reliability are critical. At Daswell, we try our best to ensure our equip"
+    },
+    {
+      "i": 11,
+      "tag": "div",
+      "id": null,
+      "cls": "wp-block-kadence-image kb-image1157_d8c926-79",
+      "top": 3575,
+      "height": 500,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 1,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "<img decoding=\"async\" width=\"820\" height=\"500\" src=\"https://daswell.com/wp-content/uploads/2025/04/advantage-of-concrete-mixer-pump.jpg\" alt=\"Advantage of concr"
+    },
+    {
+      "i": 12,
+      "tag": "ol",
+      "id": null,
+      "cls": "wp-block-list",
+      "top": 4092,
+      "height": 306,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 5,
+      "text": "Premium Hydraulic System Protection: Our hydraulic oil tank uses specially treated steel pipes to prevent corrosion and extend system life. For the oil tank cle"
+    },
+    {
+      "i": 13,
+      "tag": "p",
+      "id": null,
+      "cls": "wp-block-paragraph",
+      "top": 4430,
+      "height": 68,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "Choosing the Daswell company, you can get cleaner hydraulic systems for fewer failures, strict pre-testing for reliable performance, power stability for consist"
+    },
+    {
+      "i": 14,
+      "tag": "div",
+      "id": null,
+      "cls": "wp-block-kadence-videopopup kadence-video-popup1157_2bd960-6d",
+      "top": 4530,
+      "height": 550,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "50px",
+      "paddingBottom": "50px",
+      "headings": [],
+      "imgCount": 1,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "<img decoding=\"async\" src=\"https://daswell.com/wp-content/uploads/2025/04/3D-workingflow-of-Daswell-concrete-mixer-with-pump.jpg\" alt=\"3D workingflow of Daswell"
+    },
+    {
+      "i": 15,
+      "tag": "p",
+      "id": null,
+      "cls": "modal-trigger wp-block-paragraph",
+      "top": 5080,
+      "height": 34,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "Contact us now for learning more about Daswell machines and get the price list!"
+    },
+    {
+      "i": 16,
+      "tag": "h2",
+      "id": "toc-heading-3",
+      "cls": "wp-block-heading",
+      "top": 5156,
+      "height": 42,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "What You Should Consider When Buying a Concrete Mixer Pump?"
+    },
+    {
+      "i": 17,
+      "tag": "p",
+      "id": null,
+      "cls": "wp-block-paragraph",
+      "top": 5212,
+      "height": 68,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "Choosing the right concrete mixer pump is crucial for maximizing efficiency and productivity on your construction site. For ensuring that you can choose the mos"
+    },
+    {
+      "i": 18,
+      "tag": "ul",
+      "id": null,
+      "cls": "wp-block-list",
+      "top": 5312,
+      "height": 340,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 5,
+      "text": "Making sure the pumping capacity(output volume)you need. The pumping capacity is measured in cubic meters per hour(m³/h). It determines how much concrete the pu"
+    },
+    {
+      "i": 19,
+      "tag": "p",
+      "id": null,
+      "cls": "wp-block-paragraph",
+      "top": 5684,
+      "height": 102,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "These factors are important when you are selecting a pumping machine. The higher capacity means faster project completion. The proper aggregate size can reduce "
+    },
+    {
+      "i": 20,
+      "tag": "div",
+      "id": null,
+      "cls": "kb-row-layout-wrap kb-row-layout-id1157_d38826-29 alignnone wp-block-kadence-rowlayout",
+      "top": 5818,
+      "height": 521,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [
+        {
+          "t": "h3",
+          "text": "Concrete Trailer Pump"
+        },
+        {
+          "t": "h3",
+          "text": "Concrete Boom Pump"
+        },
+        {
+          "t": "h3",
+          "text": "Concrete Mixer Pump"
+        }
+      ],
+      "imgCount": 3,
+      "tableCount": 0,
+      "linkCount": 3,
+      "listItems": 0,
+      "text": "<img decoding=\"async\" src=\"https://daswell.com/wp-content/uploads/2025/04/trailer-concrete-pump.png\" alt=\"Trailer Concrete Pump\" width=\"680\" height=\"460\" class="
+    },
+    {
+      "i": 21,
+      "tag": "p",
+      "id": null,
+      "cls": "modal-trigger wp-block-paragraph",
+      "top": 6339,
+      "height": 68,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "Before your purchasing, you should evaluate the specific needs of your projects to choose the most efficient and cost-effective concrete mixer pump equipment. Y"
+    },
+    {
+      "i": 22,
+      "tag": "h2",
+      "id": "toc-heading-4",
+      "cls": "wp-block-heading",
+      "top": 6449,
+      "height": 42,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "Daswell Expert Support and Reliable Service for Your Concrete Mixer Pump Investment"
+    },
+    {
+      "i": 23,
+      "tag": "div",
+      "id": null,
+      "cls": "wp-block-kadence-image kb-image1157_57f8c3-a6",
+      "top": 6505,
+      "height": 500,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 1,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "<img data-dominant-color=\"c2baba\" data-has-transparency=\"false\" style=\"--dominant-color: #c2baba;\" decoding=\"async\" width=\"820\" height=\"500\" src=\"https://daswel"
+    },
+    {
+      "i": 24,
+      "tag": "p",
+      "id": null,
+      "cls": "wp-block-paragraph",
+      "top": 7022,
+      "height": 34,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "At Daswell company, we provide complete solutions with professional technical and after-sale service. It can be sure that you will be satisfied at every stage."
+    },
+    {
+      "i": 25,
+      "tag": "div",
+      "id": null,
+      "cls": "kb-row-layout-wrap kb-row-layout-id1157_ca4a4a-5a alignnone wp-block-kadence-rowlayout",
+      "top": 7088,
+      "height": 321,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [
+        {
+          "t": "h3",
+          "text": "Comprehensive pre-purchase support"
+        },
+        {
+          "t": "h3",
+          "text": "Professional after-sale service"
+        }
+      ],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 11,
+      "text": "Comprehensive pre-purchase support Equipment selection guidance Detailed technical comparisons One-on-one service to match the perfect machine to your project n"
+    },
+    {
+      "i": 26,
+      "tag": "p",
+      "id": null,
+      "cls": "modal-trigger wp-block-paragraph",
+      "top": 7409,
+      "height": 68,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "Choosing Daswell as your concrete mixer pumps supplier, you can get technical expertise during the selecting. And we offer you reliable machine protection with "
+    },
+    {
+      "i": 27,
+      "tag": "div",
+      "id": null,
+      "cls": "wp-block-kadence-image kb-image1157_cfa844-74",
+      "top": 7509,
+      "height": 600,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 1,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "<img decoding=\"async\" width=\"820\" height=\"600\" src=\"https://daswell.com/wp-content/uploads/2025/04/mixer-pump-in-site.jpg\" alt=\"mixer pump in site\" class=\"kb-im"
+    },
+    {
+      "i": 28,
+      "tag": "h2",
+      "id": "toc-heading-5",
+      "cls": "wp-block-heading",
+      "top": 8151,
+      "height": 42,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "FAQ about dawell Concrete Mixer Pumps Equipment"
+    },
+    {
+      "i": 29,
+      "tag": "div",
+      "id": null,
+      "cls": "wp-block-kadence-accordion alignnone",
+      "top": 8207,
+      "height": 638,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "What are the horizontal and vertical pumping distances of your concrete mixture pump? Horizontal pumping distance is 200 meters, vertical pumping distance is 50"
+    },
+    {
+      "i": 30,
+      "tag": "h2",
+      "id": "toc-heading-6",
+      "cls": "wp-block-heading",
+      "top": 8887,
+      "height": 42,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "Technical Data:"
+    },
+    {
+      "i": 31,
+      "tag": "figure",
+      "id": null,
+      "cls": "wp-block-table",
+      "top": 8943,
+      "height": 989,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 1,
+      "linkCount": 0,
+      "listItems": 0,
+      "text": "ParameterUnitEMP40DMP50Power kw45Weichai diesel engine; 85kwWhole machineLengthmm42504680Widthmm21002100Heightmm27002300Weightkg40004200MixerMixer model/JZM450J"
+    },
+    {
+      "i": 32,
+      "tag": "h2",
+      "id": null,
+      "cls": "wp-block-heading",
+      "top": 9974,
+      "height": 42,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "Daswell Concrete Machinery Projects"
+    },
+    {
+      "i": 33,
+      "tag": "div",
+      "id": null,
+      "cls": "wp-block-kadence-portfoliogrid kb-blocks-portfolio-loop-block alignnone kb-portfolio-loop1157_3a0362-95 kb-portfolio-grid-layout-fluidcarous",
+      "top": 10030,
+      "height": 1800,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [
+        {
+          "t": "h3",
+          "text": "Philippine Customer Used a DASWELL Trailer Concrete Pump for Building Construction, 2025"
+        },
+        {
+          "t": "h3",
+          "text": "DASWELL 4m³ Self Loading Concrete Mixer Shipped to Indonesia, 2025"
+        },
+        {
+          "t": "h3",
+          "text": "DASWELL DMP50 Concrete Mixer Pump for Ghana"
+        },
+        {
+          "t": "h3",
+          "text": "Self Loading Concrete Mixer for sale Indonesia"
+        },
+        {
+          "t": "h3",
+          "text": "One Dry Mix concrete Plant Delivered to South Africa | Concrete Case"
+        },
+        {
+          "t": "h3",
+          "text": "35 m³/h Mobile Batching Plant Case: 20-Day Delivery to the Philippines"
+        }
+      ],
+      "imgCount": 6,
+      "tableCount": 0,
+      "linkCount": 6,
+      "listItems": 6,
+      "text": "<img decoding=\"async\" width=\"960\" height=\"540\" src=\"https://daswell.com/wp-content/uploads/2026/05/Trailer-Concrete-Pump-for-Philippine-Customer.jpg\" class=\"att"
+    },
+    {
+      "i": 34,
+      "tag": "h2",
+      "id": null,
+      "cls": "wp-block-heading",
+      "top": 11872,
+      "height": 42,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 1,
+      "listItems": 0,
+      "text": "Blogs about Daswell Concrete Machinery"
+    },
+    {
+      "i": 35,
+      "tag": "div",
+      "id": null,
+      "cls": "wp-block-kadence-postgrid kt-blocks-post-loop-block alignnone kt-post-loop1157_5aeb15-e6 kt-post-grid-layout-carousel kadence-splide-wrap",
+      "top": 11928,
+      "height": 539,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [
+        {
+          "t": "h2",
+          "text": "Mobile vs Stationary Concrete Batching Plant: 7 Questions Before You Choose"
+        },
+        {
+          "t": "h2",
+          "text": "5 Things Buyers Often Ignore Before Buying a Concrete Batching Plant"
+        },
+        {
+          "t": "h2",
+          "text": "Common Problems in a Mobile Crusher Plant and How to Fix Them"
+        },
+        {
+          "t": "h2",
+          "text": "How to Choose the Right Concrete Pump for Your Project Size"
+        },
+        {
+          "t": "h2",
+          "text": "Which Costs Less? — Self Loading Concrete Mixer vs Loader + Mixer"
+        },
+        {
+          "t": "h2",
+          "text": "5 Types of Concrete Batching Plants: How to Choose the Right Solution for Your Project"
+        }
+      ],
+      "imgCount": 6,
+      "tableCount": 0,
+      "linkCount": 22,
+      "listItems": 6,
+      "text": "<img decoding=\"async\" width=\"1024\" height=\"576\" src=\"https://daswell.com/wp-content/uploads/2026/05/Mobile-vs-Stationary-Concrete-Batching-Plant.jpg\" class=\"att"
+    }
+  ],
+  "footer": {
+    "height": 20,
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(119, 119, 119)",
+    "links": [
+      {
+        "text": "Mobile Concrete Batching Plant",
+        "href": "https://daswell.com/tag/mobile-concrete-batching-plant/"
+      },
+      {
+        "text": "Stationary Concrete Batching Plant",
+        "href": "https://daswell.com/tag/stationary-concrete-batching-plant/"
+      }
+    ],
+    "headings": [],
+    "text": "TagsMobile Concrete Batching Plant, Stationary Concrete Batching Plant"
+  }
+}

@@ -1,0 +1,166 @@
+[
+  {
+    "i": 0,
+    "h2": "",
+    "bg": "rgba(0, 0, 0, 0)",
+    "cards": [],
+    "ctas": [
+      {
+        "text": "View Construction",
+        "href": "https://daswell.com/construction/"
+      },
+      {
+        "text": "View Powder",
+        "href": "https://daswellpowder.com/"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "h2": "Construction Equipment",
+    "bg": "rgba(0, 0, 0, 0)",
+    "cards": [
+      {
+        "title": "Concrete Mixer Pump",
+        "href": "https://daswell.com/concrete-pumps/concrete-mixer-pump/",
+        "img": "https://daswell.com/wp-content/uploads/2025/12/concrete-mixer-pump-jpg.webp",
+        "imgAlt": "Concrete Mixer Pump",
+        "year": "2025"
+      },
+      {
+        "title": "Self Loading Concrete Mixer",
+        "href": "https://daswell.com/concrete-mixers/self-loading-concrete-mixer/",
+        "img": "https://daswell.com/wp-content/uploads/2025/11/self-loading-concrete-mixer-1-jpg.webp",
+        "imgAlt": "Self Loading Concrete Mixer",
+        "year": "2025"
+      },
+      {
+        "title": "Mobile Concrete Batching Plant",
+        "href": "https://daswell.com/concrete-mixers/mobile-concrete-batching-plant/",
+        "img": "https://daswell.com/wp-content/uploads/2025/11/mobile-concrete-batching-plant-jpg.webp",
+        "imgAlt": "Mobile Concrete Batching Plant",
+        "year": "2025"
+      },
+      {
+        "title": "Trailer Concrete Pump",
+        "href": "https://daswell.com/concrete-pumps/trailer-concrete-pump/",
+        "img": "https://daswell.com/wp-content/uploads/2026/02/trailer-concrete-pump-jpg.webp",
+        "imgAlt": "Trailer Concrete Pump",
+        "year": "2026"
+      },
+      {
+        "title": "Stone Crushing Plant",
+        "href": "https://daswell.com/crushers/stone-crushing-plant/",
+        "img": "https://daswell.com/wp-content/uploads/2026/02/stone-crushing-plant-jpg.webp",
+        "imgAlt": "Stone Crushing Plant",
+        "year": "2026"
+      },
+      {
+        "title": "Concrete Batching Plant",
+        "href": "https://daswell.com/concrete-mixers/concrete-batch-plant/",
+        "img": "https://daswell.com/wp-content/uploads/2026/03/batching-plant-768x432-jpg.webp",
+        "imgAlt": "Batching Plant",
+        "year": "2026"
+      }
+    ],
+    "ctas": [
+      {
+        "text": "View All Construction Equipment →",
+        "href": "https://daswell.com/construction/"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "h2": "Powder Processing",
+    "bg": "rgba(0, 0, 0, 0)",
+    "cards": [
+      {
+        "title": "Calcium Carbonate Grinding Plant",
+        "href": "https://daswell.com/solution/calcium-carbonate-processing-plant/",
+        "img": "https://daswell.com/wp-content/uploads/2026/03/calcium-carbonate-processing-plant-jpg.webp",
+        "imgAlt": "Calcium Carbonate Grinding Plant",
+        "year": "2026"
+      },
+      {
+        "title": "Quartz Powder Production Line",
+        "href": "https://daswell.com/solution/quartz-powder-processing-plant/",
+        "img": "https://daswell.com/wp-content/uploads/2026/03/quartz-powder-production-line-jpg.webp",
+        "imgAlt": "Quartz Powder Production Line",
+        "year": "2026"
+      },
+      {
+        "title": "Talc Powder Production Line",
+        "href": "https://daswell.com/solution/talc-powder-production-line/",
+        "img": "https://daswell.com/wp-content/uploads/2026/03/talc-powder-processing-plant-jpg.webp",
+        "imgAlt": "Talc Powder Production Line",
+        "year": "2026"
+      },
+      {
+        "title": "Pre-crushing Before Grinding",
+        "href": "https://daswellpowder.com/crushing/",
+        "img": "https://daswell.com/wp-content/uploads/2026/03/pre-crusher-before-grinding-jpg.webp",
+        "imgAlt": "pre crusher before grinding",
+        "year": "2026"
+      },
+      {
+        "title": "Ring Roller Mill",
+        "href": "https://daswell.com/grinding-mills/ring-roller-mill/",
+        "img": "https://daswell.com/wp-content/uploads/2026/03/ring-roller-mill-jpg.webp",
+        "imgAlt": "Ring Roller Mill",
+        "year": "2026"
+      },
+      {
+        "title": "Powder Coating Machine",
+        "href": "https://daswell.com/powder-coating-machine/",
+        "img": "https://daswell.com/wp-content/uploads/2026/03/vortex-mill-coating-cachine-jpg.webp",
+        "imgAlt": "Powder Coating Machine",
+        "year": "2026"
+      },
+      {
+        "title": "Powder Packaging Machine",
+        "href": "https://daswell.com/powder/packaging-machine/",
+        "img": "https://daswell.com/wp-content/uploads/2026/03/industrial-powder-packaging-machine-jpg.webp",
+        "imgAlt": "Powder Packaging Machine",
+        "year": "2026"
+      }
+    ],
+    "ctas": [
+      {
+        "text": "View All Powder Processing Equipment →",
+        "href": "https://daswell.com/powder/"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "h2": "Global Success Stories",
+    "bg": "rgb(248, 249, 250)",
+    "cards": [],
+    "ctas": [
+      {
+        "text": "View All Cases",
+        "href": "https://daswell.com/project/"
+      },
+      {
+        "text": "View All Construction Machinery Cases",
+        "href": "https://daswell.com/concrete-machinery-projects/"
+      },
+      {
+        "text": "80,000 Tons/Year Calcium Carbonate Ball ",
+        "href": "https://daswell.com/powder-cases/daswell-calcium-carbonate-production-line-installed-successfully-in-tanzania/"
+      },
+      {
+        "text": "View All Powder Processing Production Li",
+        "href": "https://daswellpowder.com/cases/"
+      }
+    ]
+  },
+  {
+    "i": 4,
+    "h2": "Why Choose Daswell",
+    "bg": "rgba(0, 0, 0, 0)",
+    "cards": [],
+    "ctas": []
+  }
+]

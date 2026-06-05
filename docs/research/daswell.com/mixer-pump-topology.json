@@ -1,0 +1,52 @@
+{
+  "pageHeight": 13562,
+  "sections": [
+    {
+      "kind": "header",
+      "tag": "header",
+      "cls": "wp-block-kadence-header7900-cpt-id header-desktop-sticky header-tablet-sticky header-mobile-sticky w",
+      "position": "static",
+      "height": 109,
+      "text": "<img data-od-unknown-tag data-od-xpath=\"/HTML/BODY/DIV[@id=&apos;wrapper&apos;]/*[2][self::HEADER]/*[1][self::DIV]/*[1]["
+    },
+    {
+      "kind": "section",
+      "index": 1,
+      "tag": "div",
+      "id": "primary",
+      "cls": "content-area",
+      "top": 109,
+      "height": 12358,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "headings": [
+        {
+          "t": "h1",
+          "text": "Concrete Mixer Pump"
+        },
+        {
+          "t": "h2",
+          "text": "Daswell Efficient Concrete Mixer Pump for Maximum Productivity"
+        },
+        {
+          "t": "h2",
+          "text": "Delicate Components of Daswell Concrete Mixer Pumps for Efficient Work"
+        },
+        {
+          "t": "h2",
+          "text": "5 Reasons You Should Choose Daswell Concrete Mixer Pump Manufacturer"
+        }
+      ],
+      "imgCount": 21,
+      "linkCount": 51,
+      "text": "Home » Concrete Pumps » Concrete Mixer Pump <img fetchpriority=\"high\" decoding=\"async\" width=\"680\" height=\"476\" src=\"https://daswell.com/wp-content/uploads/2025/03/concrete-mixer-p"
+    },
+    {
+      "kind": "footer",
+      "tag": "footer",
+      "cls": "kt-blocks-post-footer",
+      "height": 20,
+      "text": "TagsMobile Concrete Batching Plant, Stationary Concrete Batching Plant"
+    }
+  ]
+}

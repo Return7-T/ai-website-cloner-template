@@ -1,0 +1,52 @@
+{
+  "cardAnchors": [
+    {
+      "title": "Concrete Trailer Pump",
+      "href": "https://daswell.com/concrete-pumps/trailer-concrete-pump/",
+      "img": "https://daswell.com/wp-content/uploads/2025/04/trailer-concrete-pump.png",
+      "imgLocal": "/images/2025/04/trailer-concrete-pump.png"
+    },
+    {
+      "title": "Concrete Boom Pump",
+      "href": "https://daswell.com/concrete-pumps/concrete-boom-pump/",
+      "img": "https://daswell.com/wp-content/uploads/2025/04/concrete-boom-pump.jpg",
+      "imgLocal": "https://daswell.com/wp-content/uploads/2025/04/concrete-boom-pump.jpg"
+    },
+    {
+      "title": "Concrete Mixer Pump",
+      "href": "https://daswell.com/concrete-pumps/pan-mixer-concrete-pump/",
+      "img": "https://daswell.com/wp-content/uploads/2025/04/concrete-pan-mixer-pump-scaled-e1745542374292.png",
+      "imgLocal": "https://daswell.com/wp-content/uploads/2025/04/concrete-pan-mixer-pump-scaled-e1745542374292.png"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What are the horizontal and vertical pumping distances of your concrete mixture pump?",
+      "a": "Horizontal pumping distance is 200 meters, vertical pumping distance is 50 meters."
+    },
+    {
+      "q": "What is the hopper capacity?",
+      "a": "0.8m³"
+    },
+    {
+      "q": "How many cubic meters of concrete can be pumped per hour?",
+      "a": "The mixer drum can produce about 20 cubic meters of concrete per hour. The pumping system can pump about 50 cubic meters of concrete per hour."
+    },
+    {
+      "q": "Can your machine pump 40mm aggregates?",
+      "a": "Yes, of course."
+    },
+    {
+      "q": "Can the functions of pumping and mixing be used separately?",
+      "a": "Yes. If the mixer machine does not produce enough concrete, a concrete mixer truck can be used to transport the commercial concrete for pumping. Or add an additional mixer."
+    },
+    {
+      "q": "How many workers are needed for the whole machine to work?",
+      "a": "The whole set of equipment needs only five people to operate. One person is responsible for loading by the forklift, one person is responsible for remote control of the equipment, one person is responsible for putting cement, and two people are responsible for taking over and removing the pipes on the floor. The mixer machine and transfer pump are directly controlled by one remote control, which is simple to operate. Compared with the traditional equipment, there are fewer construction people and the operation is more simple."
+    },
+    {
+      "q": "How long is the delivery time?",
+      "a": "If the voltage is different, the delivery time of the electric concrete mixer pump is 20-25 days. The delivery time of diesel concrete mixer pump is usually 7-10 days."
+    }
+  ]
+}

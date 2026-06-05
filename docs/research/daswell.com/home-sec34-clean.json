@@ -1,0 +1,43 @@
+{
+  "whyChooseSubtitle": "Service speed defines customer value \u2014 and sustains our brand.",
+  "features": [
+    {
+      "icon": "https://daswell.com/wp-content/uploads/2025/03/icon_14.png",
+      "title": "Global Presence",
+      "text": "Subsidiaries in the Philippines & Indonesia, office in Egypt"
+    },
+    {
+      "icon": "https://daswell.com/wp-content/uploads/2025/03/icon_15.png",
+      "title": "Full After-sales",
+      "text": "40+ service staff, spare parts in stock, 100% customer satisfaction"
+    },
+    {
+      "icon": "https://daswell.com/wp-content/uploads/2025/03/icon_16.png",
+      "title": "Turnkey Solutions",
+      "text": "From single machine to complete production line"
+    },
+    {
+      "icon": "https://daswell.com/wp-content/uploads/2025/03/icon_17.png",
+      "title": "Fast Delivery",
+      "text": "Local inventory, shorter lead time"
+    }
+  ],
+  "branches": [
+    {
+      "name": "Philippines",
+      "img": "https://daswell.com/wp-content/uploads/2026/02/daswell-philippines-team.jpg",
+      "href": "https://daswell.com/philippines/"
+    },
+    {
+      "name": "Indonesia",
+      "img": "https://daswell.com/wp-content/uploads/2026/02/daswell-indonesia-team.jpg",
+      "href": "https://daswell.com/indonesia/"
+    },
+    {
+      "name": "Egypt",
+      "img": "https://daswell.com/wp-content/uploads/2025/11/egyptian-team.jpg",
+      "href": "https://daswell.com/egypt/"
+    }
+  ],
+  "stories": []
+}

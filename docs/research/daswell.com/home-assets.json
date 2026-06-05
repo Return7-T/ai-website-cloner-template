@@ -1,0 +1,786 @@
+{
+  "title": "Daswell: Your Partner For Construction & Powder Processing Equipment",
+  "lang": "en-US",
+  "url": "https://daswell.com/",
+  "counts": {
+    "img": 47,
+    "video": 1,
+    "bg": 0,
+    "svg": 32
+  },
+  "images": [
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/10/logo-300x53.png",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/10/logo.png 2480w, https://daswell.com/wp-content/uploads/2025/10/logo-300x53.png 300w, https://daswell.com/wp-content/uploads/2025/10/logo-1024x179.png 1024w, https://daswell.com/wp-content/uploads/2025/10/logo-768x134.png 768w, https://daswell.com/wp-content/uploads/2025/10/logo-1536x269.png 1536w, https://daswell.com/wp-content/uploads/2025/10/logo-2048x358.png 2048w",
+      "alt": "Daswell",
+      "nw": 240,
+      "nh": 42,
+      "cw": 240,
+      "ch": 42,
+      "parentClass": "custom-logo-link",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20180%2031'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Daswell",
+      "nw": 300,
+      "nh": 52,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-block-site-logo",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/12/concrete-mixer-pump-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/12/concrete-mixer-pump.jpg 800w, https://daswell.com/wp-content/uploads/2025/12/concrete-mixer-pump-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2025/12/concrete-mixer-pump-768x432.jpg 768w",
+      "alt": "Concrete Mixer Pump",
+      "nw": 800,
+      "nh": 450,
+      "cw": 469,
+      "ch": 264,
+      "parentClass": "wp-picture-9188",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/11/self-loading-concrete-mixer-1-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/11/self-loading-concrete-mixer-1.jpg 800w, https://daswell.com/wp-content/uploads/2025/11/self-loading-concrete-mixer-1-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2025/11/self-loading-concrete-mixer-1-768x432.jpg 768w",
+      "alt": "Self Loading Concrete Mixer",
+      "nw": 800,
+      "nh": 450,
+      "cw": 469,
+      "ch": 264,
+      "parentClass": "wp-picture-8836",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/11/mobile-concrete-batching-plant-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/11/mobile-concrete-batching-plant.jpg 800w, https://daswell.com/wp-content/uploads/2025/11/mobile-concrete-batching-plant-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2025/11/mobile-concrete-batching-plant-768x432.jpg 768w",
+      "alt": "Mobile Concrete Batching Plant",
+      "nw": 800,
+      "nh": 450,
+      "cw": 469,
+      "ch": 264,
+      "parentClass": "wp-picture-8834",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/02/trailer-concrete-pump-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2026/02/trailer-concrete-pump.jpg 800w, https://daswell.com/wp-content/uploads/2026/02/trailer-concrete-pump-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2026/02/trailer-concrete-pump-768x432.jpg 768w",
+      "alt": "Trailer Concrete Pump",
+      "nw": 800,
+      "nh": 450,
+      "cw": 469,
+      "ch": 264,
+      "parentClass": "wp-picture-9538",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/02/stone-crushing-plant-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2026/02/stone-crushing-plant.jpg 800w, https://daswell.com/wp-content/uploads/2026/02/stone-crushing-plant-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2026/02/stone-crushing-plant-768x432.jpg 768w",
+      "alt": "Stone Crushing Plant",
+      "nw": 800,
+      "nh": 450,
+      "cw": 469,
+      "ch": 264,
+      "parentClass": "wp-picture-9617",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/03/batching-plant-768x432-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2026/03/batching-plant.jpg 800w, https://daswell.com/wp-content/uploads/2026/03/batching-plant-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2026/03/batching-plant-768x432.jpg 768w",
+      "alt": "Batching Plant",
+      "nw": 800,
+      "nh": 450,
+      "cw": 469,
+      "ch": 264,
+      "parentClass": "wp-picture-10024",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20450'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Daswell mobile concrete mixer pump equipment",
+      "nw": 267,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9188",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20450'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Self Loading Concrete Mixer",
+      "nw": 267,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-8836",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20450'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Mobile Concrete Batching Plant",
+      "nw": 267,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-8834",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20450'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Trailer Concrete Pump",
+      "nw": 267,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9538",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20450'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Stone Crushing Plant",
+      "nw": 267,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9617",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20450'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Batching Plant",
+      "nw": 267,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-10024",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/03/calcium-carbonate-processing-plant-jpg.webp",
+      "srcset": null,
+      "alt": "Calcium Carbonate Grinding Plant",
+      "nw": 270,
+      "nh": 189,
+      "cw": 270,
+      "ch": 189,
+      "parentClass": "wp-picture-9787",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/03/quartz-powder-production-line-jpg.webp",
+      "srcset": null,
+      "alt": "Quartz Powder Production Line",
+      "nw": 270,
+      "nh": 189,
+      "cw": 270,
+      "ch": 189,
+      "parentClass": "wp-picture-9788",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/03/talc-powder-processing-plant-jpg.webp",
+      "srcset": null,
+      "alt": "Talc Powder Production Line",
+      "nw": 270,
+      "nh": 189,
+      "cw": 270,
+      "ch": 189,
+      "parentClass": "wp-picture-9789",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/03/pre-crusher-before-grinding-jpg.webp",
+      "srcset": null,
+      "alt": "pre crusher before grinding",
+      "nw": 270,
+      "nh": 189,
+      "cw": 270,
+      "ch": 189,
+      "parentClass": "wp-picture-9995",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/03/ring-roller-mill-jpg.webp",
+      "srcset": null,
+      "alt": "Ring Roller Mill",
+      "nw": 270,
+      "nh": 189,
+      "cw": 270,
+      "ch": 189,
+      "parentClass": "wp-picture-9824",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20270%20189'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Turbo Classifier",
+      "nw": 214,
+      "nh": 150,
+      "cw": 270,
+      "ch": 189,
+      "parentClass": "wp-picture-9790",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/03/vortex-mill-coating-cachine-jpg.webp",
+      "srcset": null,
+      "alt": "Powder Coating Machine",
+      "nw": 270,
+      "nh": 189,
+      "cw": 270,
+      "ch": 189,
+      "parentClass": "wp-picture-9785",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/03/industrial-powder-packaging-machine-jpg.webp",
+      "srcset": null,
+      "alt": "Powder Packaging Machine",
+      "nw": 270,
+      "nh": 189,
+      "cw": 270,
+      "ch": 189,
+      "parentClass": "wp-picture-9994",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20270%20189'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Calcium Carbonate Grinding Plant",
+      "nw": 214,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9787",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20270%20189'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Quartz Powder Production Line",
+      "nw": 214,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9788",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20270%20189'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Talc Powder Production Line",
+      "nw": 214,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9789",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20270%20189'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Pre-crushing Before Grinding",
+      "nw": 214,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9995",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/03/ring-roller-mill-jpg.webp",
+      "srcset": null,
+      "alt": "Ring Roller Mill",
+      "nw": 270,
+      "nh": 189,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9824",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20270%20189'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Turbo Classifier",
+      "nw": 214,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9790",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20270%20189'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Powder Coating Machine",
+      "nw": 214,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9785",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20270%20189'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Powder Packaging Machine",
+      "nw": 214,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9994",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20862%20575'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Concrete mixer pump is being efficiently constructed in Indonesia",
+      "nw": 225,
+      "nh": 150,
+      "cw": 338,
+      "ch": 225,
+      "parentClass": "wp-picture-9841",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Daswell SLM4 for Indonesian Customer",
+      "nw": 267,
+      "nh": 150,
+      "cw": 338,
+      "ch": 225,
+      "parentClass": "wp-picture-8241",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/04/mobile-concrete-batching-plant-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/04/mobile-concrete-batching-plant.jpg 800w, https://daswell.com/wp-content/uploads/2025/04/mobile-concrete-batching-plant-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2025/04/mobile-concrete-batching-plant-768x432.jpg 768w",
+      "alt": "mobile concrete batching plant",
+      "nw": 800,
+      "nh": 450,
+      "cw": 338,
+      "ch": 225,
+      "parentClass": "wp-picture-9607",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/12/stationary-crushing-plant-philippines5-png.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/12/stationary-crushing-plant-philippines5.png 768w, https://daswell.com/wp-content/uploads/2025/12/stationary-crushing-plant-philippines5-300x169.png 300w",
+      "alt": "stationary crushing plant philippines",
+      "nw": 768,
+      "nh": 432,
+      "cw": 338,
+      "ch": 225,
+      "parentClass": "wp-picture-8927",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Daswell calcium carbonate milling and coating plant in Tanzania 1",
+      "nw": 267,
+      "nh": 150,
+      "cw": 338,
+      "ch": 225,
+      "parentClass": "wp-picture-6792",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20768'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Ring Roller Mill Plant Working Site",
+      "nw": 200,
+      "nh": 150,
+      "cw": 338,
+      "ch": 225,
+      "parentClass": "wp-picture-8905",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20768'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Daswell Quartz Powder Grinding Line in Egypt 6",
+      "nw": 200,
+      "nh": 150,
+      "cw": 338,
+      "ch": 225,
+      "parentClass": "wp-picture-6954",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%20750'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "20",
+      "nw": 200,
+      "nh": 150,
+      "cw": 338,
+      "ch": 225,
+      "parentClass": "wp-picture-8912",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/03/icon_14.png",
+      "srcset": null,
+      "alt": "icon 14",
+      "nw": 56,
+      "nh": 56,
+      "cw": 56,
+      "ch": 56,
+      "parentClass": "aligncenter size-full",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/03/icon_15.png",
+      "srcset": null,
+      "alt": "icon 15",
+      "nw": 56,
+      "nh": 56,
+      "cw": 56,
+      "ch": 56,
+      "parentClass": "aligncenter size-full",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/03/icon_16.png",
+      "srcset": null,
+      "alt": "icon 16",
+      "nw": 56,
+      "nh": 56,
+      "cw": 56,
+      "ch": 56,
+      "parentClass": "aligncenter size-full",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/03/icon_17.png",
+      "srcset": null,
+      "alt": "icon 17",
+      "nw": 56,
+      "nh": 56,
+      "cw": 56,
+      "ch": 56,
+      "parentClass": "aligncenter size-full",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/02/daswell-philippines-team-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2026/02/daswell-philippines-team.jpg 800w, https://daswell.com/wp-content/uploads/2026/02/daswell-philippines-team-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2026/02/daswell-philippines-team-768x432.jpg 768w",
+      "alt": "daswell philippines team",
+      "nw": 800,
+      "nh": 450,
+      "cw": 459,
+      "ch": 258,
+      "parentClass": "wp-picture-9526",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/02/daswell-indonesia-team-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2026/02/daswell-indonesia-team.jpg 800w, https://daswell.com/wp-content/uploads/2026/02/daswell-indonesia-team-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2026/02/daswell-indonesia-team-768x432.jpg 768w",
+      "alt": "daswell indonesia team",
+      "nw": 800,
+      "nh": 450,
+      "cw": 459,
+      "ch": 258,
+      "parentClass": "wp-picture-9527",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/11/egyptian-team-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/11/egyptian-team.jpg 800w, https://daswell.com/wp-content/uploads/2025/11/egyptian-team-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2025/11/egyptian-team-768x432.jpg 768w",
+      "alt": "egyptian team",
+      "nw": 800,
+      "nh": 450,
+      "cw": 459,
+      "ch": 258,
+      "parentClass": "wp-picture-8877",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/04/time-png.avif",
+      "srcset": null,
+      "alt": null,
+      "nw": 120,
+      "nh": 43,
+      "cw": 120,
+      "ch": 43,
+      "parentClass": "wp-block-kadence-image kb-image2510_2d3216-6b size-full",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/04/whatsapp-lenka.jpg",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/04/whatsapp-lenka.jpg 422w, https://daswell.com/wp-content/uploads/2025/04/whatsapp-lenka-296x300.jpg 296w",
+      "alt": "WhatsApp: +86 177 3771 2027",
+      "nw": 422,
+      "nh": 428,
+      "cw": 120,
+      "ch": 122,
+      "parentClass": "wp-block-kadence-image kb-image2510_e77b61-0d size-full",
+      "position": "static",
+      "zIndex": "auto"
+    }
+  ],
+  "videos": [
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/01/banners.mp4",
+      "poster": null,
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    }
+  ],
+  "bgImages": [],
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "https://daswell.com/wp-content/uploads/2025/08/cropped-8011448-32x32.jpg",
+      "sizes": "32x32",
+      "type": null
+    },
+    {
+      "rel": "icon",
+      "href": "https://daswell.com/wp-content/uploads/2025/08/cropped-8011448-192x192.jpg",
+      "sizes": "192x192",
+      "type": null
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://daswell.com/wp-content/uploads/2025/08/cropped-8011448-180x180.jpg",
+      "sizes": null,
+      "type": null
+    }
+  ],
+  "og": [
+    {
+      "key": "description",
+      "content": "Daswell delivers innovative construction machinery and powder processing systems with advanced technology, reliable performance, strong service support and fast global response."
+    },
+    {
+      "key": "og:locale",
+      "content": "en_US"
+    },
+    {
+      "key": "og:type",
+      "content": "website"
+    },
+    {
+      "key": "og:title",
+      "content": "Daswell: Your Partner For Construction & Powder Processing Equipment"
+    },
+    {
+      "key": "og:description",
+      "content": "Daswell delivers innovative construction machinery and powder processing systems with advanced technology, reliable performance, strong service support and fast global response."
+    },
+    {
+      "key": "og:url",
+      "content": "https://daswell.com/"
+    },
+    {
+      "key": "og:site_name",
+      "content": "DASWELL"
+    },
+    {
+      "key": "og:updated_time",
+      "content": "2026-04-08T02:22:52+00:00"
+    },
+    {
+      "key": "og:video",
+      "content": "https://daswell.com/wp-content/uploads/2026/01/banners.mp4"
+    },
+    {
+      "key": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "key": "twitter:title",
+      "content": "Daswell: Your Partner For Construction & Powder Processing Equipment"
+    },
+    {
+      "key": "twitter:description",
+      "content": "Daswell delivers innovative construction machinery and powder processing systems with advanced technology, reliable performance, strong service support and fast global response."
+    },
+    {
+      "key": "twitter:label1",
+      "content": "Written by"
+    },
+    {
+      "key": "twitter:data1",
+      "content": "albert"
+    },
+    {
+      "key": "twitter:label2",
+      "content": "Time to read"
+    },
+    {
+      "key": "twitter:data2",
+      "content": "2 minutes"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Arial, Helvetica, sans-serif",
+      "weights": [
+        "400",
+        "700"
+      ]
+    }
+  ],
+  "textColors": [
+    [
+      "rgb(0, 0, 0)",
+      930
+    ],
+    [
+      "rgba(0, 0, 0, 0.6)",
+      272
+    ],
+    [
+      "rgb(248, 249, 250)",
+      157
+    ],
+    [
+      "rgb(245, 31, 31)",
+      139
+    ],
+    [
+      "rgb(119, 119, 119)",
+      32
+    ],
+    [
+      "rgb(128, 128, 128)",
+      11
+    ],
+    [
+      "rgba(0, 0, 0, 0.9)",
+      10
+    ],
+    [
+      "rgb(51, 51, 51)",
+      4
+    ],
+    [
+      "rgb(68, 68, 68)",
+      4
+    ],
+    [
+      "rgba(0, 0, 0, 0.2)",
+      2
+    ]
+  ],
+  "bgColors": [
+    [
+      "rgb(255, 255, 255)",
+      36
+    ],
+    [
+      "rgb(248, 249, 250)",
+      26
+    ],
+    [
+      "rgba(0, 0, 0, 0.05)",
+      8
+    ],
+    [
+      "rgb(245, 31, 31)",
+      5
+    ],
+    [
+      "rgba(0, 0, 0, 0.6)",
+      3
+    ],
+    [
+      "rgb(0, 0, 0)",
+      2
+    ],
+    [
+      "rgba(196, 0, 0, 0.7)",
+      2
+    ],
+    [
+      "rgba(0, 65, 213, 0.7)",
+      2
+    ],
+    [
+      "rgb(151, 150, 149)",
+      2
+    ],
+    [
+      "rgb(166, 164, 157)",
+      2
+    ],
+    [
+      "rgb(126, 130, 131)",
+      2
+    ],
+    [
+      "rgb(141, 143, 145)",
+      2
+    ],
+    [
+      "rgb(156, 171, 175)",
+      2
+    ],
+    [
+      "rgb(161, 178, 169)",
+      2
+    ],
+    [
+      "rgb(141, 154, 177)",
+      2
+    ]
+  ]
+}

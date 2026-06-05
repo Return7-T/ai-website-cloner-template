@@ -1,0 +1,22 @@
+// Centralized icon exports. Uses lucide-react (already a dependency).
+export {
+  Search,
+  Menu,
+  X,
+  ChevronDown,
+  ChevronRight,
+  Phone,
+  Mail,
+  MapPin,
+  MessageCircle,
+  Plus,
+  Minus,
+  ArrowRight,
+  Download,
+  Globe,
+  CheckCircle2,
+  Package,
+  Wrench,
+  Truck,
+  ShieldCheck,
+} from "lucide-react";

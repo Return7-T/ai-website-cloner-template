@@ -1,0 +1,339 @@
+{
+  "mainSelector": "entry-content single-content",
+  "header": {
+    "height": 109,
+    "position": "static",
+    "bg": "rgba(0, 0, 0, 0)",
+    "logo": "https://daswell.com/wp-content/uploads/2025/10/logo.png",
+    "navLinks": [
+      {
+        "text": "Home",
+        "href": "https://daswell.com/"
+      },
+      {
+        "text": "Cases",
+        "href": "https://daswell.com/project/"
+      },
+      {
+        "text": "Construction Machinery",
+        "href": "https://daswell.com/concrete-machinery-projects/"
+      },
+      {
+        "text": "Powder Processing",
+        "href": "https://daswell.com/powder-cases/"
+      },
+      {
+        "text": "Crusher",
+        "href": "https://daswell.com/crusher-cases/"
+      },
+      {
+        "text": "Become Our Distributor",
+        "href": "https://daswell.com/dealer/"
+      },
+      {
+        "text": "About Us",
+        "href": "https://daswell.com/about-us/"
+      },
+      {
+        "text": "DASWELL in Philippines",
+        "href": "https://daswell.com/philippines/"
+      },
+      {
+        "text": "DASWELL in Indonesia",
+        "href": "https://daswell.com/indonesia/"
+      },
+      {
+        "text": "DASWELL in Egypt",
+        "href": "https://daswell.com/egypt/"
+      },
+      {
+        "text": "News",
+        "href": "https://daswell.com/news/"
+      },
+      {
+        "text": "Construction Machinery",
+        "href": "https://daswell.com/concrete-machinery-news/"
+      },
+      {
+        "text": "Powder Processing",
+        "href": "https://daswell.com/powder-processing-news/"
+      },
+      {
+        "text": "Blogs",
+        "href": "https://daswell.com/blogs/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://daswell.com/contact-us/"
+      },
+      {
+        "text": "Construction Equipment",
+        "href": "https://daswell.com/construction/"
+      },
+      {
+        "text": "Concrete Mixer Pumps",
+        "href": "https://daswell.com/concrete-pumps/concrete-mixer-pump/"
+      },
+      {
+        "text": "Trailer Concrete Pumps",
+        "href": "https://daswell.com/concrete-pumps/trailer-concrete-pump/"
+      },
+      {
+        "text": "Self Loading Concrete Mixers",
+        "href": "https://daswell.com/concrete-mixers/self-loading-concrete-mixer/"
+      },
+      {
+        "text": "Concrete Batching Plants",
+        "href": "https://daswell.com/concrete-mixers/concrete-batch-plant/"
+      },
+      {
+        "text": "Twin Shaft Concrete Mixer Pump",
+        "href": "https://daswell.com/concrete-pumps/twin-shaft-concrete-mixer-pump/"
+      },
+      {
+        "text": "Concrete Pumps",
+        "href": "https://daswell.com/concrete-pumps/"
+      },
+      {
+        "text": "Concrete Mixers",
+        "href": "https://daswell.com/concrete-mixers/"
+      },
+      {
+        "text": "Bolted Silo",
+        "href": "https://daswell.com/concrete-mixers/bolted-silo/"
+      },
+      {
+        "text": "Others",
+        "href": "https://daswell.com/construction/#others"
+      },
+      {
+        "text": "Crushing and Screening",
+        "href": "https://daswell.com/crushers/"
+      },
+      {
+        "text": "Stone Crushing Plant",
+        "href": "https://daswell.com/crushers/stone-crushing-plant/"
+      },
+      {
+        "text": "Mobile Crushing Plant",
+        "href": "https://daswell.com/crushers/mobile-crushing-plant/"
+      },
+      {
+        "text": "Jaw Crusher",
+        "href": "https://daswell.com/crushers/jaw-crusher/"
+      },
+      {
+        "text": "Cone Crusher",
+        "href": "https://daswell.com/crushers/cone-crusher/"
+      }
+    ],
+    "buttons": [
+      "",
+      "",
+      "",
+      "Search",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Get a Quote",
+      "WhatsApp: +86 177 3771 2027",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "sectionCount": 5,
+  "sections": [
+    {
+      "i": 0,
+      "tag": "div",
+      "id": null,
+      "cls": "kb-row-layout-wrap kb-row-layout-id7_9accf7-c7 alignfull kt-row-has-bg wp-block-kadence-rowlayout",
+      "top": 109,
+      "height": 800,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [],
+      "imgCount": 0,
+      "tableCount": 0,
+      "linkCount": 4,
+      "listItems": 0,
+      "text": "DASWELL, Your Partner for Construction Equipment & Powder Processing Construction Equipment Powder Processing View Construction View Powder"
+    },
+    {
+      "i": 1,
+      "tag": "div",
+      "id": null,
+      "cls": "kb-row-layout-wrap kb-row-layout-id7_1d5e8c-1b alignnone wp-block-kadence-rowlayout",
+      "top": 909,
+      "height": 1082,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [
+        {
+          "t": "h2",
+          "text": "Construction Equipment"
+        },
+        {
+          "t": "h3",
+          "text": "Concrete Mixer Pump"
+        },
+        {
+          "t": "h3",
+          "text": "Self Loading Concrete Mixer"
+        },
+        {
+          "t": "h3",
+          "text": "Mobile Concrete Batching Plant"
+        },
+        {
+          "t": "h3",
+          "text": "Trailer Concrete Pump"
+        },
+        {
+          "t": "h3",
+          "text": "Stone Crushing Plant"
+        }
+      ],
+      "imgCount": 12,
+      "tableCount": 0,
+      "linkCount": 13,
+      "listItems": 0,
+      "text": "Construction Equipment <img data-dominant-color=\"979695\" data-has-transparency=\"false\" style=\"--dominant-color: #979695;\" fetchpriority=\"high\" decoding=\"async\" "
+    },
+    {
+      "i": 2,
+      "tag": "div",
+      "id": null,
+      "cls": "kb-row-layout-wrap kb-row-layout-id7_f1958f-db alignnone wp-block-kadence-rowlayout",
+      "top": 1991,
+      "height": 1184,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [
+        {
+          "t": "h2",
+          "text": "Powder Processing"
+        },
+        {
+          "t": "h3",
+          "text": "Calcium Carbonate Grinding Plant"
+        },
+        {
+          "t": "h3",
+          "text": "Quartz Powder Production Line"
+        },
+        {
+          "t": "h3",
+          "text": "Talc Powder Production Line"
+        },
+        {
+          "t": "h3",
+          "text": "Pre-crushing Before Grinding"
+        },
+        {
+          "t": "h3",
+          "text": "Ring Roller Mill"
+        }
+      ],
+      "imgCount": 16,
+      "tableCount": 0,
+      "linkCount": 15,
+      "listItems": 0,
+      "text": "Powder Processing <img data-dominant-color=\"8d9ab1\" data-has-transparency=\"false\" style=\"--dominant-color: #8d9ab1;\" decoding=\"async\" src=\"https://daswell.com/w"
+    },
+    {
+      "i": 3,
+      "tag": "div",
+      "id": null,
+      "cls": "kb-row-layout-wrap kb-row-layout-id7_962af2-c5 alignnone has-theme-palette9-background-color kt-row-has-bg wp-block-kadence-rowlayout",
+      "top": 3175,
+      "height": 1036,
+      "width": 1440,
+      "bg": "rgb(248, 249, 250)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [
+        {
+          "t": "h2",
+          "text": "Global Success Stories"
+        },
+        {
+          "t": "h3",
+          "text": "DMP50 Concrete Mixer Pump in Indonesia Project, 2024"
+        },
+        {
+          "t": "h3",
+          "text": "Daswell SLM4 Self Loading Concrete Mixer in Merauke, Papua, 2023"
+        },
+        {
+          "t": "h3",
+          "text": "Daswell MCBP60 Mobile Concrete Batching Plant in the Philippines, 2025"
+        },
+        {
+          "t": "h3",
+          "text": "Stationary Crushing Plant (150-200tph) Starts Production in the Philippines, 2022"
+        },
+        {
+          "t": "h3",
+          "text": "80,000 Tons/Year Calcium Carbonate Ball Mill Production Line in Tanzania, 2025"
+        }
+      ],
+      "imgCount": 8,
+      "tableCount": 0,
+      "linkCount": 19,
+      "listItems": 0,
+      "text": "Global Success Stories View All Cases <img decoding=\"async\" width=\"862\" height=\"575\" src=\"https://daswell.com/wp-content/uploads/2025/08/concrete-mixer-pump-ind"
+    },
+    {
+      "i": 4,
+      "tag": "div",
+      "id": null,
+      "cls": "kb-row-layout-wrap kb-row-layout-id7_f0b545-7c alignnone wp-block-kadence-rowlayout",
+      "top": 4211,
+      "height": 1188,
+      "width": 1440,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "paddingTop": "0px",
+      "paddingBottom": "0px",
+      "headings": [
+        {
+          "t": "h2",
+          "text": "Why Choose Daswell"
+        },
+        {
+          "t": "h2",
+          "text": "Daswell Global Branches"
+        }
+      ],
+      "imgCount": 7,
+      "tableCount": 0,
+      "linkCount": 3,
+      "listItems": 11,
+      "text": "Why Choose Daswell Service speed defines customer value — and sustains our brand. <img decoding=\"async\" width=\"56\" height=\"56\" src=\"https://daswell.com/wp-conte"
+    }
+  ],
+  "footer": {
+    "height": 0,
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(119, 119, 119)",
+    "links": [],
+    "headings": [],
+    "text": ""
+  }
+}

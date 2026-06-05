@@ -1,0 +1,184 @@
+{
+  "footer": {
+    "bg": "rgba(22, 22, 22, 0.9)",
+    "color": "rgb(248, 249, 250)",
+    "height": 310,
+    "columns": [
+      {
+        "heading": "",
+        "links": [
+          {
+            "text": "Construction Machinery",
+            "href": "https://daswell.com/construction/"
+          },
+          {
+            "text": "Crushing & Screening",
+            "href": "https://daswell.com/crushers/"
+          },
+          {
+            "text": "Powder Processing",
+            "href": "https://daswell.com/powder/"
+          },
+          {
+            "text": "About Us",
+            "href": "https://daswell.com/about-us/"
+          },
+          {
+            "text": "Cases",
+            "href": "https://daswell.com/project/"
+          },
+          {
+            "text": "Become Distributor",
+            "href": "https://daswell.com/dealer/"
+          },
+          {
+            "text": "WhatsApp: +86 177 3771 2027",
+            "href": "https://daswell.com/whatsapp/"
+          },
+          {
+            "text": "E-mail: global@daswell.com",
+            "href": "mailto:global@daswell.com"
+          },
+          {
+            "text": "Daswell Powder",
+            "href": "https://daswellpowder.com/"
+          },
+          {
+            "text": "Privacy Policy",
+            "href": "https://daswell.com/privacy-policy/"
+          }
+        ],
+        "imgs": [],
+        "text": "Construction Machinery Crushing & Screening Powder Processing About Us Cases Become Distributor WhatsApp: +86 177 3771 2027 E-mail: global@daswell.com © 2009-2026 @ Daswell Group co., Ltd Daswell Powder Technology is a subsidiary of Daswell. Privacy "
+      },
+      {
+        "heading": "",
+        "links": [
+          {
+            "text": "Construction Machinery",
+            "href": "https://daswell.com/construction/"
+          },
+          {
+            "text": "Crushing & Screening",
+            "href": "https://daswell.com/crushers/"
+          },
+          {
+            "text": "Powder Processing",
+            "href": "https://daswell.com/powder/"
+          }
+        ],
+        "imgs": [],
+        "text": "Construction Machinery Crushing & Screening Powder Processing"
+      },
+      {
+        "heading": "",
+        "links": [
+          {
+            "text": "About Us",
+            "href": "https://daswell.com/about-us/"
+          },
+          {
+            "text": "Cases",
+            "href": "https://daswell.com/project/"
+          },
+          {
+            "text": "Become Distributor",
+            "href": "https://daswell.com/dealer/"
+          }
+        ],
+        "imgs": [],
+        "text": "About Us Cases Become Distributor"
+      },
+      {
+        "heading": "",
+        "links": [
+          {
+            "text": "WhatsApp: +86 177 3771 2027",
+            "href": "https://daswell.com/whatsapp/"
+          },
+          {
+            "text": "E-mail: global@daswell.com",
+            "href": "mailto:global@daswell.com"
+          }
+        ],
+        "imgs": [],
+        "text": "WhatsApp: +86 177 3771 2027 E-mail: global@daswell.com"
+      }
+    ],
+    "text": "Construction Machinery Crushing & Screening Powder Processing About Us Cases Become Distributor WhatsApp: +86 177 3771 2027 E-mail: global@daswell.com © 2009-2026 @ Daswell Group co., Ltd Daswell Powder Technology is a subsidiary of Daswell. Privacy Policy."
+  },
+  "form": {
+    "heading": "Request a Quote",
+    "paragraphs": [],
+    "fields": [
+      {
+        "type": "text",
+        "name": "fielddcea5b-73",
+        "placeholder": "Name",
+        "label": null
+      },
+      {
+        "type": "email",
+        "name": "field8ababf-be",
+        "placeholder": "Email (Required)",
+        "label": null
+      },
+      {
+        "type": "tel",
+        "name": "field9f2c2c-a5",
+        "placeholder": "Phone or WhatsApp",
+        "label": null
+      },
+      {
+        "type": "text",
+        "name": "field295a54-b8",
+        "placeholder": "Country",
+        "label": null
+      },
+      {
+        "type": "text",
+        "name": "field972a1c-91",
+        "placeholder": "Company Name",
+        "label": null
+      },
+      {
+        "type": "text",
+        "name": "field522429-c6",
+        "placeholder": "Product",
+        "label": null
+      },
+      {
+        "type": "textarea",
+        "name": "fielddfb04a-6a",
+        "placeholder": "Message (Required)",
+        "label": null
+      },
+      {
+        "type": "hidden",
+        "name": "field5d3375-c9",
+        "placeholder": null,
+        "label": null
+      },
+      {
+        "type": "hidden",
+        "name": "_kb_adv_form_post_id",
+        "placeholder": null,
+        "label": null
+      },
+      {
+        "type": "hidden",
+        "name": "action",
+        "placeholder": null,
+        "label": null
+      },
+      {
+        "type": "hidden",
+        "name": "_kb_adv_form_id",
+        "placeholder": null,
+        "label": null
+      }
+    ],
+    "submit": "Send A Message",
+    "bg": "rgba(0, 0, 0, 0)"
+  }
+}

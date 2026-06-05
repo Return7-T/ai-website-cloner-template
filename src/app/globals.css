@@ -7,9 +7,15 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
-  --font-heading: var(--font-sans);
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: ui-monospace, monospace;
+  --font-heading: Arial, Helvetica, sans-serif;
+  /* Daswell brand tokens */
+  --color-brand: var(--brand);
+  --color-brand-dark: var(--brand-dark);
+  --color-hero-cta: var(--hero-cta);
+  --color-offwhite: var(--offwhite);
+  --color-footer: var(--footer);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -49,30 +55,38 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  --background: #f8f9fa;
+  --foreground: #000000;
+  --card: #ffffff;
+  --card-foreground: #000000;
+  --popover: #ffffff;
+  --popover-foreground: #000000;
+  --primary: #f51f1f;
+  --primary-foreground: #f8f9fa;
+  --secondary: #f8f9fa;
+  --secondary-foreground: #000000;
+  --muted: #f8f9fa;
+  --muted-foreground: rgba(0, 0, 0, 0.6);
+  --accent: #f8f9fa;
+  --accent-foreground: #000000;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: #e5e7eb;
+  --input: #e5e7eb;
+  --ring: #f51f1f;
+  /* Daswell brand */
+  --brand: #f51f1f;
+  --brand-dark: #c40000;
+  --hero-cta: rgba(196, 0, 0, 0.7);
+  --offwhite: #f8f9fa;
+  --footer: rgba(22, 22, 22, 0.9);
+  --global-content-width: 1500px;
+  --content-width: 1290px;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
+  --radius: 0.1875rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.205 0 0);
@@ -123,8 +137,59 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-size: 17px;
+    line-height: 34px;
   }
   html {
     @apply font-sans;
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Kadence-style contained content row */
+  .ds-container {
+    width: 100%;
+    max-width: var(--content-width);
+    margin-inline: auto;
+    padding-inline: 24px;
+  }
+  .ds-container-wide {
+    width: 100%;
+    max-width: var(--global-content-width);
+    margin-inline: auto;
+    padding-inline: 24px;
+  }
+  /* Section heading (H2): 28px/42px bold center capitalize */
+  .ds-h2 {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+    margin: 0 0 14px;
+  }
+  /* Card title (H3): 20px/30px bold center capitalize */
+  .ds-h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+    transition: color 0.3s cubic-bezier(0.17, 0.67, 0.35, 0.95);
+  }
+}
+
+@layer utilities {
+  .ds-card-img {
+    transition: transform 0.4s cubic-bezier(0.17, 0.67, 0.35, 0.95);
+  }
+  .ds-card:hover .ds-card-img {
+    transform: scale(1.06);
+  }
+  .ds-card:hover .ds-h3 {
+    color: var(--brand);
   }
 }

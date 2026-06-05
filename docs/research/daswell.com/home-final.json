@@ -1,0 +1,195 @@
+{
+  "hero": {
+    "video": "/videos/2026/01/banners.mp4",
+    "heading": "DASWELL, Your Partner for Construction Equipment & Powder Processing",
+    "buttons": [
+      {
+        "text": "Construction Equipment",
+        "href": "https://daswell.com/construction/"
+      },
+      {
+        "text": "Powder Processing",
+        "href": "https://daswellpowder.com/"
+      }
+    ]
+  },
+  "construction": {
+    "heading": "Construction Equipment",
+    "cta": {
+      "text": "View All Construction Equipment",
+      "href": "https://daswell.com/construction/"
+    },
+    "cards": [
+      {
+        "title": "Concrete Mixer Pump",
+        "href": "https://daswell.com/concrete-pumps/concrete-mixer-pump/",
+        "img": "/images/2025/12/concrete-mixer-pump-jpg.webp",
+        "alt": "Concrete Mixer Pump"
+      },
+      {
+        "title": "Self Loading Concrete Mixer",
+        "href": "https://daswell.com/concrete-mixers/self-loading-concrete-mixer/",
+        "img": "/images/2025/11/self-loading-concrete-mixer-1-jpg.webp",
+        "alt": "Self Loading Concrete Mixer"
+      },
+      {
+        "title": "Mobile Concrete Batching Plant",
+        "href": "https://daswell.com/concrete-mixers/mobile-concrete-batching-plant/",
+        "img": "/images/2025/11/mobile-concrete-batching-plant-jpg.webp",
+        "alt": "Mobile Concrete Batching Plant"
+      },
+      {
+        "title": "Trailer Concrete Pump",
+        "href": "https://daswell.com/concrete-pumps/trailer-concrete-pump/",
+        "img": "/images/2026/02/trailer-concrete-pump-jpg.webp",
+        "alt": "Trailer Concrete Pump"
+      },
+      {
+        "title": "Stone Crushing Plant",
+        "href": "https://daswell.com/crushers/stone-crushing-plant/",
+        "img": "/images/2026/02/stone-crushing-plant-jpg.webp",
+        "alt": "Stone Crushing Plant"
+      },
+      {
+        "title": "Concrete Batching Plant",
+        "href": "https://daswell.com/concrete-mixers/concrete-batch-plant/",
+        "img": "/images/2026/03/batching-plant-768x432-jpg.webp",
+        "alt": "Concrete Batching Plant"
+      }
+    ]
+  },
+  "powder": {
+    "heading": "Powder Processing",
+    "cta": {
+      "text": "View All Powder Processing Equipment",
+      "href": "https://daswell.com/powder/"
+    },
+    "cards": [
+      {
+        "title": "Calcium Carbonate Grinding Plant",
+        "href": "https://daswell.com/solution/calcium-carbonate-processing-plant/",
+        "img": "/images/2026/03/calcium-carbonate-processing-plant-jpg.webp",
+        "alt": "Calcium Carbonate Grinding Plant"
+      },
+      {
+        "title": "Quartz Powder Production Line",
+        "href": "https://daswell.com/solution/quartz-powder-processing-plant/",
+        "img": "/images/2026/03/quartz-powder-production-line-jpg.webp",
+        "alt": "Quartz Powder Production Line"
+      },
+      {
+        "title": "Talc Powder Production Line",
+        "href": "https://daswell.com/solution/talc-powder-production-line/",
+        "img": "/images/2026/03/talc-powder-processing-plant-jpg.webp",
+        "alt": "Talc Powder Production Line"
+      },
+      {
+        "title": "Pre-crushing Before Grinding",
+        "href": "https://daswellpowder.com/crushing/",
+        "img": "/images/2026/03/pre-crusher-before-grinding-jpg.webp",
+        "alt": "Pre-crushing Before Grinding"
+      },
+      {
+        "title": "Ring Roller Mill",
+        "href": "https://daswell.com/grinding-mills/ring-roller-mill/",
+        "img": "/images/2026/03/ring-roller-mill-jpg.webp",
+        "alt": "Ring Roller Mill"
+      },
+      {
+        "title": "Powder Coating Machine",
+        "href": "https://daswell.com/powder-coating-machine/",
+        "img": "/images/2026/03/vortex-mill-coating-cachine-jpg.webp",
+        "alt": "Powder Coating Machine"
+      },
+      {
+        "title": "Powder Packaging Machine",
+        "href": "https://daswell.com/powder/packaging-machine/",
+        "img": "/images/2026/03/industrial-powder-packaging-machine-jpg.webp",
+        "alt": "Powder Packaging Machine"
+      }
+    ]
+  },
+  "stories": {
+    "heading": "Global Success Stories",
+    "cta": {
+      "text": "View All Cases",
+      "href": "https://daswell.com/project/"
+    },
+    "cards": [
+      {
+        "title": "DMP50 Concrete Mixer Pump in Indonesia Project, 2024",
+        "href": "https://daswell.com/project/concrete-mixer-pump-is-being-efficiently-constructed-in-indonesia/",
+        "img": "/images/2025/08/concrete-mixer-pump-indonesia.jpg",
+        "year": "2024",
+        "alt": "DMP50 Concrete Mixer Pump in Indonesia Project, 2024"
+      },
+      {
+        "title": "Daswell SLM4 Self Loading Concrete Mixer in Merauke, Papua, 2023",
+        "href": "https://daswell.com/project/self-loading-concrete-mixer-in-merauke-papua/",
+        "img": "/images/2025/11/Daswell-SLM4-for-Indonesian-Customer-1024x576.jpg",
+        "year": "2023",
+        "alt": "Daswell SLM4 Self Loading Concrete Mixer in Merauke, Papua, 2023"
+      },
+      {
+        "title": "Daswell MCBP60 Mobile Concrete Batching Plant in the Philippines, 2025",
+        "href": "https://daswell.com/project/mobile-concrete-batching-plant-in-the-philippines/",
+        "img": "/images/2025/04/mobile-concrete-batching-plant.jpg",
+        "year": "2025",
+        "alt": "Daswell MCBP60 Mobile Concrete Batching Plant in the Philippines, 2025"
+      },
+      {
+        "title": "Stationary Crushing Plant (150-200tph) Starts Production in the Philippines, 2022",
+        "href": "https://daswell.com/crusher-cases/stationary-crushing-plant-philippines/",
+        "img": "/images/2025/12/stationary-crushing-plant-philippines5.png",
+        "year": "2022",
+        "alt": "Stationary Crushing Plant (150-200tph) Starts Production in the Philippines, 2022"
+      }
+    ]
+  },
+  "whyChoose": {
+    "heading": "Why Choose Daswell",
+    "subtitle": "Service speed defines customer value \u2014 and sustains our brand.",
+    "features": [
+      {
+        "icon": "/images/2025/03/icon_14.png",
+        "title": "Global Presence",
+        "text": "Subsidiaries in the Philippines & Indonesia, office in Egypt"
+      },
+      {
+        "icon": "/images/2025/03/icon_15.png",
+        "title": "Full After-sales",
+        "text": "40+ service staff, spare parts in stock, 100% customer satisfaction"
+      },
+      {
+        "icon": "/images/2025/03/icon_16.png",
+        "title": "Turnkey Solutions",
+        "text": "From single machine to complete production line"
+      },
+      {
+        "icon": "/images/2025/03/icon_17.png",
+        "title": "Fast Delivery",
+        "text": "Local inventory, shorter lead time"
+      }
+    ]
+  },
+  "branches": {
+    "heading": "Daswell Global Branches",
+    "items": [
+      {
+        "name": "Philippines",
+        "img": "/images/2026/02/daswell-philippines-team.jpg",
+        "href": "https://daswell.com/philippines/"
+      },
+      {
+        "name": "Indonesia",
+        "img": "/images/2026/02/daswell-indonesia-team.jpg",
+        "href": "https://daswell.com/indonesia/"
+      },
+      {
+        "name": "Egypt",
+        "img": "/images/2025/11/egyptian-team.jpg",
+        "href": "https://daswell.com/egypt/"
+      }
+    ]
+  }
+}

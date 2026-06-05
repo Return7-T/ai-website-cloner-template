@@ -1,0 +1,52 @@
+{
+  "pageHeight": 6444,
+  "sections": [
+    {
+      "kind": "header",
+      "tag": "header",
+      "cls": "wp-block-kadence-header7900-cpt-id header-desktop-sticky header-tablet-sticky header-mobile-sticky w",
+      "position": "static",
+      "height": 109,
+      "text": "<img data-od-unknown-tag data-od-xpath=\"/HTML/BODY/DIV[@id=&apos;wrapper&apos;]/*[2][self::HEADER]/*[1][self::DIV]/*[1]["
+    },
+    {
+      "kind": "section",
+      "index": 1,
+      "tag": "div",
+      "id": "primary",
+      "cls": "content-area",
+      "top": 109,
+      "height": 5290,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "headings": [
+        {
+          "t": "h2",
+          "text": "Construction Equipment"
+        },
+        {
+          "t": "h3",
+          "text": "Concrete Mixer Pump"
+        },
+        {
+          "t": "h3",
+          "text": "Self Loading Concrete Mixer"
+        },
+        {
+          "t": "h3",
+          "text": "Mobile Concrete Batching Plant"
+        }
+      ],
+      "imgCount": 43,
+      "linkCount": 54,
+      "text": "DASWELL, Your Partner for Construction Equipment & Powder Processing Construction Equipment Powder Processing View Construction View Powder Construction Equipment <img data-dominan"
+    },
+    {
+      "kind": "footer",
+      "tag": "footer",
+      "cls": "kt-blocks-post-footer",
+      "height": 0,
+      "text": ""
+    }
+  ]
+}

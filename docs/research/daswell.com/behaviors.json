@@ -1,0 +1,112 @@
+{
+  "header_scroll0": {
+    "position": "static",
+    "top": "auto",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "boxShadow": "none",
+    "height": "108.75px",
+    "transform": "none",
+    "padding": "0px",
+    "transition": "all",
+    "opacity": "1",
+    "_top": 0,
+    "_h": 109
+  },
+  "header_scroll600": {
+    "position": "static",
+    "top": "auto",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "boxShadow": "none",
+    "height": "108.75px",
+    "transform": "none",
+    "padding": "0px",
+    "transition": "all",
+    "opacity": "1",
+    "_top": -600,
+    "_h": 109
+  },
+  "stickyInfo": [
+    {
+      "cls": "wp-block-kadence-header7900-cpt-id header-desktop-sticky header-tablet-sticky he",
+      "position": "static",
+      "top": -600,
+      "h": 109,
+      "display": "block"
+    },
+    {
+      "cls": "",
+      "position": "relative",
+      "top": 2944,
+      "h": 85,
+      "display": "block"
+    },
+    {
+      "cls": "",
+      "position": "relative",
+      "top": 2944,
+      "h": 85,
+      "display": "block"
+    },
+    {
+      "cls": "",
+      "position": "relative",
+      "top": 2944,
+      "h": 85,
+      "display": "block"
+    },
+    {
+      "cls": "",
+      "position": "relative",
+      "top": 2944,
+      "h": 85,
+      "display": "block"
+    },
+    {
+      "cls": "",
+      "position": "relative",
+      "top": 3379,
+      "h": 85,
+      "display": "block"
+    },
+    {
+      "cls": "",
+      "position": "relative",
+      "top": 3379,
+      "h": 115,
+      "display": "block"
+    },
+    {
+      "cls": "",
+      "position": "relative",
+      "top": 3379,
+      "h": 85,
+      "display": "block"
+    },
+    {
+      "cls": "",
+      "position": "relative",
+      "top": 3379,
+      "h": 85,
+      "display": "block"
+    }
+  ],
+  "hero": {
+    "src": "https://daswell.com/wp-content/uploads/2026/01/banners.mp4",
+    "w": 1440,
+    "h": 800,
+    "objectFit": "cover",
+    "autoplay": true,
+    "loop": true,
+    "muted": true
+  },
+  "hoverDiff": {
+    "before": {
+      "color": "rgb(0, 0, 0)",
+      "transform": "none"
+    },
+    "after": {
+      "color": "rgb(0, 0, 0)",
+      "transform": "none"
+    }
+  }
+}

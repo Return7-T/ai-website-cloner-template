@@ -1,20 +1,28 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "Daswell: Your Partner For Construction & Powder Processing Equipment",
+  description:
+    "Daswell delivers innovative construction machinery and powder processing systems.",
+  metadataBase: new URL("https://daswell.com"),
+  icons: {
+    icon: [
+      { url: "/seo/cropped-8011448-32x32.jpg", sizes: "32x32" },
+      { url: "/seo/cropped-8011448-192x192.jpg", sizes: "192x192" },
+    ],
+    apple: "/seo/cropped-8011448-180x180.jpg",
+  },
+  openGraph: {
+    title:
+      "Daswell: Your Partner For Construction & Powder Processing Equipment",
+    description:
+      "Daswell delivers innovative construction machinery and powder processing systems.",
+    url: "https://daswell.com/",
+    siteName: "DASWELL",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -23,11 +31,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en-US" className="h-full antialiased">
+      <body className="min-h-full bg-background text-foreground">
+        {children}
+      </body>
     </html>
   );
 }

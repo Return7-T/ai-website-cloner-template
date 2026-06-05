@@ -1,0 +1,544 @@
+{
+  "title": "🥇Concrete Mixer Pump | Pumping Machine Solutions",
+  "lang": "en-US",
+  "url": "https://daswell.com/concrete-pumps/concrete-mixer-pump/",
+  "counts": {
+    "img": 25,
+    "video": 0,
+    "bg": 1,
+    "svg": 53
+  },
+  "images": [
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/10/logo-300x53.png",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/10/logo.png 2480w, https://daswell.com/wp-content/uploads/2025/10/logo-300x53.png 300w, https://daswell.com/wp-content/uploads/2025/10/logo-1024x179.png 1024w, https://daswell.com/wp-content/uploads/2025/10/logo-768x134.png 768w, https://daswell.com/wp-content/uploads/2025/10/logo-1536x269.png 1536w, https://daswell.com/wp-content/uploads/2025/10/logo-2048x358.png 2048w",
+      "alt": "Daswell",
+      "nw": 240,
+      "nh": 42,
+      "cw": 240,
+      "ch": 42,
+      "parentClass": "custom-logo-link",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20180%2031'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Daswell",
+      "nw": 300,
+      "nh": 52,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-block-site-logo",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/03/concrete-mixer-pump.png",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/03/concrete-mixer-pump.png 680w, https://daswell.com/wp-content/uploads/2025/03/concrete-mixer-pump-300x210.png 300w",
+      "alt": "concrete mixer pump",
+      "nw": 680,
+      "nh": 476,
+      "cw": 632,
+      "ch": 442,
+      "parentClass": "wp-block-kadence-image kb-image1157_01d05b-25 size-full",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/04/main-parts-details-of-concrete-mixer-pump.jpg",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/04/main-parts-details-of-concrete-mixer-pump.jpg 820w, https://daswell.com/wp-content/uploads/2025/04/main-parts-details-of-concrete-mixer-pump-300x205.jpg 300w, https://daswell.com/wp-content/uploads/2025/04/main-parts-details-of-concrete-mixer-pump-768x524.jpg 768w",
+      "alt": "Main parts details of concrete mixer pump",
+      "nw": 820,
+      "nh": 560,
+      "cw": 820,
+      "ch": 560,
+      "parentClass": "kb-advanced-image-link",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20820%20500'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Advantage of concrete mixer pump",
+      "nw": 246,
+      "nh": 150,
+      "cw": 820,
+      "ch": 500,
+      "parentClass": "kb-advanced-image-link",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/04/3D-workingflow-of-Daswell-concrete-mixer-with-pump.jpg",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/04/3D-workingflow-of-Daswell-concrete-mixer-with-pump.jpg 640w, https://daswell.com/wp-content/uploads/2025/04/3D-workingflow-of-Daswell-concrete-mixer-with-pump-300x225.jpg 300w",
+      "alt": "3D workingflow of Daswell concrete mixer with pump",
+      "nw": 640,
+      "nh": 480,
+      "cw": 800,
+      "ch": 450,
+      "parentClass": "kadence-video-intrinsic",
+      "position": "absolute",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20680%20460'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Trailer Concrete Pump",
+      "nw": 222,
+      "nh": 150,
+      "cw": 355,
+      "ch": 240,
+      "parentClass": "kadence-info-box-image-inner-intrisic",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20680%20460'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Concrete Boom Pump",
+      "nw": 222,
+      "nh": 150,
+      "cw": 355,
+      "ch": 240,
+      "parentClass": "kadence-info-box-image-inner-intrisic",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20600'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "concrete pan mixer pump",
+      "nw": 200,
+      "nh": 150,
+      "cw": 355,
+      "ch": 266,
+      "parentClass": "kadence-info-box-image-inner-intrisic",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20820%20500'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Services of concrete mixer pump machine",
+      "nw": 246,
+      "nh": 150,
+      "cw": 820,
+      "ch": 500,
+      "parentClass": "wp-picture-9060",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20820%20600'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "mixer pump in site",
+      "nw": 205,
+      "nh": 150,
+      "cw": 820,
+      "ch": 600,
+      "parentClass": "kb-advanced-image-link",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20960%20540'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Trailer Concrete Pump for Philippine Customer",
+      "nw": 267,
+      "nh": 150,
+      "cw": 1406,
+      "ch": 300,
+      "parentClass": "wp-picture-10189",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/04/Self-Loading-Concrete-Mixer-Shipped-to-Indonesia-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2026/04/Self-Loading-Concrete-Mixer-Shipped-to-Indonesia.jpg 960w, https://daswell.com/wp-content/uploads/2026/04/Self-Loading-Concrete-Mixer-Shipped-to-Indonesia-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2026/04/Self-Loading-Concrete-Mixer-Shipped-to-Indonesia-768x432.jpg 768w",
+      "alt": "Self Loading Concrete Mixer Shipped to Indonesia",
+      "nw": 960,
+      "nh": 540,
+      "cw": 1406,
+      "ch": 300,
+      "parentClass": "wp-picture-10134",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/02/concrete-mixer-pump-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2026/02/concrete-mixer-pump.jpg 1024w, https://daswell.com/wp-content/uploads/2026/02/concrete-mixer-pump-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2026/02/concrete-mixer-pump-768x432.jpg 768w",
+      "alt": "concrete mixer pump",
+      "nw": 1024,
+      "nh": 576,
+      "cw": 1406,
+      "ch": 300,
+      "parentClass": "wp-picture-9519",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/02/self-loading-concrete-mixer-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2026/02/self-loading-concrete-mixer.jpg 1024w, https://daswell.com/wp-content/uploads/2026/02/self-loading-concrete-mixer-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2026/02/self-loading-concrete-mixer-768x432.jpg 768w",
+      "alt": "self loading concrete mixer",
+      "nw": 1024,
+      "nh": 576,
+      "cw": 1406,
+      "ch": 300,
+      "parentClass": "wp-picture-9510",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20538'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "dry mix concrete plant",
+      "nw": 286,
+      "nh": 150,
+      "cw": 1406,
+      "ch": 300,
+      "parentClass": "wp-picture-9426",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/01/Mobile-Concrete-Batching-Plant-35-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2026/01/Mobile-Concrete-Batching-Plant-35.jpg 800w, https://daswell.com/wp-content/uploads/2026/01/Mobile-Concrete-Batching-Plant-35-300x225.jpg 300w, https://daswell.com/wp-content/uploads/2026/01/Mobile-Concrete-Batching-Plant-35-768x576.jpg 768w",
+      "alt": "Mobile Concrete Batching Plant 35",
+      "nw": 800,
+      "nh": 600,
+      "cw": 1406,
+      "ch": 300,
+      "parentClass": "wp-picture-9410",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "Mobile vs Stationary Concrete Batching Plant",
+      "nw": 267,
+      "nh": 150,
+      "cw": 447,
+      "ch": 298,
+      "parentClass": "wp-picture-10216",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2026/04/Concrete-Batching-Plant-768x432-jpg.webp",
+      "srcset": "https://daswell.com/wp-content/uploads/2026/04/Concrete-Batching-Plant.jpg 1024w, https://daswell.com/wp-content/uploads/2026/04/Concrete-Batching-Plant-300x169.jpg 300w, https://daswell.com/wp-content/uploads/2026/04/Concrete-Batching-Plant-768x432.jpg 768w",
+      "alt": "Concrete Batching Plant",
+      "nw": 1024,
+      "nh": 576,
+      "cw": 447,
+      "ch": 298,
+      "parentClass": "wp-picture-10120",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "mobile crusher plant",
+      "nw": 267,
+      "nh": 150,
+      "cw": 447,
+      "ch": 298,
+      "parentClass": "wp-picture-10058",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "choose the right concrete pump",
+      "nw": 267,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9644",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "self loading mixer",
+      "nw": 267,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9457",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E",
+      "srcset": null,
+      "alt": "5 Types of Concrete Batching Plants",
+      "nw": 267,
+      "nh": 150,
+      "cw": 0,
+      "ch": 0,
+      "parentClass": "wp-picture-9390",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/04/time-png.avif",
+      "srcset": null,
+      "alt": null,
+      "nw": 120,
+      "nh": 43,
+      "cw": 120,
+      "ch": 43,
+      "parentClass": "wp-block-kadence-image kb-image2510_2d3216-6b size-full",
+      "position": "static",
+      "zIndex": "auto"
+    },
+    {
+      "src": "https://daswell.com/wp-content/uploads/2025/04/whatsapp-lenka.jpg",
+      "srcset": "https://daswell.com/wp-content/uploads/2025/04/whatsapp-lenka.jpg 422w, https://daswell.com/wp-content/uploads/2025/04/whatsapp-lenka-296x300.jpg 296w",
+      "alt": "WhatsApp: +86 177 3771 2027",
+      "nw": 422,
+      "nh": 428,
+      "cw": 120,
+      "ch": 122,
+      "parentClass": "wp-block-kadence-image kb-image2510_e77b61-0d size-full",
+      "position": "static",
+      "zIndex": "auto"
+    }
+  ],
+  "videos": [],
+  "bgImages": [
+    {
+      "url": "url(\"https://daswell.com/wp-content/uploads/2025/03/pro_detail.jpg\")",
+      "tag": "div",
+      "cls": "kb-row-layout-wrap kb-row-layout-id1157_916f52-1d alignfull "
+    }
+  ],
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "https://daswell.com/wp-content/uploads/2025/08/cropped-8011448-32x32.jpg",
+      "sizes": "32x32",
+      "type": null
+    },
+    {
+      "rel": "icon",
+      "href": "https://daswell.com/wp-content/uploads/2025/08/cropped-8011448-192x192.jpg",
+      "sizes": "192x192",
+      "type": null
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://daswell.com/wp-content/uploads/2025/08/cropped-8011448-180x180.jpg",
+      "sizes": null,
+      "type": null
+    }
+  ],
+  "og": [
+    {
+      "key": "description",
+      "content": "A concrete mixer pump for sale has mixing and pumping use. Choosing Daswell advanced technology machine at factory price."
+    },
+    {
+      "key": "og:locale",
+      "content": "en_US"
+    },
+    {
+      "key": "og:type",
+      "content": "article"
+    },
+    {
+      "key": "og:title",
+      "content": "🥇Concrete Mixer Pump | Pumping Machine Solutions"
+    },
+    {
+      "key": "og:description",
+      "content": "A concrete mixer pump for sale has mixing and pumping use. Choosing Daswell advanced technology machine at factory price."
+    },
+    {
+      "key": "og:url",
+      "content": "https://daswell.com/concrete-pumps/concrete-mixer-pump/"
+    },
+    {
+      "key": "og:site_name",
+      "content": "DASWELL"
+    },
+    {
+      "key": "og:updated_time",
+      "content": "2026-01-16T01:54:35+00:00"
+    },
+    {
+      "key": "og:image",
+      "content": "https://daswell.com/wp-content/uploads/2025/04/concrete-mixer-pump-product.png"
+    },
+    {
+      "key": "og:image:secure_url",
+      "content": "https://daswell.com/wp-content/uploads/2025/04/concrete-mixer-pump-product.png"
+    },
+    {
+      "key": "og:image:width",
+      "content": "680"
+    },
+    {
+      "key": "og:image:height",
+      "content": "476"
+    },
+    {
+      "key": "og:image:alt",
+      "content": "Concrete Mixer Pump"
+    },
+    {
+      "key": "og:image:type",
+      "content": "image/png"
+    },
+    {
+      "key": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "key": "twitter:title",
+      "content": "🥇Concrete Mixer Pump | Pumping Machine Solutions"
+    },
+    {
+      "key": "twitter:description",
+      "content": "A concrete mixer pump for sale has mixing and pumping use. Choosing Daswell advanced technology machine at factory price."
+    },
+    {
+      "key": "twitter:image",
+      "content": "https://daswell.com/wp-content/uploads/2025/04/concrete-mixer-pump-product.png"
+    },
+    {
+      "key": "twitter:label1",
+      "content": "Time to read"
+    },
+    {
+      "key": "twitter:data1",
+      "content": "9 minutes"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Arial, Helvetica, sans-serif",
+      "weights": [
+        "400",
+        "700"
+      ]
+    }
+  ],
+  "textColors": [
+    [
+      "rgb(0, 0, 0)",
+      1047
+    ],
+    [
+      "rgb(248, 249, 250)",
+      138
+    ],
+    [
+      "rgb(245, 31, 31)",
+      84
+    ],
+    [
+      "rgba(0, 0, 0, 0.6)",
+      72
+    ],
+    [
+      "rgb(119, 119, 119)",
+      70
+    ],
+    [
+      "rgb(77, 64, 255)",
+      44
+    ],
+    [
+      "rgba(0, 0, 0, 0.9)",
+      14
+    ],
+    [
+      "rgb(255, 255, 255)",
+      12
+    ],
+    [
+      "rgb(255, 0, 0)",
+      8
+    ],
+    [
+      "rgb(51, 51, 51)",
+      4
+    ],
+    [
+      "rgb(68, 68, 68)",
+      4
+    ],
+    [
+      "rgb(128, 128, 128)",
+      3
+    ]
+  ],
+  "bgColors": [
+    [
+      "rgb(248, 249, 250)",
+      25
+    ],
+    [
+      "rgb(255, 255, 255)",
+      11
+    ],
+    [
+      "rgb(245, 31, 31)",
+      7
+    ],
+    [
+      "rgba(242, 242, 242, 0)",
+      7
+    ],
+    [
+      "rgb(170, 170, 170)",
+      6
+    ],
+    [
+      "rgba(23, 104, 234, 0)",
+      6
+    ],
+    [
+      "rgb(0, 0, 0)",
+      3
+    ],
+    [
+      "rgba(0, 0, 0, 0.6)",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0.1)",
+      2
+    ],
+    [
+      "rgba(0, 0, 0, 0.05)",
+      1
+    ],
+    [
+      "rgb(9, 12, 16)",
+      1
+    ],
+    [
+      "rgba(0, 0, 0, 0.2)",
+      1
+    ],
+    [
+      "rgb(166, 166, 195)",
+      1
+    ],
+    [
+      "rgb(194, 186, 186)",
+      1
+    ],
+    [
+      "rgb(144, 145, 142)",
+      1
+    ]
+  ]
+}

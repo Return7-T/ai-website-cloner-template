@@ -1,0 +1,52 @@
+{
+  "pageHeight": 13994,
+  "sections": [
+    {
+      "kind": "header",
+      "tag": "header",
+      "cls": "wp-block-kadence-header7900-cpt-id header-desktop-sticky header-tablet-sticky header-mobile-sticky w",
+      "position": "static",
+      "height": 109,
+      "text": "<img data-od-unknown-tag data-od-xpath=\"/HTML/BODY/DIV[@id=&apos;wrapper&apos;]/*[2][self::HEADER]/*[1][self::DIV]/*[1]["
+    },
+    {
+      "kind": "section",
+      "index": 1,
+      "tag": "div",
+      "id": "primary",
+      "cls": "content-area",
+      "top": 109,
+      "height": 12790,
+      "bg": "rgba(0, 0, 0, 0)",
+      "bgImage": null,
+      "headings": [
+        {
+          "t": "h1",
+          "text": "Concrete Trailer Pump"
+        },
+        {
+          "t": "h2",
+          "text": "Different Types of Daswell concrete trailer pump"
+        },
+        {
+          "t": "h2",
+          "text": "How does Daswell Utilize Trailer Concrete pump system and parts for efficient working?"
+        },
+        {
+          "t": "h2",
+          "text": "How does the trailer concrete pump work?"
+        }
+      ],
+      "imgCount": 19,
+      "linkCount": 45,
+      "text": "Home » Concrete Pumps » Concrete Trailer Pump <img fetchpriority=\"high\" decoding=\"async\" width=\"680\" height=\"460\" src=\"https://daswell.com/wp-content/uploads/2025/04/trailer-concre"
+    },
+    {
+      "kind": "footer",
+      "tag": "footer",
+      "cls": "kt-blocks-post-footer",
+      "height": 20,
+      "text": "TagsMobile Concrete Batching Plant, Stationary Concrete Batching Plant"
+    }
+  ]
+}
