@@ -2,7 +2,7 @@
 import type { ProductCard, CaseStory, Feature, Branch } from "@/types/content";
 
 export const hero = {
-  video: "/videos/2026/01/banners.mp4",
+  video: "/videos/2026/01/hero.mp4",
   heading: "DASWELL, Your Partner for Construction Equipment & Powder Processing",
   buttons: [
     { text: "Construction Equipment", href: "https://daswell.com/construction/", color: "red" as const },
