@@ -1,4 +1,4 @@
-// Shared content types for the Daswell clone.
+// Shared content types for the KEWAN site.
 
 export interface NavChild {
   text: string;

@@ -21,7 +21,7 @@ export function RequestQuote() {
         {/* red-blue divider */}
         <div className="mx-auto mb-10 flex w-36 justify-center">
           <span className="h-[3px] w-1/2 bg-brand-dark" />
-          <span className="h-[3px] w-1/2 bg-[#0041d5]" />
+          <span className="h-[3px] w-1/2 bg-secondary" />
         </div>
 
         {submitted ? (

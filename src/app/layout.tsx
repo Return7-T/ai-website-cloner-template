@@ -1,25 +1,27 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { ScrollToTop } from "@/components/layout/scroll-to-top";
 
 export const metadata: Metadata = {
-  title: "Daswell: Your Partner For Construction & Powder Processing Equipment",
+  title: "KEWAN Built for Construction",
   description:
-    "Daswell delivers innovative construction machinery and powder processing systems.",
-  metadataBase: new URL("https://daswell.com"),
+    "KEWAN delivers innovative construction machinery for global projects.",
+  metadataBase: new URL("http://localhost:3000"),
   icons: {
     icon: [
-      { url: "/seo/cropped-8011448-32x32.jpg", sizes: "32x32" },
-      { url: "/seo/cropped-8011448-192x192.jpg", sizes: "192x192" },
+      { url: "/seo/kewan-favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/seo/kewan-favicon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/seo/kewan-favicon-512.png", sizes: "512x512", type: "image/png" },
     ],
-    apple: "/seo/cropped-8011448-180x180.jpg",
+    apple: { url: "/seo/kewan-apple-touch.png", sizes: "180x180", type: "image/png" },
   },
   openGraph: {
     title:
-      "Daswell: Your Partner For Construction & Powder Processing Equipment",
+      "KEWAN Built for Construction",
     description:
-      "Daswell delivers innovative construction machinery and powder processing systems.",
-    url: "https://daswell.com/",
-    siteName: "DASWELL",
+      "KEWAN delivers innovative construction machinery for global projects.",
+    url: "http://localhost:3000/",
+    siteName: "KEWAN",
     locale: "en_US",
     type: "website",
   },
@@ -31,8 +33,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-US" className="h-full antialiased">
-      <body className="min-h-full bg-background text-foreground">
+    <html lang="en-US" className="h-full antialiased" suppressHydrationWarning>
+      <body className="min-h-full bg-background text-foreground" suppressHydrationWarning>
+        <ScrollToTop />
         {children}
       </body>
     </html>

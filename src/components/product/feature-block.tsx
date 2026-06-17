@@ -7,7 +7,7 @@ export function ProductSectionHeading({ children }: { children: React.ReactNode 
       <h2 className="ds-h2 !text-left md:!text-center">{children}</h2>
       <div className="mb-8 flex w-36 justify-center max-md:justify-start">
         <span className="h-[3px] w-1/2 bg-brand-dark" />
-        <span className="h-[3px] w-1/2 bg-[#0041d5]" />
+        <span className="h-[3px] w-1/2 bg-secondary" />
       </div>
     </>
   );

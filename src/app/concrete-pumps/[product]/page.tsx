@@ -4,9 +4,12 @@ import { SiteFooter } from "@/components/layout/site-footer";
 import { RequestQuote } from "@/components/layout/request-quote";
 import { ProductPage } from "@/components/product/product-page";
 import { products } from "@/data/products";
+import { kewanProducts } from "@/data/kewan-products";
+
+const allProducts = { ...products, ...kewanProducts };
 
 export function generateStaticParams() {
-  return Object.keys(products).map((product) => ({ product }));
+  return Object.keys(allProducts).map((product) => ({ product }));
 }
 
 export async function generateMetadata({
@@ -15,10 +18,10 @@ export async function generateMetadata({
   params: Promise<{ product: string }>;
 }) {
   const { product } = await params;
-  const data = products[product];
+  const data = allProducts[product];
   if (!data) return {};
   return {
-    title: `${data.title} | Daswell`,
+    title: `${data.title} | KEWAN`,
     description: data.intro.paragraphs[0]?.slice(0, 160),
   };
 }
@@ -29,7 +32,7 @@ export default async function ProductRoute({
   params: Promise<{ product: string }>;
 }) {
   const { product } = await params;
-  const data = products[product];
+  const data = allProducts[product];
   if (!data) notFound();
   return (
     <>

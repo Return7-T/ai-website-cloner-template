@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Search, ChevronDown, Menu, X } from "@/components/icons";
+import { ChevronDown, Menu, X } from "@/components/icons";
 import {
   navItems,
   headerCta,
@@ -11,16 +11,6 @@ import {
   logo,
 } from "@/data/navigation";
 import { cn } from "@/lib/utils";
-
-// Top white row items (general nav, no red-bar product categories)
-const redBarLabels = [
-  "Construction Equipment",
-  "Crushing and Screening",
-  "Powder Processing",
-];
-const topNav = navItems.filter((n) => !redBarLabels.includes(n.text));
-// Red bar items (product categories)
-const redNav = navItems.filter((n) => redBarLabels.includes(n.text));
 
 export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
@@ -40,34 +30,40 @@ export function SiteHeader() {
         scrolled ? "shadow-md" : "shadow-sm"
       )}
     >
-      {/* Top white row */}
-      <div className="ds-container-wide flex items-center justify-between gap-6 py-3">
-        <Link href="/" className="shrink-0">
+      <div className="ds-container-wide flex items-center justify-between gap-6 py-3 lg:gap-8">
+        <Link href="/" className="shrink-0 pl-4">
           <Image
             src={logo.src}
             alt={logo.alt}
             width={logo.width}
             height={logo.height}
             priority
-            className="h-[42px] w-auto"
-            style={{ height: "42px", width: "auto" }}
+            className="w-auto object-contain"
+            style={{ height: "48px", width: "auto", margin: "0" }}
           />
         </Link>
 
-        {/* Desktop top nav */}
-        <nav className="hidden items-center gap-6 lg:flex">
-          {topNav.map((item) => (
+        <nav className="hidden flex-1 items-center justify-end gap-6 pr-3 lg:flex xl:gap-7 xl:pr-6">
+          {navItems.map((item) => (
             <NavLink key={item.text} item={item} />
           ))}
-          <button
-            aria-label="Search"
-            className="text-black/70 transition-colors hover:text-brand"
-          >
-            <Search size={20} />
-          </button>
         </nav>
 
-        {/* Mobile toggle */}
+        <div className="hidden shrink-0 items-center gap-2 lg:flex">
+          <Link
+            href={headerCta.href}
+            className="rounded-[3px] bg-brand px-4 py-2 text-sm font-medium text-white transition hover:bg-brand-dark"
+          >
+            {headerCta.text}
+          </Link>
+          <Link
+            href={headerWhatsApp.href}
+            className="rounded-[3px] bg-secondary px-4 py-2 text-sm font-medium text-white transition hover:opacity-90"
+          >
+            {headerWhatsApp.text}
+          </Link>
+        </div>
+
         <button
           aria-label="Open menu"
           className="lg:hidden"
@@ -75,31 +71,6 @@ export function SiteHeader() {
         >
           <Menu size={28} />
         </button>
-      </div>
-
-      {/* Red bar row */}
-      <div className="hidden bg-brand lg:block">
-        <div className="ds-container-wide flex items-center justify-between">
-          <nav className="flex items-center gap-7">
-            {redNav.map((item) => (
-              <NavLink key={item.text} item={item} variant="red" />
-            ))}
-          </nav>
-          <div className="flex items-center gap-2 py-2">
-            <Link
-              href={headerCta.href}
-              className="rounded-[3px] bg-black px-4 py-1.5 text-sm font-normal capitalize tracking-[0.5px] text-offwhite transition hover:bg-black/80"
-            >
-              {headerCta.text}
-            </Link>
-            <Link
-              href={headerWhatsApp.href}
-              className="rounded-[3px] bg-black px-4 py-1.5 text-sm font-normal text-offwhite transition hover:bg-black/80"
-            >
-              {headerWhatsApp.text}
-            </Link>
-          </div>
-        </div>
       </div>
 
       {mobileOpen && (
@@ -111,23 +82,16 @@ export function SiteHeader() {
 
 function NavLink({
   item,
-  variant = "light",
 }: {
   item: (typeof navItems)[number];
-  variant?: "light" | "red";
 }) {
   const hasChildren = item.children && item.children.length > 0;
-  const base =
-    variant === "red"
-      ? "text-white py-3"
-      : "text-black hover:text-brand";
   return (
     <div className="group relative">
       <Link
         href={item.href}
         className={cn(
-          "flex items-center gap-1 text-[15px] font-normal transition-colors",
-          base
+          "flex items-center gap-1 text-[15px] font-normal text-black transition-colors hover:text-brand"
         )}
       >
         {item.text}
@@ -161,8 +125,8 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
             alt={logo.alt}
             width={logo.width}
             height={logo.height}
-            className="h-9 w-auto"
-            style={{ height: "2.25rem", width: "auto" }}
+            className="h-12 w-auto object-contain"
+            style={{ height: "3rem", width: "auto" }}
           />
           <button aria-label="Close menu" onClick={onClose}>
             <X size={26} />
@@ -207,7 +171,7 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
           <Link
             href={headerWhatsApp.href}
             onClick={onClose}
-            className="rounded-[3px] bg-black px-4 py-2.5 text-center text-sm text-white"
+            className="rounded-[3px] bg-secondary px-4 py-2.5 text-center text-sm text-white"
           >
             {headerWhatsApp.text}
           </Link>

@@ -45,15 +45,7 @@ export function SiteFooter() {
               className="underline underline-offset-2 hover:text-white"
             >
               {footerMeta.links[0].text}
-            </Link>{" "}
-            Technology is a subsidiary of Daswell.{" "}
-            <Link
-              href={footerMeta.links[1].href}
-              className="underline underline-offset-2 hover:text-white"
-            >
-              {footerMeta.links[1].text}
             </Link>
-            .
           </span>
         </div>
       </div>

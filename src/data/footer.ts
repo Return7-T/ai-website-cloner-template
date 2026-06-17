@@ -6,8 +6,6 @@ export const footerColumns: FooterColumn[] = [
     heading: "Products",
     links: [
       { text: "Construction Machinery", href: "https://daswell.com/construction/" },
-      { text: "Crushing and Screening", href: "https://daswell.com/crushers/" },
-      { text: "Powder Processing", href: "https://daswell.com/powder/" },
     ],
   },
   {
@@ -15,24 +13,21 @@ export const footerColumns: FooterColumn[] = [
     links: [
       { text: "About Us", href: "https://daswell.com/about-us/" },
       { text: "Cases", href: "https://daswell.com/project/" },
-      { text: "Become Distributor", href: "https://daswell.com/dealer/" },
     ],
   },
   {
     heading: "Contact",
     links: [
-      { text: "WhatsApp: +86 177 3771 2027", href: "https://daswell.com/whatsapp/" },
+      { text: "WhatsApp: +86 1570 073 1570", href: "https://wa.me/8615700731570" },
       { text: "E-mail: global@daswell.com", href: "mailto:global@daswell.com" },
     ],
   },
 ];
 
 export const footerMeta = {
-  logo: { src: "/images/2025/10/logo.png", alt: "Daswell", width: 240, height: 42 },
-  copyright: "© 2009-2026 @ Daswell Group co., Ltd",
-  subsidiaryNote: "Daswell Powder Technology is a subsidiary of Daswell.",
+  logo: { src: "/images/kewan-logo.png", alt: "KEWAN", width: 1024, height: 1024 },
+  copyright: "© 2009-2026 @ KEWAN Group co., Ltd",
   links: [
-    { text: "Daswell Powder", href: "https://daswellpowder.com/" },
     { text: "Privacy Policy", href: "https://daswell.com/privacy-policy/" },
   ],
 };

@@ -10,7 +10,7 @@
   --font-sans: Arial, Helvetica, sans-serif;
   --font-mono: ui-monospace, monospace;
   --font-heading: Arial, Helvetica, sans-serif;
-  /* Daswell brand tokens */
+  /* KEWAN brand tokens */
   --color-brand: var(--brand);
   --color-brand-dark: var(--brand-dark);
   --color-hero-cta: var(--hero-cta);
@@ -55,30 +55,30 @@
 }
 
 :root {
-  --background: #f8f9fa;
-  --foreground: #000000;
+  --background: #ffffff;
+  --foreground: #1a1a1a;
   --card: #ffffff;
-  --card-foreground: #000000;
+  --card-foreground: #1a1a1a;
   --popover: #ffffff;
-  --popover-foreground: #000000;
-  --primary: #f51f1f;
-  --primary-foreground: #f8f9fa;
-  --secondary: #f8f9fa;
-  --secondary-foreground: #000000;
-  --muted: #f8f9fa;
-  --muted-foreground: rgba(0, 0, 0, 0.6);
-  --accent: #f8f9fa;
-  --accent-foreground: #000000;
+  --popover-foreground: #1a1a1a;
+  --primary: #0f2b52;
+  --primary-foreground: #ffffff;
+  --secondary: #1e3d6b;
+  --secondary-foreground: #ffffff;
+  --muted: #e6ebf2;
+  --muted-foreground: rgba(26, 26, 26, 0.7);
+  --accent: #e6ebf2;
+  --accent-foreground: #1a1a1a;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: #e5e7eb;
-  --input: #e5e7eb;
-  --ring: #f51f1f;
-  /* Daswell brand */
-  --brand: #f51f1f;
-  --brand-dark: #c40000;
-  --hero-cta: rgba(196, 0, 0, 0.7);
-  --offwhite: #f8f9fa;
-  --footer: rgba(22, 22, 22, 0.9);
+  --border: #d6deea;
+  --input: #d6deea;
+  --ring: #0f2b52;
+  /* KEWAN brand */
+  --brand: #0f2b52;
+  --brand-dark: #1e3d6b;
+  --hero-cta: rgba(15, 43, 82, 0.86);
+  --offwhite: #e6ebf2;
+  --footer: #0f2b52;
   --global-content-width: 1500px;
   --content-width: 1290px;
   --chart-1: oklch(0.87 0 0);
@@ -167,7 +167,7 @@
     font-weight: 700;
     text-align: center;
     text-transform: capitalize;
-    color: #000;
+    color: var(--foreground);
     margin: 0 0 14px;
   }
   /* Card title (H3): 20px/30px bold center capitalize */
@@ -177,7 +177,7 @@
     font-weight: 700;
     text-align: center;
     text-transform: capitalize;
-    color: #000;
+    color: var(--foreground);
     transition: color 0.3s cubic-bezier(0.17, 0.67, 0.35, 0.95);
   }
 }

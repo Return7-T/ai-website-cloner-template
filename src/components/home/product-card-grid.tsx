@@ -1,13 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight } from "@/components/icons";
 import type { ProductCard } from "@/types/content";
 
 export function SectionDivider() {
   return (
     <div className="mx-auto mb-10 flex w-36 justify-center">
       <span className="h-[3px] w-1/2 bg-brand-dark" />
-      <span className="h-[3px] w-1/2 bg-[#0041d5]" />
+      <span className="h-[3px] w-1/2 bg-secondary" />
     </div>
   );
 }
@@ -15,20 +14,19 @@ export function SectionDivider() {
 interface Props {
   heading: string;
   cards: ProductCard[];
-  ctaText: string;
-  ctaHref: string;
   className?: string;
 }
 
 export function ProductCardGrid({
   heading,
   cards,
-  ctaText,
-  ctaHref,
   className = "",
 }: Props) {
   return (
-    <section className={`py-16 ${className}`}>
+    <section
+      id={heading === "Construction Equipment" ? "construction-equipment" : undefined}
+      className={`scroll-mt-28 py-16 md:scroll-mt-32 ${className}`}
+    >
       <div className="ds-container">
         <h2 className="ds-h2">{heading}</h2>
         <SectionDivider />
@@ -58,15 +56,6 @@ export function ProductCardGrid({
               </div>
             </Link>
           ))}
-        </div>
-        <div className="mt-10 flex justify-center">
-          <Link
-            href={ctaHref}
-            className="inline-flex items-center gap-2 rounded-[3px] bg-brand px-7 py-3 text-base font-medium text-white transition hover:bg-brand-dark"
-          >
-            {ctaText}
-            <ArrowRight size={18} />
-          </Link>
         </div>
       </div>
     </section>

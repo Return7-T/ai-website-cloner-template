@@ -22,7 +22,7 @@ export const products: Record<string, ProductData> = {
       "paragraphs": [
         "The concrete mixer pump is an innovative construction machine that combines concrete mixing and pumping functions in one machine, completing the work of two machines in the past.",
         "Concrete mixer with pump saves manpower and is more economical, allowing builders to complete concrete pouring tasks more quickly, and is very suitable for small and medium-sized projects such as house construction, road paving and tunnel construction.",
-        "The Daswell concrete mixer pump has high pumping capacity, stable performance and flexible mobility, providing a reliable solution for modern construction sites and has won a lot of praise from users."
+        "The KEWAN concrete mixer pump has high pumping capacity, stable performance and flexible mobility, providing a reliable solution for modern construction sites and has won a lot of praise from users."
       ],
       "keySpecs": [
         {
@@ -53,17 +53,17 @@ export const products: Record<string, ProductData> = {
     },
     "featureBlocks": [
       {
-        "heading": "Daswell Efficient Concrete Mixer Pump for Maximum Productivity",
+        "heading": "KEWAN Efficient Concrete Mixer Pump for Maximum Productivity",
         "paragraphs": [
           "The concrete mixer pump is a machine that combines the functions of a concrete mixer and a concrete pump into one machine, allowing concrete to be mixed at the construction site and then pumped to the desired location. The innovation of combining mixing and pumping in one simplifies the concrete production process, especially in cases of inconvenient transportation or small projects. The loader can easily feed sand, stone, cement, and other raw materials into the hopper. Compared with traditional concrete mixers and concrete mixer pumps, it is easier and faster to complete the work, more economical, and more practical. It is a new and improved equipment.",
-          "The mixer pump machine can discharge the mixed concrete directly into the integrated pumping hopper. And our high-performance concrete mixer hydraulic pumping system can deliver it exactly where needed. With Daswell concrete mixer pump equipment, you can save time, labor, and costs on your job site."
+          "The mixer pump machine can discharge the mixed concrete directly into the integrated pumping hopper. And our high-performance concrete mixer hydraulic pumping system can deliver it exactly where needed. With KEWAN concrete mixer pump equipment, you can save time, labor, and costs on your job site."
         ],
         "image": "/images/2025/04/main-parts-details-of-concrete-mixer-pump.jpg",
         "imageAlt": "Main parts details of concrete mixer pump"
       }
     ],
     "componentGroups": {
-      "heading": "Delicate Components of Daswell Concrete Mixer Pumps for Efficient Work",
+      "heading": "Delicate Components of KEWAN Concrete Mixer Pumps for Efficient Work",
       "groups": [
         {
           "title": "Power and Hydraulic System",
@@ -101,7 +101,7 @@ export const products: Record<string, ProductData> = {
       ]
     },
     "reasons": {
-      "heading": "5 Reasons You Should Choose Daswell Concrete Mixer Pump Manufacturer",
+      "heading": "5 Reasons You Should Choose KEWAN Concrete Mixer Pump Manufacturer",
       "bullets": [
         "Premium Hydraulic System Protection: Our hydraulic oil tank uses specially treated steel pipes to prevent corrosion and extend system life. For the oil tank cleaning, the hoses and valve blocks underg",
         "Ultra-Clean Diesel and Hydraulic System: The diesel cleaning port is heat-treated and blown with compressed air. It removes all impurities, guaranteeing cleaner oil quality. By maintaining pure hydrau",
@@ -121,7 +121,7 @@ export const products: Record<string, ProductData> = {
       ]
     },
     "related": {
-      "heading": "Different Types of Daswell Concrete Pump",
+      "heading": "Different Types of KEWAN Concrete Pump",
       "items": [
         {
           "title": "Concrete Trailer Pump",
@@ -141,7 +141,7 @@ export const products: Record<string, ProductData> = {
       ]
     },
     "support": {
-      "heading": "Daswell Expert Support and Reliable Service for Your Concrete Mixer Pump Investment",
+      "heading": "KEWAN Expert Support and Reliable Service for Your Concrete Mixer Pump Investment",
       "columns": [
         {
           "title": "Comprehensive pre-purchase support",
@@ -167,7 +167,7 @@ export const products: Record<string, ProductData> = {
       ]
     },
     "faq": {
-      "heading": "FAQ about Daswell Concrete Mixer Pumps Equipment",
+      "heading": "FAQ about KEWAN Concrete Mixer Pumps Equipment",
       "items": [
         {
           "q": "What are the horizontal and vertical pumping distances of your concrete mixture pump?",
@@ -319,28 +319,28 @@ export const products: Record<string, ProductData> = {
       ]
     },
     "projects": {
-      "heading": "Daswell Concrete Machinery Projects",
+      "heading": "KEWAN Concrete Machinery Projects",
       "items": [
         {
-          "title": "Philippine Customer Used a DASWELL Trailer Concrete Pump for Building Construction, 2025",
+          "title": "Philippine Customer Used a KEWAN Trailer Concrete Pump for Building Construction, 2025",
           "href": "#",
           "img": "/images/2025/08/concrete-mixer-pump-indonesia.jpg",
           "year": "2025"
         },
         {
-          "title": "DASWELL 4m³ Self Loading Concrete Mixer Shipped to Indonesia, 2025",
+          "title": "KEWAN 4m³ Self Loading Concrete Mixer Shipped to Indonesia, 2025",
           "href": "#",
           "img": "/images/2025/11/Daswell-SLM4-for-Indonesian-Customer-1024x576.jpg",
           "year": "2025"
         },
         {
-          "title": "Daswell Efficient Concrete Mixer Pump for Maximum Productivity",
+          "title": "KEWAN Efficient Concrete Mixer Pump for Maximum Productivity",
           "href": "#",
           "img": "/images/2025/04/mobile-concrete-batching-plant.jpg",
           "year": null
         },
         {
-          "title": "Delicate Components of Daswell Concrete Mixer Pumps for Efficient Work",
+          "title": "Delicate Components of KEWAN Concrete Mixer Pumps for Efficient Work",
           "href": "#",
           "img": "/images/2025/12/stationary-crushing-plant-philippines5.png",
           "year": null
@@ -367,7 +367,7 @@ export const products: Record<string, ProductData> = {
     "intro": {
       "paragraphs": [
         "Concrete trailer pump is a kind of concrete pumping equipment used to pump mixed liquid concrete to the construction site. Usually, the position of the drag pump needs to be fixed before construction, and the pipeline should be laid in advance.",
-        "Daswell concrete trailer pump for sale is a kind of S-tube valve drag pump, and the conveying aggregate size is 40mm. The equipment is mainly used for concrete construction of railways, highway tunnels, bridges and culverts, hydropower, mines, high-rise buildings and other projects.",
+        "KEWAN concrete trailer pump for sale is a kind of S-tube valve drag pump, and the conveying aggregate size is 40mm. The equipment is mainly used for concrete construction of railways, highway tunnels, bridges and culverts, hydropower, mines, high-rise buildings and other projects.",
         "It greatly improves the construction efficiency of engineering buildings, saves labor costs, shortens the construction period, and expands economic benefits."
       ],
       "keySpecs": [
@@ -380,7 +380,7 @@ export const products: Record<string, ProductData> = {
           "value": "10-22MPa"
         }
       ],
-      "image": "/images/2025/04/trailer-concrete-pump.png",
+      "image": "/images/trailer-pump-side-view.png",
       "imageAlt": "Trailer Concrete Pump",
       "buttons": [
         {
@@ -390,18 +390,14 @@ export const products: Record<string, ProductData> = {
         {
           "text": "Send Email",
           "href": "mailto:global@daswell.com"
-        },
-        {
-          "text": "PDF Download",
-          "href": "https://daswell.com/wp-content/uploads/2025/06/concrete-trailer-pump-brochure.pdf"
         }
       ]
     },
     "featureBlocks": [
       {
-        "heading": "Different Types of Daswell concrete trailer pump",
+        "heading": "Different Types of KEWAN concrete trailer pump",
         "paragraphs": [
-          "In order to meet different engineering needs, Daswell has developed a variety of concrete pump trailers to provide customers with diversified choices."
+          "In order to meet different engineering needs, KEWAN has developed a variety of concrete pump trailers to provide customers with diversified choices."
         ],
         "bullets": [
           "Electric Type and Diesel Type: According to the power, it can be divided into electric drag pump and diesel drag pump.",
@@ -424,7 +420,7 @@ export const products: Record<string, ProductData> = {
       }
     ],
     "componentGroups": {
-      "heading": "How does Daswell Utilize Trailer Concrete pump system and parts for efficient working?",
+      "heading": "How does KEWAN Utilize Trailer Concrete pump system and parts for efficient working?",
       "groups": [
         {
           "title": "Power System",
@@ -439,7 +435,7 @@ export const products: Record<string, ProductData> = {
           "title": "Distribution, Stirring and Cooling",
           "items": [
             "Hydraulic oil circuit: It adopts open-circuit design for optimal fluid dynamics.",
-            "Concrete delivery: Daswell has precision-engineered concrete conveying cylinders paired with industry-leading main oil pumps.",
+            "Concrete delivery: KEWAN has precision-engineered concrete conveying cylinders paired with industry-leading main oil pumps.",
             "Swing cylinder and S-valve: Our company has premium-brand swing cylinder with nested S-pipe valve. It can realize smooth concrete flow.",
             "Wear-resistant components: We utilizes specially treated spectacle plates and cutting rings made from ultra-durable materials. It can prolong the service life.",
             "Stirring motor: There are high-quality motor for consistent mixing performance.",
@@ -462,14 +458,14 @@ export const products: Record<string, ProductData> = {
       "heading": "Electric Trailer Pump VS Diesel Trailer Pump, Which is suitable for you?",
       "bullets": [
         "Electric Trailer Concrete Pumps: It is suitable for urban projects, where has strict regulation on noise and emissions. But it has requirements on stable grid power. If the electricity of job site is not stable, it will be not suitable.",
-        "Diesel Type Trailer Pumps: This pumps are ideal for remote site or areas with unstable or no power supply. While, it should be considered that there may be some exhaust emission, even though Daswell machinery meet emission standards.",
+        "Diesel Type Trailer Pumps: This pumps are ideal for remote site or areas with unstable or no power supply. While, it should be considered that there may be some exhaust emission, even though KEWAN machinery meet emission standards.",
         "Your job site conditions(urban or remote)",
         "The local environmental regulations",
         "Power availability"
       ]
     },
     "related": {
-      "heading": "Different Types of Daswell Concrete Pump",
+      "heading": "Different Types of KEWAN Concrete Pump",
       "items": [
         {
           "title": "Concrete Mixer Pump",
@@ -489,121 +485,165 @@ export const products: Record<string, ProductData> = {
       ]
     },
     "specTable": {
-      "caption": "Technical Data (Diesel Type):",
+      "caption": "Technical Data:",
       "headers": [
-        "Item",
-        "CPD40-10-66",
-        "CPD60-13-130",
-        "CPD80-16-176",
-        "CPD90-18-176",
-        "CPD90-20-199"
+        "Parameter",
+        "Unit",
+        "HBT20",
+        "HBT30",
+        "HBT40",
+        "HBT50",
+        "HBT60",
+        "HBT80",
+        "HBT90"
       ],
       "rows": [
         [
-          "Max. theoretical concrete output capacity (m3/h)",
+          "Max. Theoretical Output",
+          "m³/h",
+          "15",
+          "25",
           "35",
-          "81/59",
-          "88/57",
-          "88/57",
-          "88/50"
+          "45",
+          "60",
+          "80",
+          "90"
         ],
         [
-          "Total power (kw)",
-          "66 Weichai engine",
-          "130 Weichai engine",
-          "176 Cummins engine",
-          "176 Cummins engine",
-          "199 Weichai engine"
-        ],
-        [
-          "Max. aggregate size (mm)",
-          "40",
+          "Max. Aggregate Size",
+          "mm",
+          "20",
+          "30",
+          "30",
           "40",
           "40",
           "40",
           "40"
         ],
         [
-          "Outlet pressure (MPa)",
+          "Outlet Pressure",
+          "MPa",
+          "6",
           "10",
-          "9/13",
-          "11/16",
-          "11/18",
-          "14/22"
+          "12",
+          "12",
+          "13",
+          "16",
+          "18"
         ],
         [
-          "Concrete delivery cylinder diameter*stroke (mm)",
-          "Φ230*800",
-          "Φ200*1800",
-          "Φ200*1800",
-          "Φ200*1600",
-          "Φ200*1600"
+          "Vertical Conveying Distance",
+          "m",
+          "50",
+          "80",
+          "100",
+          "150",
+          "180",
+          "200",
+          "250"
         ],
         [
-          "Hopper capacity (m3)",
-          "0.5",
-          "0.8",
-          "0.8",
-          "0.8",
-          "0.8"
+          "Horizontal Conveying Distance",
+          "m",
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "800"
         ],
         [
-          "Delivery pipe diameter (mm)",
-          "Φ125",
-          "Φ125",
-          "Φ125",
-          "Φ125",
-          "Φ125"
+          "Power",
+          "kW",
+          "Diesel 40 / Electric 22",
+          "Diesel 66 / Electric 37",
+          "Diesel 76 / Electric 45",
+          "Diesel 90 / Electric 55",
+          "Diesel 129 / Electric 90",
+          "Diesel 176 / Electric 110",
+          "Diesel 196 / Electric 162"
         ],
         [
-          "Concrete slump",
-          "160~220",
-          "160~220",
-          "160~220",
-          "160~220",
-          "160~220"
+          "Hopper Capacity / Feeding Height",
+          "m³/mm",
+          "0.3/1000",
+          "0.5/1200",
+          "0.6/1200",
+          "0.6/1200",
+          "0.6/1200",
+          "0.6/1200",
+          "0.6/1200"
         ],
         [
-          "Overall dimension (mm)",
-          "4500×1850×1750",
-          "6300×2100×2350",
-          "6300×2100×2550",
-          "6300×2100×2350",
-          "6400×2120×2450"
+          "Delivery Pipe Diameter",
+          "mm",
+          "80/100",
+          "80/100/125",
+          "80/100/125",
+          "80/100/125",
+          "80/100/125",
+          "80/100/125",
+          "80/100/125"
         ],
         [
-          "Total weight (kg)",
-          "3400",
-          "6300",
-          "6900",
-          "6900",
-          "6990"
+          "Concrete Slump",
+          "mm",
+          "140–230",
+          "140–230",
+          "140–230",
+          "140–230",
+          "140–230",
+          "140–230",
+          "140–230"
+        ],
+        [
+          "Overall Dimension",
+          "mm",
+          "3000×1400×1500",
+          "3900×1500×1600",
+          "4200×1600×1600",
+          "4300×1600×1600",
+          "4500×1800×1750",
+          "6300×2100×2500",
+          "6300×2100×2500"
+        ],
+        [
+          "Total Weight",
+          "kg",
+          "1000",
+          "1700",
+          "2000",
+          "2500",
+          "5000",
+          "6000",
+          "6500"
         ]
       ]
     },
     "projects": {
-      "heading": "Daswell Concrete Machinery Projects",
+      "heading": "KEWAN Concrete Machinery Projects",
       "items": [
         {
-          "title": "Philippine Customer Used a DASWELL Trailer Concrete Pump for Building Construction, 2025",
+          "title": "Philippine Customer Used a KEWAN Trailer Concrete Pump for Building Construction, 2025",
           "href": "#",
           "img": "/images/2025/08/concrete-mixer-pump-indonesia.jpg",
           "year": "2025"
         },
         {
-          "title": "DASWELL 4m³ Self Loading Concrete Mixer Shipped to Indonesia, 2025",
+          "title": "KEWAN 4m³ Self Loading Concrete Mixer Shipped to Indonesia, 2025",
           "href": "#",
           "img": "/images/2025/11/Daswell-SLM4-for-Indonesian-Customer-1024x576.jpg",
           "year": "2025"
         },
         {
-          "title": "Different Types of Daswell concrete trailer pump",
+          "title": "Different Types of KEWAN concrete trailer pump",
           "href": "#",
           "img": "/images/2025/04/mobile-concrete-batching-plant.jpg",
           "year": null
         },
         {
-          "title": "How does Daswell Utilize Trailer Concrete pump system and parts for efficient working?",
+          "title": "How does KEWAN Utilize Trailer Concrete pump system and parts for efficient working?",
           "href": "#",
           "img": "/images/2025/12/stationary-crushing-plant-philippines5.png",
           "year": null
