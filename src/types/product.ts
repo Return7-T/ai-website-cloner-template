@@ -17,7 +17,7 @@ export interface FeatureGroup {
 }
 
 export interface RichBlock {
-  heading: string;
+  heading?: string;
   paragraphs?: string[];
   bullets?: string[];
   image?: string;
@@ -48,6 +48,8 @@ export interface ProductData {
   };
   featureBlocks: RichBlock[];
   componentGroups?: { heading: string; groups: FeatureGroup[]; image?: string };
+  /** Render componentGroups after this feature block index. Default -1 = render after all feature blocks. */
+  componentGroupsAfterBlock?: number;
   reasons?: { heading: string; bullets: string[] };
   buyingTips?: { heading: string; bullets: string[] };
   related?: { heading: string; items: RelatedProduct[] };

@@ -1,27 +1,25 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export function HeroVideo({ src }: { src: string }) {
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) {
-    return <div className="absolute inset-0 bg-black" />;
-  }
+  const [videoLoaded, setVideoLoaded] = useState(false);
 
   return (
-    <video
-      className="absolute inset-0 h-full w-full object-cover"
-      src={src}
-      autoPlay
-      loop
-      muted
-      playsInline
-      aria-hidden
-    />
+    <>
+      {!videoLoaded && (
+        <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-black/60" />
+      )}
+      <video
+        className="absolute inset-0 h-full w-full object-cover"
+        src={src}
+        autoPlay
+        loop
+        muted
+        playsInline
+        aria-hidden
+        onCanPlay={() => setVideoLoaded(true)}
+      />
+    </>
   );
 }

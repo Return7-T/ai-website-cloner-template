@@ -1,20 +1,50 @@
 import Image from "next/image";
+import { CheckCircle2 } from "@/components/icons";
 import type { RichBlock, FeatureGroup } from "@/types/product";
 
-export function ProductSectionHeading({ children }: { children: React.ReactNode }) {
+export function ProductSectionHeading({
+  children,
+  divider = "two-tone",
+}: {
+  children: React.ReactNode;
+  divider?: "two-tone" | "line" | "none";
+}) {
   return (
     <>
       <h2 className="ds-h2 !text-left md:!text-center">{children}</h2>
-      <div className="mb-8 flex w-36 justify-center max-md:justify-start">
-        <span className="h-[3px] w-1/2 bg-brand-dark" />
-        <span className="h-[3px] w-1/2 bg-secondary" />
-      </div>
+      {divider === "two-tone" && (
+        <div className="mb-8 flex w-36 justify-center max-md:justify-start">
+          <span className="h-[3px] w-1/2 bg-brand-dark" />
+          <span className="h-[3px] w-1/2 bg-secondary" />
+        </div>
+      )}
+      {divider === "line" && (
+        <div className="mb-8 h-px w-full max-w-[120px] bg-border max-md:ml-0 md:mx-auto" />
+      )}
     </>
   );
 }
 
 export function FeatureBlock({ block, flip }: { block: RichBlock; flip?: boolean }) {
   const hasImage = !!block.image;
+  const isImageOnly = hasImage && !block.heading && !block.paragraphs?.length && !block.bullets?.length;
+
+  // Full-width image breakout — preserves original aspect ratio, no cropping
+  if (isImageOnly) {
+    return (
+      <div className="overflow-hidden rounded-md md:rounded-lg">
+        <Image
+          src={block.image!}
+          alt={block.imageAlt || ""}
+          width={2000}
+          height={1125}
+          className="h-auto w-full"
+          sizes="100vw"
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       className={
@@ -33,7 +63,7 @@ export function FeatureBlock({ block, flip }: { block: RichBlock; flip?: boolean
           <ul className="mt-3 space-y-2">
             {block.bullets.map((b, i) => (
               <li key={i} className="flex gap-2 text-base text-black/70">
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand" />
+                <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-brand" />
                 <span>{b}</span>
               </li>
             ))}
@@ -43,16 +73,17 @@ export function FeatureBlock({ block, flip }: { block: RichBlock; flip?: boolean
       {hasImage && (
         <div
           className={
-            "relative aspect-[16/10] overflow-hidden rounded-md bg-offwhite " +
+            "overflow-hidden rounded-md bg-offwhite " +
             (flip ? "lg:order-1" : "")
           }
         >
           <Image
             src={block.image!}
-            alt={block.imageAlt || block.heading}
-            fill
+            alt={block.imageAlt || block.heading || ""}
+            width={2000}
+            height={1125}
+            className="h-auto w-full object-contain"
             sizes="(max-width: 1024px) 100vw, 50vw"
-            className="object-cover"
           />
         </div>
       )}
@@ -71,7 +102,7 @@ export function FeatureGroups({ groups }: { groups: FeatureGroup[] }) {
           <ul className="space-y-2">
             {g.items.map((it, i) => (
               <li key={i} className="flex gap-2 text-[15px] text-black/70">
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand" />
+                <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-brand" />
                 <span>{it}</span>
               </li>
             ))}

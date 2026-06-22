@@ -2,14 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "@/components/icons";
 import { storyCards, storyMeta } from "@/data/home";
-import { SectionDivider } from "./product-card-grid";
 
 export function SuccessStories() {
   return (
     <section className="bg-offwhite py-16">
       <div className="ds-container">
+        <div className="mx-auto mb-2 h-1 w-16 rounded-full bg-brand-dark" />
         <h2 className="ds-h2">{storyMeta.heading}</h2>
-        <SectionDivider />
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {storyCards.map((s) => (
             <Link

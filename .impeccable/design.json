@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-22T00:00:00.000Z",
+  "title": "Design System: KEWAN Built for Construction",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Industrial Blue",
+        "canonical": "oklch(0.43 0.15 260)",
+        "tonalRamp": ["oklch(0.18 0.10 260)", "oklch(0.25 0.12 260)", "oklch(0.33 0.14 260)", "oklch(0.43 0.15 260)", "oklch(0.52 0.13 260)", "oklch(0.62 0.11 260)", "oklch(0.75 0.07 260)", "oklch(0.90 0.03 260)"],
+        "designNote": "Bright Industrial Blue. Shifted from deep navy (#0f2b52) to a cleaner, brighter blue (oklch(0.43 0.15 260)) to address 'too dark' feedback."
+      },
+      "secondary": {
+        "role": "secondary",
+        "displayName": "Steel Blue",
+        "canonical": "oklch(0.38 0.11 262)",
+        "tonalRamp": ["oklch(0.16 0.07 262)", "oklch(0.22 0.09 262)", "oklch(0.30 0.10 262)", "oklch(0.38 0.11 262)", "oklch(0.46 0.10 262)", "oklch(0.56 0.08 262)", "oklch(0.70 0.05 262)", "oklch(0.88 0.025 262)"]
+      },
+      "muted-bg": {
+        "role": "neutral",
+        "displayName": "Cool Off-White",
+        "canonical": "oklch(0.95 0.012 255)",
+        "tonalRamp": ["oklch(0.15 0.008 255)", "oklch(0.28 0.008 255)", "oklch(0.42 0.01 255)", "oklch(0.55 0.01 255)", "oklch(0.68 0.01 255)", "oklch(0.80 0.01 255)", "oklch(0.95 0.012 255)", "oklch(0.98 0.005 255)"]
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "Near-Black",
+        "canonical": "oklch(15% 0 0)"
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "oklch(100% 0 0)"
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Cool Border",
+        "canonical": "oklch(0.9 0.015 258)"
+      },
+      "footer-bg": {
+        "role": "neutral",
+        "displayName": "Footer Blue",
+        "canonical": "oklch(0.43 0.15 260)"
+      },
+      "destructive": {
+        "role": "feedback",
+        "displayName": "Alert Red",
+        "canonical": "oklch(0.577 0.245 27.325)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headlines only. Large, bold, commanding."
+      },
+      "heading": {
+        "displayName": "Section Heading (H2)",
+        "purpose": "Section titles. Center-aligned, title-case, followed by colored divider."
+      },
+      "title": {
+        "displayName": "Card Title (H3)",
+        "purpose": "Card titles. Center (product grid) or left (case studies). Capitalize."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All paragraph content. Generous 34px line-height (2×) is the system's signature."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Header CTA buttons, small UI labels. 14.4px with 0.5px letter-spacing."
+      }
+    },
+    "shadows": [
+      { "name": "ambient-low", "value": "0 1px 3px rgba(0,0,0,0.08)", "purpose": "Card default state; header default." },
+      { "name": "elevated", "value": "0 4px 16px rgba(0,0,0,0.12)", "purpose": "Card hover, dropdown menus." },
+      { "name": "header-scrolled", "value": "0 4px 12px rgba(0,0,0,0.1)", "purpose": "Sticky header after scroll." }
+    ],
+    "motion": [
+      { "name": "ease-button", "value": "0.3s ease-in-out", "purpose": "Button hover transitions." },
+      { "name": "ease-card", "value": "0.3s cubic-bezier(0.17, 0.67, 0.35, 0.95)", "purpose": "Card title color transition on hover." },
+      { "name": "ease-card-img", "value": "0.4s cubic-bezier(0.17, 0.67, 0.35, 0.95)", "purpose": "Card image zoom on hover." },
+      { "name": "ease-dropdown", "value": "0.2s ease-out", "purpose": "Dropdown menu appear/disappear." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px", "purpose": "Mobile landscape. Grids go 2-up." },
+      { "name": "md", "value": "768px", "purpose": "Tablet. Full hero height." },
+      { "name": "lg", "value": "1024px", "purpose": "Desktop nav appears, mobile nav hides." },
+      { "name": "xl", "value": "1280px", "purpose": "Wide desktop. Extra nav gap." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Hero CTA Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Hero section call-to-action. Appears over video background on home page.",
+      "html": "<button class=\"ds-hero-cta\">Construction Equipment</button>",
+      "css": ".ds-hero-cta { background: oklch(0.43 0.15 260 / 0.86); color: oklch(0.95 0.012 255); padding: 10.56px 26.4px; font-size: 26px; font-family: Arial, Helvetica, sans-serif; border: none; border-radius: 3px; cursor: pointer; transition: opacity 0.3s ease-in-out; } .ds-hero-cta:hover { opacity: 0.9; } @media (max-width: 767px) { .ds-hero-cta { font-size: 18px; padding: 12px 24px; } }"
+    },
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "refersTo": "card-default",
+      "description": "Product category card in the Construction Equipment grid. Image + title + optional description.",
+      "html": "<a class=\"ds-product-card\" href=\"#\"><div class=\"ds-product-card-img\"><svg viewBox=\"0 0 16 9\" style=\"width:100%;height:100%;background:#e6ebf2\"></svg></div><div class=\"ds-product-card-body\"><h3 class=\"ds-product-card-title\">Concrete Mixer Pump</h3><p class=\"ds-product-card-desc\">Reliable pumping performance with high efficiency.</p></div></a>",
+      "css": ".ds-product-card { display: flex; flex-direction: column; overflow: hidden; border-radius: 6px; background: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.08); text-decoration: none; transition: box-shadow 0.3s ease-in-out; } .ds-product-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); } .ds-product-card-img { position: relative; aspect-ratio: 16/9; overflow: hidden; } .ds-product-card-img svg { transition: transform 0.4s cubic-bezier(0.17,0.67,0.35,0.95); } .ds-product-card:hover .ds-product-card-img svg { transform: scale(1.06); } .ds-product-card-body { flex: 1; padding: 20px; display: flex; flex-direction: column; } .ds-product-card-title { font-size: 20px; line-height: 30px; font-weight: 700; text-align: center; text-transform: capitalize; color: #1a1a1a; margin: 0 0 5px; transition: color 0.3s cubic-bezier(0.17,0.67,0.35,0.95); } .ds-product-card:hover .ds-product-card-title { color: oklch(0.43 0.15 260); } .ds-product-card-desc { margin-top: 8px; text-align: center; font-size: 15px; line-height: 1.6; color: rgba(26,26,26,0.6); }"
+    },
+    {
+      "name": "Form Input",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Contact form text field in the Request a Quote section.",
+      "html": "<input class=\"ds-input\" type=\"text\" placeholder=\"Your Name\" />",
+      "css": ".ds-input { height: 52px; border: 1px solid oklch(0.9 0.015 258); border-radius: 3px; background: oklch(0.95 0.012 255); padding: 0 16px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; color: #1a1a1a; outline: none; transition: border-color 0.2s ease-in-out; width: 100%; box-sizing: border-box; } .ds-input:focus { border-color: oklch(0.43 0.15 260); } .ds-input::placeholder { color: rgba(26,26,26,0.5); }"
+    },
+    {
+      "name": "Navigation Link (Desktop)",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Top-level navigation link with optional dropdown chevron.",
+      "html": "<nav><a class=\"ds-nav-link\" href=\"#\">Construction Equipment <svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"m6 9 6 6 6-6\"/></svg></a></nav>",
+      "css": ".ds-nav-link { display: inline-flex; align-items: center; gap: 4px; font-size: 15px; font-weight: 400; color: #1a1a1a; text-decoration: none; font-family: Arial, Helvetica, sans-serif; transition: color 0.2s; } .ds-nav-link:hover { color: oklch(0.43 0.15 260); } .ds-nav-link svg { margin-top: 2px; }"
+    },
+    {
+      "name": "Section Divider",
+      "kind": "custom",
+      "refersTo": "card-default",
+      "description": "A two-tone 3px-high bar below every H2 section heading. Brand-dark + secondary blue.",
+      "html": "<div class=\"ds-section-divider\"><span></span><span></span></div>",
+      "css": ".ds-section-divider { display: flex; width: 144px; height: 3px; margin: 0 auto 40px; justify-content: center; } .ds-section-divider span:first-child { width: 50%; height: 100%; background: oklch(0.33 0.13 260); } .ds-section-divider span:last-child { width: 50%; height: 100%; background: oklch(0.43 0.15 260); }"
+    },
+    {
+      "name": "Header CTA Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Compact 'Get a Quote' button in the sticky header.",
+      "html": "<a class=\"ds-header-cta\" href=\"#\">Get a Quote</a>",
+      "css": ".ds-header-cta { display: inline-block; background: oklch(0.43 0.15 260); color: #ffffff; padding: 5.76px 14.4px; border-radius: 3px; font-size: 14.4px; font-weight: 500; letter-spacing: 0.5px; text-transform: capitalize; text-decoration: none; font-family: Arial, Helvetica, sans-serif; transition: background 0.3s ease-in-out; } .ds-header-cta:hover { background: oklch(0.33 0.13 260); }"
+    },
+    {
+      "name": "Case Study Card",
+      "kind": "card",
+      "refersTo": "card-default",
+      "description": "Horizontal card for project case studies. Image left, text right on desktop; stacked on mobile.",
+      "html": "<a class=\"ds-case-card\" href=\"#\"><div class=\"ds-case-card-img\"><svg viewBox=\"0 0 16 9\" style=\"width:100%;height:100%;background:#e6ebf2\"></svg><span class=\"ds-case-card-year\">2024</span></div><div class=\"ds-case-card-body\"><h3>DMP50 in Indonesia Project</h3></div></a>",
+      "css": ".ds-case-card { display: flex; flex-direction: column; overflow: hidden; border-radius: 6px; background: #ffffff; box-shadow: 0 1px 3px rgba(0,0,0,0.08); text-decoration: none; transition: box-shadow 0.3s ease-in-out; } .ds-case-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); } @media (min-width: 640px) { .ds-case-card { flex-direction: row; } } .ds-case-card-img { position: relative; aspect-ratio: 16/9; overflow: hidden; } @media (min-width: 640px) { .ds-case-card-img { width: 40%; flex-shrink: 0; aspect-ratio: auto; } } .ds-case-card-img svg { transition: transform 0.4s cubic-bezier(0.17,0.67,0.35,0.95); } .ds-case-card:hover .ds-case-card-img svg { transform: scale(1.06); } .ds-case-card-year { position: absolute; left: 0; top: 0; background: oklch(0.43 0.15 260); color: #ffffff; padding: 4px 12px; font-size: 14px; font-weight: 500; font-family: Arial, Helvetica, sans-serif; } .ds-case-card-body { flex: 1; display: flex; align-items: center; padding: 20px; } .ds-case-card-body h3 { font-size: 18px; line-height: 1.4; font-weight: 700; color: #1a1a1a; margin: 0; text-align: left; transition: color 0.3s cubic-bezier(0.17,0.67,0.35,0.95); } .ds-case-card:hover .ds-case-card-body h3 { color: oklch(0.43 0.15 260); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Solid & Substantial",
+    "overview": "KEWAN's visual system is engineered for clarity and trust — a clean, professional industrial aesthetic that lets the equipment speak for itself. Every layout decision prioritizes legibility, every color choice reinforces competence, and every component feels deliberately placed, never decorative. This is not a flashy brand. There are no gradients, no glassmorphism, no floating CTAs. The system rejects the tropes of SaaS landing pages and the clutter of outdated industrial sites in equal measure. What remains is purposeful, well-spaced, substantive: the design equivalent of well-maintained heavy machinery.",
+    "keyCharacteristics": [
+      "Clean & Professional — generous white space, simple grid layouts, minimal adornment",
+      "Substance-forward — real product imagery, actual spec data, genuine case studies",
+      "Approachable industrial — 3px radius on controls, system sans-serif for universal readability",
+      "Depth-on-demand — flat at rest, gentle shadows on hover and elevated states",
+      "Global without being generic — real photos of real teams in real locations"
+    ],
+    "rules": [
+      { "name": "The One Blue Rule", "body": "The brand has one color anchor. Secondary and muted are tints and shades of the same hue family, not competing colors. The blue owns 100% of branded surfaces.", "section": "colors" },
+      { "name": "The No-Warmth Default", "body": "Neutrals tilt cool (blue-gray, not cream or beige). Warmth comes from imagery (people, job sites, real concrete), not from background tones.", "section": "colors" },
+      { "name": "The One-Family Rule", "body": "One typeface used across all roles. Hierarchy is carried by weight (400/500/700), size, and spacing — not by font switching.", "section": "typography" },
+      { "name": "The 34px Line-Height Rule", "body": "Body copy at 17px with 34px line-height (2×) is the site's most distinctive typographic signature.", "section": "typography" },
+      { "name": "The Flat-By-Default Rule", "body": "Surfaces are flat at rest. Shadows appear only as a response to interaction (hover, scroll).", "section": "elevation" },
+      { "name": "The No-Compromise Rule", "body": "Every image, icon, and piece of copy must be real and substantive — no placeholders, no stock-art, no vague filler.", "section": "overview" },
+      { "name": "The Real Project Rule", "body": "All imagery shows real equipment, real teams, real construction sites. No abstract hero visuals or decorative stock photography.", "section": "overview" }
+    ],
+    "dos": [
+      "Use the 3px radius on all marketing CTAs, inputs, and interactive elements.",
+      "Use the cool-toned neutral system (off-white oklch(0.95 0.012 255) backgrounds, oklch(0.9 0.015 258) borders).",
+      "Center all H2 section titles with the colored divider below.",
+      "Use real product and project imagery. No stock photography.",
+      "Use the 34px line-height on body copy — it's the site's signature.",
+      "Apply the image zoom + title color transition on card hover.",
+      "Use text-wrap: balance on H1–H3."
+    ],
+    "donts": [
+      "Don't use gradient text (background-clip: text with a gradient).",
+      "Don't use glassmorphism, blurs, or 'glass card' effects.",
+      "Don't add a second accent color.",
+      "Don't use card grids as the default layout for everything.",
+      "Don't use side-stripe borders (border-left/right >1px as an accent).",
+      "Don't use small uppercase tracked 'eyebrow' text above sections.",
+      "Don't use numbered section markers (01 / 02 / 03).",
+      "Don't use warm-toned backgrounds (cream, sand, beige).",
+      "Don't let body text drop below 4.5:1 contrast.",
+      "Don't use hero-metric templates.",
+      "Don't gate content visibility behind reveal animations."
+    ]
+  }
+}

@@ -352,120 +352,126 @@ export const products: Record<string, ProductData> = {
     "slug": "trailer-concrete-pump",
     "title": "Concrete Trailer Pump",
     "breadcrumb": [
-      {
-        "text": "Home",
-        "href": "/"
-      },
-      {
-        "text": "Concrete Pumps",
-        "href": "https://daswell.com/concrete-pumps/"
-      },
-      {
-        "text": "Concrete Trailer Pump"
-      }
+      { "text": "Home", "href": "/" },
+      { "text": "Concrete Pumps", "href": "/concrete-pumps/" },
+      { "text": "Concrete Trailer Pump" }
     ],
     "intro": {
       "paragraphs": [
-        "Concrete trailer pump is a kind of concrete pumping equipment used to pump mixed liquid concrete to the construction site. Usually, the position of the drag pump needs to be fixed before construction, and the pipeline should be laid in advance.",
-        "KEWAN concrete trailer pump for sale is a kind of S-tube valve drag pump, and the conveying aggregate size is 40mm. The equipment is mainly used for concrete construction of railways, highway tunnels, bridges and culverts, hydropower, mines, high-rise buildings and other projects.",
-        "It greatly improves the construction efficiency of engineering buildings, saves labor costs, shortens the construction period, and expands economic benefits."
+        "A trailer concrete pump (also called a trailer-mounted line pump, drag pump, or stationary concrete pump) places ready-mixed concrete exactly where your pour needs it — through pipelines you lay across the job site. The unit stays in one working position while concrete travels horizontally and vertically to foundations, slabs, tunnels, bridges, and high-rise decks.",
+        "KEWAN builds diesel and electric trailer pumps for contractors who want steady output, straightforward operation, and equipment that earns its keep on small jobs, mid-size commercial work, and demanding infrastructure projects. Multiple capacity grades are available so you can match the machine to your daily volume and pipeline layout — not the other way around."
       ],
       "keySpecs": [
-        {
-          "label": "Maximum theoretical concrete output",
-          "value": "30-90m³/h"
-        },
-        {
-          "label": "Output pressure",
-          "value": "10-22MPa"
-        }
+        { "label": "Max. theoretical output", "value": "15–90 m³/h" },
+        { "label": "Outlet pressure", "value": "6–18 MPa" },
+        { "label": "Power options", "value": "Diesel / Electric" }
       ],
       "image": "/images/trailer-pump-side-view.png",
       "imageAlt": "Trailer Concrete Pump",
       "buttons": [
-        {
-          "text": "Message",
-          "href": "#request-quote"
-        },
-        {
-          "text": "Send Email",
-          "href": "mailto:global@daswell.com"
-        }
+        { "text": "Message", "href": "#request-quote" },
+        { "text": "Send Email", "href": "mailto:global@kewan.com" }
       ]
     },
     "featureBlocks": [
       {
-        "heading": "Different Types of KEWAN concrete trailer pump",
-        "paragraphs": [
-          "In order to meet different engineering needs, KEWAN has developed a variety of concrete pump trailers to provide customers with diversified choices."
-        ],
+        "heading": "What Makes This Solution Different On Site",
         "bullets": [
-          "Electric Type and Diesel Type: According to the power, it can be divided into electric drag pump and diesel drag pump.",
-          "Small and Large: According to the pumping capacity, it can be divided into 30 pumps, 40 pumps, 60 pumps, 80 pumps, 90 pumps, etc. As the name suggests, it pumps 30-90 cubic meters per hour. Among them, the small mini drag pumps 30 pumps and 40 pumps are more suitable for small and medium-sized projects such as rural housing construction.",
-          "Fine Stone Pumping Machine and Large Aggregate Pumps: According to the diameter of pumped aggregate, it can be divided into fine stone pump and large aggregate pump. The fine stone pump can pump the maximum particle size of aggregate ≤30mm. The large aggregate pump can pump the maximum aggregate particle size ≤ 40mm.",
-          "Special Used Trailer Concrete Pump: According to the usage scenarios, trailer mounted concrete pump can also be divided into special pumps for tunnels, special pumps for high-speed bridges, etc."
+          "Trailer mobility, fixed pumping point — Tow the pump to the job; connect pipe and hose runs to reach pours that mixers alone cannot serve.",
+          "S-valve distribution — Industry-proven valve geometry for continuous flow and reliable switching between material cylinders.",
+          "Open-circuit hydraulics — Mature architecture that field teams know how to service and troubleshoot.",
+          "Pipeline flexibility — Extend placement with steel pipe and hose combinations; adapt routing around obstacles, elevation changes, and indoor or confined layouts.",
+          "Works with your existing fleet — Often paired with transit mixers, on-site batching, or mixer trucks; no need to replace your whole logistics chain."
         ],
-        "image": "/images/2025/04/trailer-pump-working-site.jpg",
-        "imageAlt": "trailer pump working site"
+        "image": "/images/2026/06/kewan-trailer-pump-3.jpg",
+        "imageAlt": "KEWAN trailer concrete pump product"
       },
       {
-        "heading": "How does the trailer concrete pump work?",
+        "heading": "How Pumping Works",
         "paragraphs": [
-          "When generator or diesel engine starts, the power source will drive the main hydraulic pump. And the main hydraulic pump pressurizes hydraulic oil to create the energy needed for the pumping.",
-          "The pressurized oil drives the hydraulic cylinder assembly. When the piston rod extends, it pushes the concrete cylinder piston forward. It forces concrete into the delivery pipeline. At the same time, the alternating action between the distribution valve and main cylinders creates a continuous flow: When one cylinder retracts, it draws fresh concrete from the hopper. While the other extends, pushing concrete into the pipeline. This synchronized cycle ensures non-stop material flow.",
-          "Finally, it will pump the concrete to the pouring site through the conveying pipeline horizontally and vertically."
+          "1. Power — The diesel engine or electric motor drives the main hydraulic pump, which supplies pressurized oil to the pumping circuit.",
+          "2. Alternating cylinders — Hydraulic cylinders move concrete pistons in two material cylinders. While one cylinder pushes concrete into the pipeline, the other draws fresh mix from the hopper. The distribution valve switches in sync so flow stays continuous.",
+          "3. Placement — Concrete travels through your pipe and hose network to the formwork, slab, or structural element. The pump stays put; only the pipeline path changes as the pour moves."
         ],
-        "image": "/images/2025/04/trailer-pump-components.jpg",
-        "imageAlt": "trailer pump components"
+        "image": "/images/2025/04/trailer-pump-working-site.jpg",
+        "imageAlt": "Trailer pump on a working site"
+      },
+      {
+        "image": "/images/2026/06/kewan-trailer-pump-4.jpg",
+        "imageAlt": "KEWAN trailer concrete pump on site"
       }
     ],
+    "componentGroupsAfterBlock": 0,
     "componentGroups": {
-      "heading": "How does KEWAN Utilize Trailer Concrete pump system and parts for efficient working?",
+      "heading": "Engineering Focus: Built for Uptime",
       "groups": [
         {
-          "title": "Power System",
+          "title": "Power and Drive",
           "items": [
-            "Main oil pump: We use high-performance Kawasaki oil pump, which is imported from Korea. For the 60 pumps and above, they features the original Rexorth main oil pump for unmatched reliability.",
-            "Diesel engine: All the trail mounted concrete pumps are equipped with a robust Weichai diesel engine. The Weichai engine has consistent power for demanding jobs.",
-            "Oil filtration: It adopts premium Chinese-brand oil filter with 100μm filtration precision. This helps realize clean hydraulic operation.",
-            "Cooling system: The high-efficiency airline cooler for superior heat dissipation and reliability."
+            "Diesel engines from established suppliers for sites without dependable grid power or for outdoor heavy use.",
+            "Electric motors for urban and residential jobs where lower noise and zero exhaust at the pour point matter.",
+            "Power is sized to drive the main hydraulic package consistently under load — not just to win a spec sheet comparison."
           ]
         },
         {
-          "title": "Distribution, Stirring and Cooling",
+          "title": "Pumping and Hydraulics",
           "items": [
-            "Hydraulic oil circuit: It adopts open-circuit design for optimal fluid dynamics.",
-            "Concrete delivery: KEWAN has precision-engineered concrete conveying cylinders paired with industry-leading main oil pumps.",
-            "Swing cylinder and S-valve: Our company has premium-brand swing cylinder with nested S-pipe valve. It can realize smooth concrete flow.",
-            "Wear-resistant components: We utilizes specially treated spectacle plates and cutting rings made from ultra-durable materials. It can prolong the service life.",
-            "Stirring motor: There are high-quality motor for consistent mixing performance.",
-            "Wear-resistant blades: The pedal-type stirring blades are hardened for longevity.",
-            "Hardened half-shafts: It is treated to about HN250-280 hardness. And the nitride layer is above 0.3mm. Surface hardness is over HV550. These can realize maximum durability."
+            "Main hydraulic pump and delivery cylinders matched to rated output and pressure class.",
+            "High / low pressure switching where applicable so you can balance distance and volume as the pour progresses.",
+            "Premium hydraulic hose and fittings to reduce leakage risk and unplanned downtime."
           ]
         },
         {
-          "title": "Hydraulic and Electronics",
+          "title": "Distribution and Wear Parts",
           "items": [
-            "Hydraulic pipelines: For this parts, there are Italy’s Manuli oil pipelines for leak-free and high pressure performance.",
-            "Control valves: The control valves utilizes precision Taiwan Yuken hydraulic control valves. It can make sure smooth operation.",
-            "Relays: It is Japan’s Omorn intermediate relays, which ensures dependable electrical control.",
-            "Sensors: There are high accuracy proximity switches from leading brands."
+            "S-tube valve with hardened spectacle plate and cutting ring — the wear pair that defines maintenance rhythm.",
+            "Wear surfaces treated for longer intervals between replacements; parts designed for straightforward field change-out."
+          ]
+        },
+        {
+          "title": "Hopper and Agitation",
+          "items": [
+            "Stirring mechanism keeps the mix moving and feed consistent.",
+            "Hopper geometry aimed at stable feeding and reduced spillage during continuous operation."
+          ]
+        },
+        {
+          "title": "Cooling, Filtration, and Lubrication",
+          "items": [
+            "Oil filtration and cooling protect the hydraulic package in hot climates and long shifts.",
+            "Centralized lubrication on critical points so daily greasing does not depend on operator memory alone."
+          ]
+        },
+        {
+          "title": "Control and Safety",
+          "items": [
+            "Industrial-grade electrical components for reliable interlocks and sequence control.",
+            "Clear operating logic so crews can train quickly and recognize fault conditions early."
           ]
         }
       ]
     },
-    "buyingTips": {
-      "heading": "Electric Trailer Pump VS Diesel Trailer Pump, Which is suitable for you?",
+    "reasons": {
+      "heading": "Where Teams Use Trailer Concrete Pumps",
       "bullets": [
-        "Electric Trailer Concrete Pumps: It is suitable for urban projects, where has strict regulation on noise and emissions. But it has requirements on stable grid power. If the electricity of job site is not stable, it will be not suitable.",
-        "Diesel Type Trailer Pumps: This pumps are ideal for remote site or areas with unstable or no power supply. While, it should be considered that there may be some exhaust emission, even though KEWAN machinery meet emission standards.",
-        "Your job site conditions(urban or remote)",
-        "The local environmental regulations",
-        "Power availability"
+        "Residential & Villas — Foundations, basements, driveways, yard pools — steady feed without bringing a boom truck into tight access.",
+        "Commercial & Industrial Floors — Large slab areas where pipeline layout beats repeated truck repositioning.",
+        "Bridges, Culverts & Highways — Long horizontal runs and controlled pour rates for structural elements.",
+        "Tunnels & Underground Works — Electric options where emissions and noise matter; diesel where grid power is limited.",
+        "Hydropower, Mining & Energy Sites — Remote diesel power; durable components for extended shift operation.",
+        "High-Rise Structural Pours — When combined with proper pipe support and cleaning discipline, line pumping supports vertical delivery alongside boom solutions."
+      ]
+    },
+    "buyingTips": {
+      "heading": "Diesel or Electric: How to Choose",
+      "bullets": [
+        "Stable three-phase power, noise or emission limits, residential or indoor-adjacent work → Electric trailer pump — quieter at the point of work, no engine exhaust at the hopper.",
+        "No grid, remote road or industrial sites, variable outdoor conditions → Diesel trailer pump — self-contained power; plan for engine maintenance in your O&M budget.",
+        "Mixed portfolio of jobs — Many contractors run diesel for mobility and power independence; others keep an electric unit for city work. Share your job mix and let us recommend the right machine."
       ]
     },
     "related": {
-      "heading": "Different Types of KEWAN Concrete Pump",
+      "heading": "Explore Other KEWAN Concrete Pumps",
       "items": [
         {
           "title": "Concrete Mixer Pump",
@@ -478,147 +484,50 @@ export const products: Record<string, ProductData> = {
           "img": "/images/2025/04/concrete-boom-pump.jpg"
         },
         {
-          "title": "Trailer Concrete Pump",
-          "href": "/concrete-pumps/trailer-concrete-pump/",
-          "img": "/images/2025/04/trailer-concrete-pump.png"
+          "title": "Truck-Mounted Concrete Pump",
+          "href": "/concrete-pumps/truck-mounted-concrete-pump/",
+          "img": "/images/2026/02/trailer-concrete-pump-jpg.webp"
+        }
+      ]
+    },
+    "support": {
+      "heading": "Why Work with KEWAN",
+      "columns": [
+        {
+          "title": "Capability-First Approach",
+          "bullets": [
+            "Application-first sizing — We start from your pour schedule, pipeline path, and mix design, not from pushing the largest model in stock.",
+            "Configurable builds — Diesel vs electric, component tier, pipe and hose packages, and export voltage can be shaped to your project.",
+            "Manufacturing discipline — Production follows documented quality procedures. Critical welds, hydraulic assembly, and test runs are delivery gates, not optional paperwork."
+          ]
+        },
+        {
+          "title": "Service That Respects Your Schedule",
+          "bullets": [
+            "Global logistics experience — Units prepared for container or bulk shipping with packing suited to long-distance transport.",
+            "After-sales support — Commissioning guidance, wear parts identification, remote troubleshooting, and spare parts supply.",
+            "Honest performance conversations — We prefer you share grade, slump, aggregate size, and pipe layout so expectations match what your crew will see on the first critical pour."
+          ]
         }
       ]
     },
     "specTable": {
       "caption": "Technical Data:",
       "headers": [
-        "Parameter",
-        "Unit",
-        "HBT20",
-        "HBT30",
-        "HBT40",
-        "HBT50",
-        "HBT60",
-        "HBT80",
-        "HBT90"
+        "Parameter", "Unit", "HBT20", "HBT30", "HBT40", "HBT50", "HBT60", "HBT80", "HBT90"
       ],
       "rows": [
-        [
-          "Max. Theoretical Output",
-          "m³/h",
-          "15",
-          "25",
-          "35",
-          "45",
-          "60",
-          "80",
-          "90"
-        ],
-        [
-          "Max. Aggregate Size",
-          "mm",
-          "20",
-          "30",
-          "30",
-          "40",
-          "40",
-          "40",
-          "40"
-        ],
-        [
-          "Outlet Pressure",
-          "MPa",
-          "6",
-          "10",
-          "12",
-          "12",
-          "13",
-          "16",
-          "18"
-        ],
-        [
-          "Vertical Conveying Distance",
-          "m",
-          "50",
-          "80",
-          "100",
-          "150",
-          "180",
-          "200",
-          "250"
-        ],
-        [
-          "Horizontal Conveying Distance",
-          "m",
-          "100",
-          "200",
-          "300",
-          "400",
-          "500",
-          "600",
-          "800"
-        ],
-        [
-          "Power",
-          "kW",
-          "Diesel 40 / Electric 22",
-          "Diesel 66 / Electric 37",
-          "Diesel 76 / Electric 45",
-          "Diesel 90 / Electric 55",
-          "Diesel 129 / Electric 90",
-          "Diesel 176 / Electric 110",
-          "Diesel 196 / Electric 162"
-        ],
-        [
-          "Hopper Capacity / Feeding Height",
-          "m³/mm",
-          "0.3/1000",
-          "0.5/1200",
-          "0.6/1200",
-          "0.6/1200",
-          "0.6/1200",
-          "0.6/1200",
-          "0.6/1200"
-        ],
-        [
-          "Delivery Pipe Diameter",
-          "mm",
-          "80/100",
-          "80/100/125",
-          "80/100/125",
-          "80/100/125",
-          "80/100/125",
-          "80/100/125",
-          "80/100/125"
-        ],
-        [
-          "Concrete Slump",
-          "mm",
-          "140–230",
-          "140–230",
-          "140–230",
-          "140–230",
-          "140–230",
-          "140–230",
-          "140–230"
-        ],
-        [
-          "Overall Dimension",
-          "mm",
-          "3000×1400×1500",
-          "3900×1500×1600",
-          "4200×1600×1600",
-          "4300×1600×1600",
-          "4500×1800×1750",
-          "6300×2100×2500",
-          "6300×2100×2500"
-        ],
-        [
-          "Total Weight",
-          "kg",
-          "1000",
-          "1700",
-          "2000",
-          "2500",
-          "5000",
-          "6000",
-          "6500"
-        ]
+        [ "Max. Theoretical Output", "m³/h", "15", "25", "35", "45", "60", "80", "90" ],
+        [ "Max. Aggregate Size", "mm", "20", "30", "30", "40", "40", "40", "40" ],
+        [ "Outlet Pressure", "MPa", "6", "10", "12", "12", "13", "16", "18" ],
+        [ "Vertical Conveying Distance", "m", "50", "80", "100", "150", "180", "200", "250" ],
+        [ "Horizontal Conveying Distance", "m", "100", "200", "300", "400", "500", "600", "800" ],
+        [ "Power", "kW", "Diesel 40 / Electric 22", "Diesel 66 / Electric 37", "Diesel 76 / Electric 45", "Diesel 90 / Electric 55", "Diesel 129 / Electric 90", "Diesel 176 / Electric 110", "Diesel 196 / Electric 162" ],
+        [ "Hopper Capacity / Feeding Height", "m³/mm", "0.3/1000", "0.5/1200", "0.6/1200", "0.6/1200", "0.6/1200", "0.6/1200", "0.6/1200" ],
+        [ "Delivery Pipe Diameter", "mm", "80/100", "80/100/125", "80/100/125", "80/100/125", "80/100/125", "80/100/125", "80/100/125" ],
+        [ "Concrete Slump", "mm", "140–230", "140–230", "140–230", "140–230", "140–230", "140–230", "140–230" ],
+        [ "Overall Dimension", "mm", "3000×1400×1500", "3900×1500×1600", "4200×1600×1600", "4300×1600×1600", "4500×1800×1750", "6300×2100×2500", "6300×2100×2500" ],
+        [ "Total Weight", "kg", "1000", "1700", "2000", "2500", "5000", "6000", "6500" ]
       ]
     },
     "projects": {
@@ -631,21 +540,15 @@ export const products: Record<string, ProductData> = {
           "year": "2025"
         },
         {
-          "title": "KEWAN 4m³ Self Loading Concrete Mixer Shipped to Indonesia, 2025",
+          "title": "KEWAN SLM4 Self Loading Concrete Mixer in Merauke, Papua, 2023",
           "href": "#",
           "img": "/images/2025/11/Daswell-SLM4-for-Indonesian-Customer-1024x576.jpg",
-          "year": "2025"
+          "year": "2023"
         },
         {
-          "title": "Different Types of KEWAN concrete trailer pump",
+          "title": "KEWAN Concrete Trailer Pump Project",
           "href": "#",
-          "img": "/images/2025/04/mobile-concrete-batching-plant.jpg",
-          "year": null
-        },
-        {
-          "title": "How does KEWAN Utilize Trailer Concrete pump system and parts for efficient working?",
-          "href": "#",
-          "img": "/images/2025/12/stationary-crushing-plant-philippines5.png",
+          "img": "/images/2026/06/kewan-trailer-pump-4.jpg",
           "year": null
         }
       ]

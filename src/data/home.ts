@@ -16,15 +16,6 @@ export const constructionCards: ProductCard[] = [
 ];
 export const constructionMeta = { heading: "Construction Equipment", ctaText: "View All Construction Equipment", ctaHref: "#construction-equipment" };
 
-export const powderCards: ProductCard[] = [
-  { title: "Calcium Carbonate Grinding Plant", href: "https://daswell.com/solution/calcium-carbonate-processing-plant/", img: "/images/2026/03/calcium-carbonate-processing-plant-jpg.webp", alt: "Calcium Carbonate Grinding Plant", desc: "Fineness: D97 10-25 µmCapacity: 10,000-150,000 t/year" },
-  { title: "Quartz Powder Production Line", href: "https://daswell.com/solution/quartz-powder-processing-plant/", img: "/images/2026/03/quartz-powder-production-line-jpg.webp", alt: "Quartz Powder Production Line", desc: "Fineness: D97 45-100 µmApplications: Glass, casting, coatings, etc" },
-  { title: "Talc Powder Production Line", href: "https://daswell.com/solution/talc-powder-production-line/", img: "/images/2026/03/talc-powder-processing-plant-jpg.webp", alt: "Talc Powder Production Line", desc: "Fineness: D97 10-20 µmFor applications such as plastic masterbatches and papermaking" },
-  { title: "Pre-crushing Before Grinding", href: "https://daswellpowder.com/crushing/", img: "/images/2026/03/pre-crusher-before-grinding-jpg.webp", alt: "Pre-crushing Before Grinding", desc: "Reduce raw material size. Enhance efficiency, conserve energy, and achieve a smoother powder processing workflow." },
-  { title: "Ring Roller Mill", href: "https://daswell.com/grinding-mills/ring-roller-mill/", img: "/images/2026/03/ring-roller-mill-jpg.webp", alt: "Ring Roller Mill", desc: "Precise ultra-fine grinding down to 2,500mesh with stable particle size distribution." },
-  { title: "Powder Coating Machine", href: "https://daswell.com/powder-coating-machine/", img: "/images/2026/03/vortex-mill-coating-cachine-jpg.webp", alt: "Powder Coating Machine", desc: "Designed for fine, high-speed powder coating with superior activation and lower energy use." },
-  { title: "Powder Packaging Machine", href: "https://daswell.com/powder/packaging-machine/", img: "/images/2026/03/industrial-powder-packaging-machine-jpg.webp", alt: "Powder Packaging Machine", desc: "Efficiently and precisely packages various mineral powders." },
-];
 export const storyCards: CaseStory[] = [
   { title: "DMP50 Concrete Mixer Pump in Indonesia Project, 2024", href: "https://daswell.com/project/concrete-mixer-pump-is-being-efficiently-constructed-in-indonesia/", img: "/images/2025/08/concrete-mixer-pump-indonesia.jpg", year: "2024" },
   { title: "KEWAN SLM4 Self Loading Concrete Mixer in Merauke, Papua, 2023", href: "https://daswell.com/project/self-loading-concrete-mixer-in-merauke-papua/", img: "/images/2025/11/Daswell-SLM4-for-Indonesian-Customer-1024x576.jpg", year: "2023" },

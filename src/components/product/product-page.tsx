@@ -1,3 +1,4 @@
+import React from "react";
 import { ProductIntro } from "./product-intro";
 import {
   ProductSectionHeading,
@@ -15,34 +16,47 @@ export function ProductPage({ data }: { data: ProductData }) {
     <>
       <ProductIntro data={data} />
 
-      {/* Feature blocks */}
+      {/* Feature blocks (with optional inline component groups) */}
       {data.featureBlocks.length > 0 && (
         <section className="bg-offwhite py-14">
           <div className="ds-container space-y-14">
             {data.featureBlocks.map((b, i) => (
-              <FeatureBlock key={i} block={b} flip={i % 2 === 1} />
+              <React.Fragment key={i}>
+                <FeatureBlock block={b} flip={i % 2 === 1} />
+                {data.componentGroups &&
+                  data.componentGroupsAfterBlock === i && (
+                    <section>
+                      <ProductSectionHeading>
+                        {data.componentGroups.heading}
+                      </ProductSectionHeading>
+                      <FeatureGroups groups={data.componentGroups.groups} />
+                    </section>
+                  )}
+              </React.Fragment>
             ))}
           </div>
         </section>
       )}
 
-      {/* Component groups */}
-      {data.componentGroups && (
-        <section className="py-14">
-          <div className="ds-container">
-            <ProductSectionHeading>
-              {data.componentGroups.heading}
-            </ProductSectionHeading>
-            <FeatureGroups groups={data.componentGroups.groups} />
-          </div>
-        </section>
-      )}
+      {/* Component groups (standalone, when not rendered inline above) */}
+      {data.componentGroups &&
+        (data.componentGroupsAfterBlock === undefined ||
+          data.componentGroupsAfterBlock < 0) && (
+          <section className="py-14">
+            <div className="ds-container">
+              <ProductSectionHeading>
+                {data.componentGroups.heading}
+              </ProductSectionHeading>
+              <FeatureGroups groups={data.componentGroups.groups} />
+            </div>
+          </section>
+        )}
 
       {/* Reasons */}
       {data.reasons && (
         <section className="bg-offwhite py-14">
           <div className="ds-container">
-            <ProductSectionHeading>{data.reasons.heading}</ProductSectionHeading>
+            <ProductSectionHeading divider="line">{data.reasons.heading}</ProductSectionHeading>
             <ul className="mx-auto max-w-[900px] space-y-3">
               {data.reasons.bullets.map((b, i) => (
                 <li
@@ -62,13 +76,13 @@ export function ProductPage({ data }: { data: ProductData }) {
       {data.buyingTips && (
         <section className="py-14">
           <div className="ds-container">
-            <ProductSectionHeading>
+            <ProductSectionHeading divider="none">
               {data.buyingTips.heading}
             </ProductSectionHeading>
             <ul className="mx-auto max-w-[900px] space-y-3">
               {data.buyingTips.bullets.map((b, i) => (
                 <li key={i} className="flex gap-3 text-base text-black/75">
-                  <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand text-sm font-bold text-white">
+                  <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-[3px] bg-brand text-sm font-bold text-white">
                     {i + 1}
                   </span>
                   <span>{b}</span>
@@ -93,7 +107,7 @@ export function ProductPage({ data }: { data: ProductData }) {
       {data.support && (
         <section className="py-14">
           <div className="ds-container">
-            <ProductSectionHeading>{data.support.heading}</ProductSectionHeading>
+            <ProductSectionHeading divider="line">{data.support.heading}</ProductSectionHeading>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
               {data.support.columns.map((col) => (
                 <div key={col.title} className="rounded-md bg-white p-6 shadow-sm">
