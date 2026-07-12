@@ -1,19 +1,35 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "@/components/icons";
-import { storyCards, storyMeta } from "@/data/home";
+import type { CaseStory } from "@/types/content";
+import type { Locale } from "@/i18n/config";
+import { localizeHref } from "@/i18n/path";
 
-export function SuccessStories() {
+type Props = {
+  locale: Locale;
+  heading: string;
+  ctaText: string;
+  ctaHref: string;
+  cards: CaseStory[];
+};
+
+export function SuccessStories({
+  locale,
+  heading,
+  ctaText,
+  ctaHref,
+  cards,
+}: Props) {
   return (
     <section className="bg-offwhite py-16">
       <div className="ds-container">
         <div className="mx-auto mb-2 h-1 w-16 rounded-full bg-brand-dark" />
-        <h2 className="ds-h2">{storyMeta.heading}</h2>
+        <h2 className="ds-h2">{heading}</h2>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-          {storyCards.map((s) => (
+          {cards.map((s) => (
             <Link
               key={s.title}
-              href={s.href}
+              href={localizeHref(s.href, locale)}
               className="ds-card group flex flex-col overflow-hidden rounded-md bg-white shadow-sm transition-shadow duration-300 hover:shadow-lg sm:flex-row"
             >
               <div className="relative aspect-[16/9] overflow-hidden sm:w-2/5 sm:shrink-0">
@@ -40,10 +56,10 @@ export function SuccessStories() {
         </div>
         <div className="mt-10 flex justify-center">
           <Link
-            href={storyMeta.ctaHref}
+            href={localizeHref(ctaHref, locale)}
             className="inline-flex items-center gap-2 rounded-[3px] bg-brand px-7 py-3 text-base font-medium text-white transition hover:bg-brand-dark"
           >
-            {storyMeta.ctaText}
+            {ctaText}
             <ArrowRight size={18} />
           </Link>
         </div>

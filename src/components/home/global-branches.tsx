@@ -1,19 +1,27 @@
 import Link from "next/link";
 import Image from "next/image";
-import { branches, branchesMeta } from "@/data/home";
 import { SectionDivider } from "./product-card-grid";
+import type { Branch } from "@/types/content";
+import type { Locale } from "@/i18n/config";
+import { localizeHref } from "@/i18n/path";
 
-export function GlobalBranches() {
+type Props = {
+  locale: Locale;
+  heading: string;
+  branches: Branch[];
+};
+
+export function GlobalBranches({ locale, heading, branches }: Props) {
   return (
     <section className="bg-offwhite py-16">
       <div className="ds-container">
-        <h2 className="ds-h2">{branchesMeta.heading}</h2>
+        <h2 className="ds-h2">{heading}</h2>
         <SectionDivider />
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
           {branches.map((b) => (
             <Link
               key={b.name}
-              href={b.href}
+              href={localizeHref(b.href, locale)}
               className="ds-card group relative overflow-hidden rounded-md shadow-sm"
             >
               <div className="relative aspect-[16/9] overflow-hidden">

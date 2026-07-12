@@ -1,20 +1,21 @@
 // Home page content — extracted verbatim from daswell.com. Images are local.
-import type { ProductCard, CaseStory, Feature, Branch } from "@/types/content";
+import type { CaseStory, Feature, Branch } from "@/types/content";
+import { constructionProducts } from "@/data/construction";
 
 export const hero = {
   video: "/videos/2026/01/hero.mp4",
   heading: "KEWAN\nBuilt for Construction",
   buttons: [
-    { text: "Construction Equipment", href: "#construction-equipment", color: "red" as const },
+    { text: "Construction Equipment", href: "/construction/", color: "red" as const },
   ],
 };
 
-export const constructionCards: ProductCard[] = [
-  { title: "Concrete Mixer Pump", href: "/concrete-pumps/concrete-mixer-pump/", img: "/images/2025/12/concrete-mixer-pump-jpg.webp", alt: "Concrete Mixer Pump", desc: "Reliable pumping performance with high efficiency and low maintenance." },
-  { title: "Concrete Trailer Pump", href: "/concrete-pumps/trailer-concrete-pump/", img: "/images/trailer-pump-side-view.png", alt: "Concrete Trailer Pump", desc: "Stable concrete conveying for foundations, slabs, and high-efficiency site pouring." },
-  { title: "Truck-Mounted Concrete Pump", href: "/concrete-pumps/truck-mounted-concrete-pump/", img: "/images/2026/02/trailer-concrete-pump-jpg.webp", alt: "Truck-Mounted Concrete Pump", desc: "Temporary placeholder using the trailer pump visual until the dedicated truck-mounted asset is ready." },
-];
-export const constructionMeta = { heading: "Construction Equipment", ctaText: "View All Construction Equipment", ctaHref: "#construction-equipment" };
+export const constructionCards = constructionProducts;
+export const constructionMeta = {
+  heading: "Construction Equipment",
+  ctaText: "View All Construction Equipment",
+  ctaHref: "/construction/",
+};
 
 export const storyCards: CaseStory[] = [
   { title: "DMP50 Concrete Mixer Pump in Indonesia Project, 2024", href: "https://daswell.com/project/concrete-mixer-pump-is-being-efficiently-constructed-in-indonesia/", img: "/images/2025/08/concrete-mixer-pump-indonesia.jpg", year: "2024" },

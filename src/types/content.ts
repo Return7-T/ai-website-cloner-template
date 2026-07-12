@@ -17,6 +17,25 @@ export interface ProductCard {
   img: string;
   alt?: string;
   desc?: string;
+  /** CSS object-position for the card image (e.g. "center 55%") */
+  imgObjectPosition?: string;
+  /** Optional larger image for carousels / feature slides */
+  featuredImg?: string;
+}
+
+export interface ConstructionPageContent {
+  meta: {
+    title: string;
+    description: string;
+  };
+  breadcrumb: { text: string; href?: string }[];
+  heading: string;
+  paragraphs: string[];
+  carouselLabel: string;
+  prevLabel: string;
+  nextLabel: string;
+  catalogHeading: string;
+  products: ProductCard[];
 }
 
 export interface CaseStory {

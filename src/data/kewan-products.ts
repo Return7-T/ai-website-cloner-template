@@ -6,7 +6,7 @@ export const kewanProducts: Record<string, ProductData> = {
     title: "Truck-Mounted Concrete Pump",
     breadcrumb: [
       { text: "Home", href: "/" },
-      { text: "Construction Equipment", href: "/#construction-equipment" },
+      { text: "Construction Equipment", href: "/construction/" },
       { text: "Truck-Mounted Concrete Pump" },
     ],
     intro: {

@@ -1,33 +1,38 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-
-const fields = [
-  { name: "name", placeholder: "Name", type: "text", half: true, required: false },
-  { name: "email", placeholder: "Email (Required)", type: "email", half: true, required: true },
-  { name: "phone", placeholder: "Phone or WhatsApp", type: "tel", half: true, required: false },
-  { name: "country", placeholder: "Country", type: "text", half: true, required: false },
-  { name: "company", placeholder: "Company Name", type: "text", half: false, required: false },
-  { name: "product", placeholder: "Product", type: "text", half: false, required: false },
-];
-
-function validateEmail(email: string): string | null {
-  if (!email.trim()) return "Email is required.";
-  // simple but robust email check
-  const atIndex = email.indexOf("@");
-  if (atIndex < 1) return "Please enter a valid email address (e.g. name@company.com).";
-  const afterAt = email.slice(atIndex + 1);
-  if (!afterAt || !afterAt.includes(".")) return "Please enter a complete email address.";
-  return null;
-}
+import type { Dictionary } from "@/i18n/dictionaries";
 
 type FieldErrors = Record<string, string>;
 
-export function RequestQuote() {
+type Props = {
+  dict: Dictionary;
+};
+
+export function RequestQuote({ dict }: Props) {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [errors, setErrors] = useState<FieldErrors>({});
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const q = dict.quote;
+
+  const fields = [
+    { name: "name", placeholder: q.fields.name, type: "text", half: true, required: false },
+    { name: "email", placeholder: q.fields.email, type: "email", half: true, required: true },
+    { name: "phone", placeholder: q.fields.phone, type: "tel", half: true, required: false },
+    { name: "country", placeholder: q.fields.country, type: "text", half: true, required: false },
+    { name: "company", placeholder: q.fields.company, type: "text", half: false, required: false },
+    { name: "product", placeholder: q.fields.product, type: "text", half: false, required: false },
+  ];
+
+  function validateEmail(email: string): string | null {
+    if (!email.trim()) return q.errors.emailRequired;
+    const atIndex = email.indexOf("@");
+    if (atIndex < 1) return q.errors.emailInvalid;
+    const afterAt = email.slice(atIndex + 1);
+    if (!afterAt || !afterAt.includes(".")) return q.errors.emailIncomplete;
+    return null;
+  }
 
   function validate(form: HTMLFormElement): FieldErrors {
     const errs: FieldErrors = {};
@@ -38,7 +43,7 @@ export function RequestQuote() {
     if (emailErr) errs.email = emailErr;
 
     const message = (data.get("message") as string) || "";
-    if (!message.trim()) errs.message = "Message is required.";
+    if (!message.trim()) errs.message = q.errors.messageRequired;
 
     return errs;
   }
@@ -56,12 +61,10 @@ export function RequestQuote() {
     setSubmitting(true);
 
     try {
-      // Simulate async submission
       await new Promise<void>((resolve, reject) => {
         setTimeout(() => {
-          // Simulate 95% success rate
           if (Math.random() < 0.05) {
-            reject(new Error("Network error. Please check your connection and try again."));
+            reject(new Error(q.errors.network));
           } else {
             resolve();
           }
@@ -71,7 +74,7 @@ export function RequestQuote() {
       setSubmitted(true);
     } catch (err) {
       setSubmitError(
-        err instanceof Error ? err.message : "Something went wrong. Please try again later."
+        err instanceof Error ? err.message : q.errors.generic
       );
     } finally {
       setSubmitting(false);
@@ -88,23 +91,19 @@ export function RequestQuote() {
     return (
       <section id="request-quote" className="bg-offwhite py-16">
         <div className="ds-container">
-          <h2 className="ds-h2">Request A Quote</h2>
+          <h2 className="ds-h2">{q.heading}</h2>
           <div className="mx-auto mb-10 flex w-36 justify-center">
             <span className="h-[3px] w-1/2 bg-brand-dark" />
             <span className="h-[3px] w-1/2 bg-secondary" />
           </div>
           <div className="mx-auto max-w-[600px] text-center">
-            <p className="mb-4 text-lg text-brand">
-              Thank you — your message has been received.
-            </p>
-            <p className="mb-6 text-base text-black/60">
-              Our team will get back to you within 24 hours.
-            </p>
+            <p className="mb-4 text-lg text-brand">{q.successTitle}</p>
+            <p className="mb-6 text-base text-black/60">{q.successBody}</p>
             <button
               onClick={handleReset}
               className="rounded-[3px] bg-brand px-6 py-2.5 text-sm font-medium text-white transition hover:bg-brand-dark"
             >
-              Submit another request
+              {q.submitAnother}
             </button>
           </div>
         </div>
@@ -115,7 +114,7 @@ export function RequestQuote() {
   return (
     <section id="request-quote" className="bg-offwhite py-16">
       <div className="ds-container">
-        <h2 className="ds-h2">Request A Quote</h2>
+        <h2 className="ds-h2">{q.heading}</h2>
         <div className="mx-auto mb-10 flex w-36 justify-center">
           <span className="h-[3px] w-1/2 bg-brand-dark" />
           <span className="h-[3px] w-1/2 bg-secondary" />
@@ -149,9 +148,7 @@ export function RequestQuote() {
                   aria-describedby={hasError ? `${f.name}-error` : undefined}
                   className={
                     "h-[52px] w-full rounded-[3px] border bg-offwhite px-4 text-base text-black outline-none transition focus:border-brand " +
-                    (hasError
-                      ? "border-destructive"
-                      : "border-border")
+                    (hasError ? "border-destructive" : "border-border")
                   }
                 />
                 {hasError && (
@@ -170,7 +167,7 @@ export function RequestQuote() {
           <div className="sm:col-span-2">
             <textarea
               name="message"
-              placeholder="Message (Required)"
+              placeholder={q.fields.message}
               required
               rows={5}
               disabled={submitting}
@@ -200,10 +197,10 @@ export function RequestQuote() {
             {submitting ? (
               <>
                 <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-white/30 border-t-white" />
-                Sending...
+                {q.sending}
               </>
             ) : (
-              "Send A Message"
+              q.submit
             )}
           </button>
         </form>

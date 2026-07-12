@@ -4,6 +4,7 @@ export {
   Menu,
   X,
   ChevronDown,
+  ChevronLeft,
   ChevronRight,
   Phone,
   Mail,

@@ -1,8 +1,16 @@
-import { hero } from "@/data/home";
+import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { HeroVideo } from "./hero-video";
+import type { HomeContent } from "@/data/get-content";
+import type { Locale } from "@/i18n/config";
+import { localizeHref } from "@/i18n/path";
 
-export function Hero() {
+type Props = {
+  hero: HomeContent["hero"];
+  locale: Locale;
+};
+
+export function Hero({ hero, locale }: Props) {
   return (
     <section className="relative h-[68vh] min-h-[460px] w-full overflow-hidden md:h-[800px]">
       <HeroVideo src={hero.video} />
@@ -18,9 +26,9 @@ export function Hero() {
         </h1>
         <div className="mt-6 flex flex-wrap gap-4">
           {hero.buttons.map((b) => (
-            <a
+            <Link
               key={b.text}
-              href={b.href}
+              href={localizeHref(b.href, locale)}
               className={cn(
                 "rounded-[3px] px-6 py-3 text-lg font-normal text-offwhite transition-opacity hover:opacity-90 md:px-8 md:py-3.5 md:text-[26px]",
                 b.color === "red"
@@ -29,7 +37,7 @@ export function Hero() {
               )}
             >
               {b.text}
-            </a>
+            </Link>
           ))}
         </div>
       </div>

@@ -5,7 +5,7 @@ export const navItems: NavItem[] = [
   { text: "Home", href: "/" },
   {
     text: "Construction Equipment",
-    href: "/#construction-equipment",
+    href: "/construction/",
     children: [
       { text: "Concrete Mixer Pump", href: "/concrete-pumps/concrete-mixer-pump/" },
       { text: "Concrete Trailer Pump", href: "/concrete-pumps/trailer-concrete-pump/" },

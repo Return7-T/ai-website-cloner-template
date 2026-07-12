@@ -2,24 +2,31 @@ import Link from "next/link";
 import Image from "next/image";
 import { CheckCircle2, MessageCircle, Mail, Download, ChevronRight } from "@/components/icons";
 import type { ProductData } from "@/types/product";
+import type { Locale } from "@/i18n/config";
+import { localizeHref } from "@/i18n/path";
 
-const btnIcon: Record<string, typeof Mail> = {
-  Message: MessageCircle,
-  "Send Email": Mail,
-  "PDF Download": Download,
+function iconForButton(text: string) {
+  const t = text.toLowerCase();
+  if (t.includes("email") || t.includes("邮件") || t.includes("mail")) return Mail;
+  if (t.includes("pdf") || t.includes("下载") || t.includes("download")) return Download;
+  return MessageCircle;
+}
+
+type Props = {
+  data: ProductData;
+  locale: Locale;
 };
 
-export function ProductIntro({ data }: { data: ProductData }) {
+export function ProductIntro({ data, locale }: Props) {
   const { intro, title, breadcrumb } = data;
   return (
     <section className="bg-white pb-12 pt-6">
       <div className="ds-container">
-        {/* Breadcrumb */}
         <nav className="mb-6 flex flex-wrap items-center gap-1 text-sm text-black/60">
           {breadcrumb.map((b, i) => (
             <span key={i} className="flex items-center gap-1">
               {b.href ? (
-                <Link href={b.href} className="hover:text-brand">
+                <Link href={localizeHref(b.href, locale)} className="hover:text-brand">
                   {b.text}
                 </Link>
               ) : (
@@ -33,7 +40,6 @@ export function ProductIntro({ data }: { data: ProductData }) {
         </nav>
 
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
-          {/* Product image */}
           <div className="relative aspect-[4/3] overflow-hidden rounded-md bg-offwhite">
             <Image
               src={intro.image}
@@ -45,7 +51,6 @@ export function ProductIntro({ data }: { data: ProductData }) {
             />
           </div>
 
-          {/* Right column */}
           <div className="flex flex-col">
             <h1 className="mb-4 text-3xl font-bold leading-tight text-black md:text-[34px]">
               {title}
@@ -66,11 +71,11 @@ export function ProductIntro({ data }: { data: ProductData }) {
             </ul>
             <div className="mt-2 flex flex-wrap gap-3">
               {intro.buttons.map((b) => {
-                const Icon = btnIcon[b.text] || MessageCircle;
+                const Icon = iconForButton(b.text);
                 return (
                   <Link
                     key={b.text}
-                    href={b.href}
+                    href={localizeHref(b.href, locale)}
                     className="inline-flex items-center gap-2 rounded-[3px] bg-brand px-5 py-2.5 text-sm font-medium text-white transition hover:bg-brand-dark"
                   >
                     <Icon size={18} />

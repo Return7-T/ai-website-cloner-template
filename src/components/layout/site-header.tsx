@@ -4,17 +4,23 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ChevronDown, Menu, X } from "@/components/icons";
-import {
-  navItems,
-  headerCta,
-  headerWhatsApp,
-  logo,
-} from "@/data/navigation";
+import { LanguageSwitcher } from "@/components/layout/language-switcher";
+import type { Locale } from "@/i18n/config";
+import { localizeHref } from "@/i18n/path";
+import type { NavContent } from "@/data/get-content";
+import type { Dictionary } from "@/i18n/dictionaries";
 import { cn } from "@/lib/utils";
 
-export function SiteHeader() {
+type Props = {
+  locale: Locale;
+  nav: NavContent;
+  dict: Dictionary;
+};
+
+export function SiteHeader({ locale, nav, dict }: Props) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { navItems, headerCta, headerWhatsApp, logo } = nav;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -30,8 +36,8 @@ export function SiteHeader() {
         scrolled ? "shadow-md" : "shadow-sm"
       )}
     >
-      <div className="ds-container-wide flex items-center justify-between gap-6 py-3 lg:gap-8">
-        <Link href="/" className="shrink-0 pl-4">
+      <div className="ds-container-wide flex items-center justify-between gap-4 py-3 lg:gap-6">
+        <Link href={localizeHref("/", locale)} className="shrink-0 pl-4">
           <Image
             src={logo.src}
             alt={logo.alt}
@@ -43,15 +49,15 @@ export function SiteHeader() {
           />
         </Link>
 
-        <nav className="hidden flex-1 items-center justify-end gap-6 pr-3 lg:flex xl:gap-7 xl:pr-6">
+        <nav className="hidden flex-1 items-center justify-end gap-5 pr-2 lg:flex xl:gap-7 xl:pr-4">
           {navItems.map((item) => (
-            <NavLink key={item.text} item={item} />
+            <NavLink key={item.text} item={item} locale={locale} />
           ))}
         </nav>
 
         <div className="hidden shrink-0 items-center gap-2 lg:flex">
           <Link
-            href={headerCta.href}
+            href={localizeHref(headerCta.href, locale)}
             className="rounded-[3px] bg-brand px-4 py-2 text-sm font-medium text-white transition hover:bg-brand-dark"
           >
             {headerCta.text}
@@ -62,19 +68,27 @@ export function SiteHeader() {
           >
             {headerWhatsApp.text}
           </Link>
+          <LanguageSwitcher locale={locale} />
         </div>
 
-        <button
-          aria-label="Open menu"
-          className="lg:hidden"
-          onClick={() => setMobileOpen(true)}
-        >
-          <Menu size={28} />
-        </button>
+        <div className="flex items-center gap-2 lg:hidden">
+          <LanguageSwitcher locale={locale} compact />
+          <button
+            aria-label={dict.common.openMenu}
+            onClick={() => setMobileOpen(true)}
+          >
+            <Menu size={28} />
+          </button>
+        </div>
       </div>
 
       {mobileOpen && (
-        <MobileMenu onClose={() => setMobileOpen(false)} />
+        <MobileMenu
+          onClose={() => setMobileOpen(false)}
+          locale={locale}
+          nav={nav}
+          dict={dict}
+        />
       )}
     </header>
   );
@@ -82,14 +96,16 @@ export function SiteHeader() {
 
 function NavLink({
   item,
+  locale,
 }: {
-  item: (typeof navItems)[number];
+  item: NavContent["navItems"][number];
+  locale: Locale;
 }) {
   const hasChildren = item.children && item.children.length > 0;
   return (
     <div className="group relative">
       <Link
-        href={item.href}
+        href={localizeHref(item.href, locale)}
         className={cn(
           "flex items-center gap-1 text-[15px] font-normal text-black transition-colors hover:text-brand"
         )}
@@ -102,7 +118,7 @@ function NavLink({
           {item.children!.map((child) => (
             <Link
               key={child.text + child.href}
-              href={child.href}
+              href={localizeHref(child.href, locale)}
               className="block px-4 py-2 text-sm text-black/80 transition-colors hover:bg-offwhite hover:text-brand"
             >
               {child.text}
@@ -114,7 +130,18 @@ function NavLink({
   );
 }
 
-function MobileMenu({ onClose }: { onClose: () => void }) {
+function MobileMenu({
+  onClose,
+  locale,
+  nav,
+  dict,
+}: {
+  onClose: () => void;
+  locale: Locale;
+  nav: NavContent;
+  dict: Dictionary;
+}) {
+  const { navItems, headerCta, headerWhatsApp, logo } = nav;
   return (
     <div className="fixed inset-0 z-[100] lg:hidden">
       <div className="absolute inset-0 bg-black/50" onClick={onClose} />
@@ -128,7 +155,7 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
             className="h-12 w-auto object-contain"
             style={{ height: "3rem", width: "auto" }}
           />
-          <button aria-label="Close menu" onClick={onClose}>
+          <button aria-label={dict.common.closeMenu} onClick={onClose}>
             <X size={26} />
           </button>
         </div>
@@ -136,7 +163,7 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
           {navItems.map((item) => (
             <details key={item.text} className="border-b border-border">
               <summary className="flex cursor-pointer items-center justify-between py-3 text-[15px] font-medium">
-                <Link href={item.href} onClick={onClose}>
+                <Link href={localizeHref(item.href, locale)} onClick={onClose}>
                   {item.text}
                 </Link>
                 {item.children && item.children.length > 0 && (
@@ -148,7 +175,7 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
                   {item.children.map((c) => (
                     <Link
                       key={c.text + c.href}
-                      href={c.href}
+                      href={localizeHref(c.href, locale)}
                       onClick={onClose}
                       className="py-2 text-sm text-black/70"
                     >
@@ -162,7 +189,7 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
         </nav>
         <div className="mt-5 flex flex-col gap-2">
           <Link
-            href={headerCta.href}
+            href={localizeHref(headerCta.href, locale)}
             onClick={onClose}
             className="rounded-[3px] bg-brand px-4 py-2.5 text-center text-sm font-medium text-white"
           >
@@ -175,6 +202,9 @@ function MobileMenu({ onClose }: { onClose: () => void }) {
           >
             {headerWhatsApp.text}
           </Link>
+          <div className="pt-2">
+            <LanguageSwitcher locale={locale} className="w-full [&_button]:w-full [&_button]:justify-center" />
+          </div>
         </div>
       </div>
     </div>

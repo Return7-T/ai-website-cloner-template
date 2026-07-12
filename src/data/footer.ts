@@ -5,7 +5,7 @@ export const footerColumns: FooterColumn[] = [
   {
     heading: "Products",
     links: [
-      { text: "Construction Machinery", href: "https://daswell.com/construction/" },
+      { text: "Construction Machinery", href: "/construction/" },
     ],
   },
   {

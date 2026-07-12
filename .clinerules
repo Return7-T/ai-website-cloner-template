@@ -42,10 +42,16 @@ A reusable template for reverse-engineering any website into a clean, modern Nex
 ## Project Structure
 ```
 src/
-  app/              # Next.js routes
+  app/
+    [locale]/      # Locale-prefixed routes (/en, /zh)
   components/       # React components
     ui/             # shadcn/ui primitives
     icons.tsx       # Extracted SVG icons as React components
+  data/
+    *.ts            # English (default) content
+    zh/             # Chinese content mirrors
+    get-content.ts  # Locale-aware content accessors
+  i18n/             # Locales, path helpers, UI dictionaries
   lib/
     utils.ts        # cn() utility (shadcn)
   types/            # TypeScript interfaces
@@ -60,10 +66,18 @@ docs/
 scripts/            # Asset download scripts
 ```
 
+## Internationalization (i18n) — REQUIRED for every content change
+- **Locales:** `en` (default), `zh`. Routes are `/en/...` and `/zh/...` (proxy redirects bare paths).
+- **When changing any user-visible text, UI string, nav label, product copy, or form label:** update **all locales** in the same change — English under `src/data/*.ts` / `src/i18n/dictionaries.ts`, Chinese under `src/data/zh/*` and the `zh` dictionary.
+- **Internal links** in data stay locale-agnostic (e.g. `/concrete-pumps/...`). Use `localizeHref(href, locale)` from `src/i18n/path.ts` when rendering. Never hardcode `/en` or `/zh` in content files.
+- **New pages** go under `src/app/[locale]/...` and must load content via `get*Content(locale)` / `getDictionary(locale)`.
+- **Language switcher** lives in the site header (desktop + mobile). Keep it on every local page shell.
+
 ## MOST IMPORTANT NOTES
 - When launching Claude Code agent teams, ALWAYS have each teammate work in their own worktree branch and merge everyone's work at the end, resolving any merge conflicts smartly since you are basically serving the orchestrator role and have full context to our goals, work given, work achieved, and desired outcomes.
 - After editing `AGENTS.md`, run `bash scripts/sync-agent-rules.sh` to regenerate platform-specific instruction files.
 - After editing `.claude/skills/clone-website/SKILL.md`, run `node scripts/sync-skills.mjs` to regenerate the skill for all platforms.
+- **Always ship content changes in every supported locale** (currently en + zh).
 
 # Website Inspection Guide
 

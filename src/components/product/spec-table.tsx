@@ -28,7 +28,7 @@ export function SpecTable({ table }: { table: SpecTableType }) {
               {row.map((cell, ci) => (
                 <td
                   key={ci}
-                  className="border border-border px-3 py-2 text-black/80"
+                  className="border border-border px-3 py-2 text-black/80 whitespace-pre-line"
                 >
                   {cell}
                 </td>

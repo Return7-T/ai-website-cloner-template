@@ -6,122 +6,112 @@ export const products: Record<string, ProductData> = {
     "slug": "concrete-mixer-pump",
     "title": "Concrete Mixer Pump",
     "breadcrumb": [
-      {
-        "text": "Home",
-        "href": "/"
-      },
-      {
-        "text": "Concrete Pumps",
-        "href": "https://daswell.com/concrete-pumps/"
-      },
-      {
-        "text": "Concrete Mixer Pump"
-      }
+      { "text": "Home", "href": "/" },
+      { "text": "Concrete Pumps", "href": "/concrete-pumps/" },
+      { "text": "Concrete Mixer Pump" }
     ],
     "intro": {
       "paragraphs": [
-        "The concrete mixer pump is an innovative construction machine that combines concrete mixing and pumping functions in one machine, completing the work of two machines in the past.",
-        "Concrete mixer with pump saves manpower and is more economical, allowing builders to complete concrete pouring tasks more quickly, and is very suitable for small and medium-sized projects such as house construction, road paving and tunnel construction.",
-        "The KEWAN concrete mixer pump has high pumping capacity, stable performance and flexible mobility, providing a reliable solution for modern construction sites and has won a lot of praise from users."
+        "A concrete mixer pump puts batching, mixing, and pipeline placement on one trailer-mounted chassis. Instead of running a separate mixer plus a line pump—and the crews, space, and handoffs that come with them—you produce concrete on site and push it through the pipeline in a continuous cycle.",
+        "KEWAN mixer pumps are built for contractors who work where ready-mix trucks are scarce, access is tight, or daily pours do not justify two full machines. Typical uses include low- to mid-rise housing, rural roads and bridges, plant floors, tunnels, and renovation jobs that still need reliable pumping distance.",
+        "Choose diesel for off-grid or unstable power, or electric where grid supply is solid. With remote control, a compact footprint, and steady hydraulic delivery, the unit is designed to cut labor, shorten pours, and keep quality consistent from batch to batch."
       ],
       "keySpecs": [
-        {
-          "label": "Theoretical pumping capacity",
-          "value": "30-45m³/h"
-        },
-        {
-          "label": "Power",
-          "value": "Diesel engine / Electric motor"
-        }
+        { "label": "Max. theoretical output", "value": "35–45 m³/h" },
+        { "label": "Outlet pressure", "value": "12 MPa" },
+        { "label": "Power options", "value": "Diesel / Electric" }
       ],
       "image": "/images/2025/03/concrete-mixer-pump.png",
-      "imageAlt": "Concrete mixer pump",
+      "imageAlt": "KEWAN concrete mixer pump on construction site",
       "buttons": [
-        {
-          "text": "Message",
-          "href": "#request-quote"
-        },
-        {
-          "text": "Send Email",
-          "href": "mailto:global@daswell.com"
-        },
-        {
-          "text": "PDF Download",
-          "href": "https://daswell.com/wp-content/uploads/2025/06/concrete-mixer-pump-pdf-brochure.pdf"
-        }
+        { "text": "Get a Quote", "href": "#request-quote" },
+        { "text": "WhatsApp", "href": "https://wa.me/8615700731570" },
+        { "text": "Send Email", "href": "mailto:global@kewan.com" }
       ]
     },
     "featureBlocks": [
       {
-        "heading": "KEWAN Efficient Concrete Mixer Pump for Maximum Productivity",
+        "heading": "One machine: mix on site, pump where the pour is",
         "paragraphs": [
-          "The concrete mixer pump is a machine that combines the functions of a concrete mixer and a concrete pump into one machine, allowing concrete to be mixed at the construction site and then pumped to the desired location. The innovation of combining mixing and pumping in one simplifies the concrete production process, especially in cases of inconvenient transportation or small projects. The loader can easily feed sand, stone, cement, and other raw materials into the hopper. Compared with traditional concrete mixers and concrete mixer pumps, it is easier and faster to complete the work, more economical, and more practical. It is a new and improved equipment.",
-          "The mixer pump machine can discharge the mixed concrete directly into the integrated pumping hopper. And our high-performance concrete mixer hydraulic pumping system can deliver it exactly where needed. With KEWAN concrete mixer pump equipment, you can save time, labor, and costs on your job site."
+          "On many small and mid-size sites, the bottleneck is not mixing or pumping alone—it is moving wet concrete between two machines. A KEWAN concrete mixer pump closes that gap: aggregates, sand, cement, and water are charged into the mixer; when the batch is ready, concrete drops into the pumping hopper and is delivered through the pipeline under hydraulic pressure.",
+          "That single workflow is especially useful where commercial ready-mix is expensive or unavailable, roads cannot take full mixer trucks, or you need to adjust mix proportions on the spot. Load with a small wheel loader or excavator, operate the mixer and pump from one remote, and keep the pour moving without waiting on a separate mixer fleet."
         ],
         "image": "/images/2025/04/main-parts-details-of-concrete-mixer-pump.jpg",
-        "imageAlt": "Main parts details of concrete mixer pump"
+        "imageAlt": "Concrete mixer pump main components and layout"
+      },
+      {
+        "heading": "Where contractors put mixer pumps to work",
+        "paragraphs": [
+          "Mixer pumps earn their keep when flexibility matters more than raw plant capacity. Rural housing and villa projects, village roads, small bridges, warehouses, water works, and hillside sites all benefit from a unit that mixes locally and pumps through restricted access.",
+          "Compared with pairing a stationary mixer and a separate trailer pump, the combined machine occupies less yard space, needs fewer people to run a continuous pour, and relocates more easily between jobs. Diesel models handle remote grids; electric models cut fuel cost where three-phase power is reliable."
+        ]
+      },
+      {
+        "heading": "Diesel or electric—match power to the site",
+        "paragraphs": [
+          "Diesel concrete mixer pumps are the practical choice for sites without stable electricity, long working days off-grid, or frequent moves between rural locations. A robust diesel package keeps mixing and pumping power consistent under load.",
+          "Electric models suit industrial parks, urban sites with permanent three-phase supply, and buyers who prioritize lower running cost and quieter operation. KEWAN configures both options so you select power type by site conditions—not by a one-size catalog default."
+        ]
       }
     ],
     "componentGroups": {
-      "heading": "Delicate Components of KEWAN Concrete Mixer Pumps for Efficient Work",
+      "heading": "Core systems engineered for continuous mix-and-pump cycles",
       "groups": [
         {
-          "title": "Power and Hydraulic System",
+          "title": "Power & hydraulic package",
           "items": [
-            "Our concrete mixer pumps are engineered with advanced components for making sure high quality. These machines have unmatched reliability, efficiency, and durability. Here you can learn these advanced systems to know them better.",
-            "Main Oil Pump. We utilize premium imported options—Kawasaki (Korea) or Rexroth for superior hydraulic performance.",
-            "Diesel Engine. It is powered by a robust Weichai diesel engine. It can ensure consistent power delivery in demanding conditions.",
-            "Open-Loop Hydraulic System. It ensures smooth operation with minimal energy loss.",
-            "100μm Suction Oil Filter. This oil filter has high-precision filtration for protecting critical components.",
-            "Aerospace-Grade Cooler. It ensures optimal hydraulic oil temperature for peak efficiency.",
-            "Italy Manuli Oil Hoses. It is a premium hydraulic hose for leak-free performance.",
-            "Taiwan Yuken Hydraulic Valves. These hydraulic valves can control the system precisely for smooth operation."
+            "Main oil pump: Kawasaki 112 (DMP40) / Kawasaki 140 (DMP50) for stable hydraulic flow under load.",
+            "Power packages: diesel 76 kW or electric 45 kW on DMP40; diesel 85 kW or electric 55 kW on DMP50.",
+            "Taiwan TO hydraulic valves for precise pressure and direction control during continuous pumping.",
+            "Hydraulic oil filter plus overflow six-port lubrication distributor for cleaner oil and timed greasing of wear points.",
+            "Delivery cylinders sized to model: 180×1000 mm (DMP40) / 200×1120 mm (DMP50)."
           ]
         },
         {
-          "title": "Mixing and Delivery System",
+          "title": "Mixing & delivery package",
           "items": [
-            "China’s Number 1 Mixing Motor. This motor delivers powerful, consistent mixing performance.",
-            "Reinforced Mixing Blades and Shaft. Whether for the left/ or right half-shaft, hardness reaches HB250-280 for maximum wear resistance.",
-            "Brand Swing Cylinder and S-Valve. For these two parts, we use a precise design for smooth concrete flow.",
-            "Wear-Resistant Glass Plate and Cutting Ring. These are made from special alloy materials for extended service life.",
-            "Full Range of Pipes Included. It is compatible with various working conditions for seamless concrete placement.",
-            "450L Large Capacity. Maximizes batch efficiency.",
-            "Dual Hydraulic Motors. Utilizing this motor, it has a faster driving speed and 30% higher mixing efficiency than standard models."
+            "Integrated mixer-pump layout with S-pipe valve and hopper for continuous on-site mix-and-pump cycles.",
+            "Max theoretical output 35 m³/h (DMP40) / 45 m³/h (DMP50) at 12 MPa outlet pressure.",
+            "Max aggregate size 30 mm (DMP40) / 40 mm (DMP50); designed for concrete slump 140–230 mm.",
+            "Pipeline options Ø80 / 100 / 125 mm to match site layout and pour distance.",
+            "Vertical reach up to 100 m / 150 m and horizontal reach up to 300 m / 400 m (DMP40 / DMP50, theoretical)."
           ]
         },
         {
-          "title": "Control and Safety System",
+          "title": "Control, sensing & structure",
           "items": [
-            "Japan Omron Relays. It is the industry-leading system. That ensures reliability for electrical safety.",
-            "High-Quality Proximity Switches. It ensures accurate sensor performance.",
-            "250mm Thickened Drum Steel. It adopts an integrated design for superior structural stability."
+            "Central control system with remote and electric cabinet for mixer and pump operation from a safe position.",
+            "Hopper capacity 0.6 m³ with 1200 mm feeding height for loader-friendly charging.",
+            "Towable main frame (1 unit chassis) for site-to-site moves without a full mixer truck.",
+            "Compact overall size: about 5400×2100×2300 mm (DMP40) / 5400×2200×2300 mm (DMP50); weight 5000 / 5500 kg."
           ]
         }
       ]
     },
     "reasons": {
-      "heading": "5 Reasons You Should Choose KEWAN Concrete Mixer Pump Manufacturer",
+      "heading": "Why contractors choose a KEWAN mixer pump",
       "bullets": [
-        "Premium Hydraulic System Protection: Our hydraulic oil tank uses specially treated steel pipes to prevent corrosion and extend system life. For the oil tank cleaning, the hoses and valve blocks underg",
-        "Ultra-Clean Diesel and Hydraulic System: The diesel cleaning port is heat-treated and blown with compressed air. It removes all impurities, guaranteeing cleaner oil quality. By maintaining pure hydrau",
-        "Rigorous Pre-Delivery Testing: Before shipment, we utilize high, medium, and low-pressure testing for making sure the machine works stably with leak-free operation. We verify the performance under rea",
-        "Enhanced Power Stability: Our mobile concrete mixer pumps include voltage and current stabilization features. It can protect against power fluctuations for uninterrupted operation.",
-        "Heavy-Duty Pumping Pipes for Maximum Efficiency: The concrete mixer pumps have 125mm diameter with 4.5mm thickness (5mm at elbows) pipelines. This ensures superior strength and wear resistance. Beside"
+        "True one-unit workflow: mix and pump on the same chassis so you reduce equipment count, yard space, and crew handoffs between mixer and pump.",
+        "Built for real access limits: compact trailer form factors suit rural roads, tight urban plots, and multi-site contractors who move often.",
+        "Hydraulic cleanliness and factory pressure testing before shipment help reduce early failures and keep oil systems cleaner in service.",
+        "Power options for the job: diesel for weak grids and remote pours; electric for lower operating cost where power is stable.",
+        "Wear-focused wet-end parts (S-valve, spectacle plate, cutting ring) and heavy pipeline kits are specified for abrasive mixes and daily commercial use—not showroom demos only."
       ]
     },
     "buyingTips": {
-      "heading": "What You Should Consider When Buying a Concrete Mixer Pump?",
+      "heading": "How to select the right concrete mixer pump",
       "bullets": [
-        "Making sure the pumping capacity(output volume)you need. The pumping capacity is measured in cubic meters per hour(m³/h). It determines how much concrete the pumping machine can deliver. You should ma",
-        "Making sure the maximum aggregate sizes of your materials and pumping machines. The concrete pump with mixer must handle the maximum stones or aggregate size in your concrete mix. If you do not know w",
-        "Choosing the power type: diesel or electric. The diesel engine is best for remote job sites without reliable electricity. It can offer high power and mobility. And the electric motor is more cost-effe",
-        "Making sure the pumping distance(both vertical and horizontal reach) is. Ensuring the pumps can meet your maximum required distance avoids inefficiencies. FYI, the vertical pumping height is mainly us",
-        "Making sure the concrete slump(workability). The ideal slump for pumping is about 100mm or higher. It makes concrete flow smoothly. The low-slump mixes, which is below 50mm may cause blockages. If the"
+        "Output first: size theoretical pumping capacity (m³/h) to your longest pour day, then check that mixer production can feed the pump without long idle gaps.",
+        "Aggregate size: DMP40 is rated for up to 30 mm stone; DMP50 up to 40 mm—match the model to your mix design to reduce blockage risk.",
+        "Power type: diesel (76 / 85 kW) for remote or unstable electricity; electric (45 / 55 kW) for fixed sites with three-phase supply and lower fuel spend.",
+        "Reach: check theoretical max—DMP40 about 100 m vertical / 300 m horizontal; DMP50 about 150 m vertical / 400 m horizontal—then derate for elbows, pipe diameter, and mix.",
+        "Workability: KEWAN mixer pumps are specified for concrete slump 140–230 mm. Very dry mixes raise blockage risk; overly wet mixes can hurt strength and pressure control.",
+        "Crew model: count loading, cement handling, remote operation, and pipeline crew together. A well-set mixer pump often runs with a small team when remote control is used correctly.",
+        "Optional accuracy: if volumetric drum feeding is not precise enough for your specs, ask about pairing with a mobile batching plant or loader workflow for better material control."
       ]
     },
     "related": {
-      "heading": "Different Types of KEWAN Concrete Pump",
+      "heading": "Related KEWAN concrete pumps",
       "items": [
         {
           "title": "Concrete Trailer Pump",
@@ -129,221 +119,124 @@ export const products: Record<string, ProductData> = {
           "img": "/images/2025/04/trailer-concrete-pump.png"
         },
         {
-          "title": "Concrete Boom Pump",
-          "href": "https://daswell.com/concrete-pumps/concrete-boom-pump/",
-          "img": "/images/2025/04/concrete-boom-pump.jpg"
+          "title": "Truck-Mounted Concrete Pump",
+          "href": "/concrete-pumps/truck-mounted-concrete-pump/",
+          "img": "/images/2025/04/trailer-concrete-pump.png"
         },
         {
           "title": "Concrete Mixer Pump",
-          "href": "https://daswell.com/concrete-pumps/pan-mixer-concrete-pump/",
-          "img": "/images/2025/04/concrete-pan-mixer-pump-scaled-e1745542374292.png"
+          "href": "/concrete-pumps/concrete-mixer-pump/",
+          "img": "/images/2025/03/concrete-mixer-pump.png"
         }
       ]
     },
     "support": {
-      "heading": "KEWAN Expert Support and Reliable Service for Your Concrete Mixer Pump Investment",
+      "heading": "Support that stays with the machine after delivery",
       "columns": [
         {
-          "title": "Comprehensive pre-purchase support",
+          "title": "Before you buy",
           "bullets": [
-            "Equipment selection guidance",
-            "Detailed technical comparisons",
-            "One-on-one service to match the perfect machine to your project needs",
-            "1-Year Warranty covering all components (excluding normal wear parts)",
-            "Local After-Sales Network for faster response times",
-            "Wear Parts Inventory – Immediate availability of frequently replaced components"
+            "Project-based model selection (output, reach, power type)",
+            "Side-by-side technical comparison of diesel vs electric options",
+            "Guidance on pipeline layout and typical crew setup",
+            "Clear quotation scope: machine, wear parts, and recommended spares"
           ]
         },
         {
-          "title": "Professional after-sale service",
+          "title": "After you order",
           "bullets": [
-            "On-call engineers are ready to troubleshoot",
-            "Remote and on-site guidance for setup and operation",
-            "Timely Logistics",
-            "Guaranteed on-time delivery",
-            "Door-to-port shipping to your specified destination"
+            "Factory test records and shipping preparation",
+            "Remote commissioning guidance and on-site support options",
+            "Warranty coverage on major components (excluding normal wear parts)",
+            "Wear-parts supply planning so glasses, cutting rings, and seals stay available",
+            "Door-to-port logistics coordination to your destination"
           ]
         }
       ]
     },
     "faq": {
-      "heading": "FAQ about KEWAN Concrete Mixer Pumps Equipment",
+      "heading": "FAQ — KEWAN concrete mixer pumps",
       "items": [
         {
-          "q": "What are the horizontal and vertical pumping distances of your concrete mixture pump?",
-          "a": "Horizontal pumping distance is 200 meters, vertical pumping distance is 50 meters."
+          "q": "What horizontal and vertical pumping distances can I expect?",
+          "a": "Theoretical max: DMP40 about 300 m horizontal / 100 m vertical; DMP50 about 400 m horizontal / 150 m vertical. Actual reach depends on mix design, pipe diameter (Ø80/100/125 mm), number of elbows, and site layout. Share your pour height and run length for a project-specific recommendation."
         },
         {
-          "q": "What is the hopper capacity?",
-          "a": "0.8m³"
+          "q": "What hopper capacity does the machine have?",
+          "a": "Hopper capacity is 0.6 m³ with a feeding height of 1200 mm on both DMP40 and DMP50, convenient for loader charging."
         },
         {
-          "q": "How many cubic meters of concrete can be pumped per hour?",
-          "a": "The mixer drum can produce about 20 cubic meters of concrete per hour. The pumping system can pump about 50 cubic meters of concrete per hour."
+          "q": "How much concrete can be pumped per hour?",
+          "a": "Max theoretical output is 35 m³/h on DMP40 and 45 m³/h on DMP50 at 12 MPa outlet pressure. Actual daily volume depends on loading speed, mix, pipeline, and crew coordination."
         },
         {
-          "q": "Can your machine pump 40mm aggregates?",
-          "a": "Yes, of course."
+          "q": "Can the unit handle 40 mm aggregates?",
+          "a": "DMP50 is rated for max aggregate 40 mm. DMP40 is rated for 30 mm. Choose the model that matches your stone size and keep slump in the 140–230 mm range for reliable pumping."
         },
         {
-          "q": "Can the functions of pumping and mixing be used separately?",
-          "a": "Yes. If the mixer machine does not produce enough concrete, a concrete mixer truck can be used to transport the commercial concrete for pumping. Or add an additional mixer."
+          "q": "Can mixing and pumping be used independently?",
+          "a": "Yes. You can pump ready-mixed concrete from a transit mixer when on-site production is not enough, or add a second mixer if you need higher continuous volume. Mixing-only use is also possible when pipeline placement is not required."
         },
         {
-          "q": "How many workers are needed for the whole machine to work?",
-          "a": "The whole set of equipment needs only five people to operate. One person is responsible for loading by the forklift, one person is responsible for remote control of the equipment, one person is responsible for putting cement, and two people are responsible for taking over and removing the pipes on the floor. The mixer machine and transfer pump are directly controlled by one remote control, which is simple to operate. Compared with the traditional equipment, there are fewer construction people and the operation is more simple."
+          "q": "How many operators are needed?",
+          "a": "A typical continuous pour uses a small crew—often around five people: loader operator, remote operator, cement handling, and two people on pipeline placement. Mixer and pump can be managed from the central control system with remote to simplify operation."
         },
         {
-          "q": "How long is the delivery time?",
-          "a": "If the voltage is different, the delivery time of the electric concrete mixer pump is 20-25 days. The delivery time of diesel concrete mixer pump is usually 7-10 days."
+          "q": "What is the usual delivery lead time?",
+          "a": "Diesel units are often ready in about 7–10 days when stocked configuration is ordered. Electric units with special voltage requirements typically need about 20–25 days. Confirm lead time with your order details."
+        },
+        {
+          "q": "Is diesel or electric better for my project?",
+          "a": "Choose diesel (76 kW on DMP40 / 85 kW on DMP50) for remote sites or unstable power. Choose electric (45 kW / 55 kW) when reliable three-phase power is available and you want lower fuel cost and quieter operation. We help match power type to your site constraints and daily hours."
         }
       ]
     },
     "specTable": {
-      "caption": "Technical Data:",
-      "headers": [
-        "Parameter",
-        "Unit",
-        "EMP40",
-        "DMP50"
-      ],
+      "caption": "Mixer pump technical parameters",
+      "headers": ["Parameter", "DMP40", "DMP50"],
       "rows": [
-        [
-          "Power",
-          "kw",
-          "45",
-          "Weichai diesel engine; 85kw"
-        ],
-        [
-          "Whole machine Length",
-          "mm",
-          "4250",
-          "4680"
-        ],
-        [
-          "Width",
-          "mm",
-          "2100",
-          "2100"
-        ],
-        [
-          "Height",
-          "mm",
-          "2700",
-          "2300"
-        ],
-        [
-          "Weight",
-          "kg",
-          "4000",
-          "4200"
-        ],
-        [
-          "Mixer Mixer model",
-          "/",
-          "JZM450",
-          "JZM450"
-        ],
-        [
-          "Theoretical mixing capacity",
-          "m3/h",
-          "15-25",
-          "15-25"
-        ],
-        [
-          "Maximum aggregate size",
-          "mm",
-          "40",
-          "40"
-        ],
-        [
-          "Working cycle time",
-          "s",
-          "72",
-          "72"
-        ],
-        [
-          "Feeding height",
-          "mm",
-          "1400",
-          "1400"
-        ],
-        [
-          "Hopper capacity",
-          "m3",
-          "0.65",
-          "0.65"
-        ],
-        [
-          "Pumping system Theoretical pumping capacity",
-          "m3/h",
-          "40",
-          "45"
-        ],
-        [
-          "Theoretical pumping pressure",
-          "MPa",
-          "8",
-          "10"
-        ],
-        [
-          "Delivery cylinder",
-          "/",
-          "200*800",
-          "230*800"
-        ],
-        [
-          "Hydraulic system",
-          "/",
-          "Open",
-          "Open"
-        ],
-        [
-          "Distribution valve",
-          "/",
-          "S valve",
-          "S valve"
-        ],
-        [
-          "System pressure",
-          "MPa",
-          "28",
-          "28"
-        ],
-        [
-          "Delivery pipe diameter",
-          "mm",
-          "125",
-          "125"
-        ]
+        ["Max. theoretical output", "35 m³/h", "45 m³/h"],
+        ["Max. aggregate size", "30 mm", "40 mm"],
+        ["Outlet pressure", "12 MPa", "12 MPa"],
+        ["Vertical delivery distance", "100 m", "150 m"],
+        ["Horizontal delivery distance", "300 m", "400 m"],
+        ["Power", "Diesel 76 kW\nElectric 45 kW", "Diesel 85 kW\nElectric 55 kW"],
+        ["Hopper / feeding height", "0.6 m³ / 1200 mm", "0.6 m³ / 1200 mm"],
+        ["Delivery pipe diameter", "80 / 100 / 125 mm", "80 / 100 / 125 mm"],
+        ["Concrete slump", "140–230 mm", "140–230 mm"],
+        ["Towable main frame", "1 unit", "1 unit"],
+        ["S-pipe / hopper / mixer", "S-pipe / hopper", "S-pipe / hopper"],
+        ["Delivery cylinder / oil cylinder", "180×1000 mm", "200×1120 mm"],
+        ["Hydraulic valve", "Taiwan TO", "Taiwan TO"],
+        ["Hydraulic oil filter", "1 unit", "1 unit"],
+        ["Hydraulic lubrication assembly", "Overflow six-port distributor", "Overflow six-port distributor"],
+        ["Remote / electric cabinet", "Central control system", "Central control system"],
+        ["Main oil pump", "Kawasaki 112", "Kawasaki 140"],
+        ["Motor / diesel engine", "45 kW / 76 kW", "55 kW / 85 kW"],
+        ["Overall dimensions (L×W×H)", "5400×2100×2300 mm", "5400×2200×2300 mm"],
+        ["Overall weight", "5000 kg", "5500 kg"]
       ]
     },
     "projects": {
-      "heading": "KEWAN Concrete Machinery Projects",
+      "heading": "KEWAN concrete machinery projects",
       "items": [
         {
-          "title": "Philippine Customer Used a KEWAN Trailer Concrete Pump for Building Construction, 2025",
+          "title": "Concrete mixer pump deployed for multi-site housing pours",
           "href": "#",
           "img": "/images/2025/08/concrete-mixer-pump-indonesia.jpg",
           "year": "2025"
         },
         {
-          "title": "KEWAN 4m³ Self Loading Concrete Mixer Shipped to Indonesia, 2025",
+          "title": "Trailer pump support on mid-rise building construction",
           "href": "#",
-          "img": "/images/2025/11/Daswell-SLM4-for-Indonesian-Customer-1024x576.jpg",
+          "img": "/images/2025/04/trailer-concrete-pump.png",
           "year": "2025"
         },
         {
-          "title": "KEWAN Efficient Concrete Mixer Pump for Maximum Productivity",
+          "title": "Self-loading mixer shipped for remote-site production",
           "href": "#",
-          "img": "/images/2025/04/mobile-concrete-batching-plant.jpg",
-          "year": null
-        },
-        {
-          "title": "Delicate Components of KEWAN Concrete Mixer Pumps for Efficient Work",
-          "href": "#",
-          "img": "/images/2025/12/stationary-crushing-plant-philippines5.png",
-          "year": null
+          "img": "/images/2025/11/Daswell-SLM4-for-Indonesian-Customer-1024x576.jpg",
+          "year": "2025"
         }
       ]
     }
@@ -522,7 +415,7 @@ export const products: Record<string, ProductData> = {
         [ "Outlet Pressure", "MPa", "6", "10", "12", "12", "13", "16", "18" ],
         [ "Vertical Conveying Distance", "m", "50", "80", "100", "150", "180", "200", "250" ],
         [ "Horizontal Conveying Distance", "m", "100", "200", "300", "400", "500", "600", "800" ],
-        [ "Power", "kW", "Diesel 40 / Electric 22", "Diesel 66 / Electric 37", "Diesel 76 / Electric 45", "Diesel 90 / Electric 55", "Diesel 129 / Electric 90", "Diesel 176 / Electric 110", "Diesel 196 / Electric 162" ],
+        [ "Power", "kW", "Diesel 40\nElectric 22", "Diesel 66\nElectric 37", "Diesel 76\nElectric 45", "Diesel 90\nElectric 55", "Diesel 129\nElectric 90", "Diesel 176\nElectric 110", "Diesel 196\nElectric 162" ],
         [ "Hopper Capacity / Feeding Height", "m³/mm", "0.3/1000", "0.5/1200", "0.6/1200", "0.6/1200", "0.6/1200", "0.6/1200", "0.6/1200" ],
         [ "Delivery Pipe Diameter", "mm", "80/100", "80/100/125", "80/100/125", "80/100/125", "80/100/125", "80/100/125", "80/100/125" ],
         [ "Concrete Slump", "mm", "140–230", "140–230", "140–230", "140–230", "140–230", "140–230", "140–230" ],

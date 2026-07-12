@@ -10,13 +10,22 @@ import { SpecTable } from "./spec-table";
 import { FaqAccordion } from "./faq-accordion";
 import { CheckCircle2 } from "@/components/icons";
 import type { ProductData } from "@/types/product";
+import type { Locale } from "@/i18n/config";
+import type { Dictionary } from "@/i18n/dictionaries";
 
-export function ProductPage({ data }: { data: ProductData }) {
+export function ProductPage({
+  data,
+  locale,
+  dict,
+}: {
+  data: ProductData;
+  locale: Locale;
+  dict: Dictionary;
+}) {
   return (
     <>
-      <ProductIntro data={data} />
+      <ProductIntro data={data} locale={locale} />
 
-      {/* Feature blocks (with optional inline component groups) */}
       {data.featureBlocks.length > 0 && (
         <section className="bg-offwhite py-14">
           <div className="ds-container space-y-14">
@@ -38,7 +47,6 @@ export function ProductPage({ data }: { data: ProductData }) {
         </section>
       )}
 
-      {/* Component groups (standalone, when not rendered inline above) */}
       {data.componentGroups &&
         (data.componentGroupsAfterBlock === undefined ||
           data.componentGroupsAfterBlock < 0) && (
@@ -52,11 +60,12 @@ export function ProductPage({ data }: { data: ProductData }) {
           </section>
         )}
 
-      {/* Reasons */}
       {data.reasons && (
         <section className="bg-offwhite py-14">
           <div className="ds-container">
-            <ProductSectionHeading divider="line">{data.reasons.heading}</ProductSectionHeading>
+            <ProductSectionHeading divider="line">
+              {data.reasons.heading}
+            </ProductSectionHeading>
             <ul className="mx-auto max-w-[900px] space-y-3">
               {data.reasons.bullets.map((b, i) => (
                 <li
@@ -72,7 +81,6 @@ export function ProductPage({ data }: { data: ProductData }) {
         </section>
       )}
 
-      {/* Buying tips */}
       {data.buyingTips && (
         <section className="py-14">
           <div className="ds-container">
@@ -93,21 +101,21 @@ export function ProductPage({ data }: { data: ProductData }) {
         </section>
       )}
 
-      {/* Related products */}
       {data.related && (
         <section className="bg-offwhite py-14">
           <div className="ds-container">
             <ProductSectionHeading>{data.related.heading}</ProductSectionHeading>
-            <RelatedProducts items={data.related.items} />
+            <RelatedProducts items={data.related.items} locale={locale} />
           </div>
         </section>
       )}
 
-      {/* Support */}
       {data.support && (
         <section className="py-14">
           <div className="ds-container">
-            <ProductSectionHeading divider="line">{data.support.heading}</ProductSectionHeading>
+            <ProductSectionHeading divider="line">
+              {data.support.heading}
+            </ProductSectionHeading>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
               {data.support.columns.map((col) => (
                 <div key={col.title} className="rounded-md bg-white p-6 shadow-sm">
@@ -129,7 +137,6 @@ export function ProductPage({ data }: { data: ProductData }) {
         </section>
       )}
 
-      {/* FAQ */}
       {data.faq && (
         <section className="bg-offwhite py-14">
           <div className="ds-container">
@@ -139,20 +146,18 @@ export function ProductPage({ data }: { data: ProductData }) {
         </section>
       )}
 
-      {/* Technical data */}
       <section className="py-14">
         <div className="ds-container">
-          <ProductSectionHeading>Technical Data</ProductSectionHeading>
+          <ProductSectionHeading>{dict.common.technicalData}</ProductSectionHeading>
           <SpecTable table={data.specTable} />
         </div>
       </section>
 
-      {/* Projects */}
       {data.projects && (
         <section className="bg-offwhite py-14">
           <div className="ds-container">
             <ProductSectionHeading>{data.projects.heading}</ProductSectionHeading>
-            <ProjectGrid items={data.projects.items} />
+            <ProjectGrid items={data.projects.items} locale={locale} />
           </div>
         </section>
       )}

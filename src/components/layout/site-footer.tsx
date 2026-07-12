@@ -1,14 +1,23 @@
 import Link from "next/link";
-import { footerColumns, footerMeta } from "@/data/footer";
 import { CheckCircle2, MessageCircle, Mail } from "@/components/icons";
+import type { FooterContent } from "@/data/get-content";
+import type { Locale } from "@/i18n/config";
+import { localizeHref } from "@/i18n/path";
 
 function iconFor(text: string) {
-  if (text.toLowerCase().includes("whatsapp")) return MessageCircle;
-  if (text.toLowerCase().includes("mail") || text.includes("@")) return Mail;
+  const lower = text.toLowerCase();
+  if (lower.includes("whatsapp")) return MessageCircle;
+  if (lower.includes("mail") || text.includes("@")) return Mail;
   return CheckCircle2;
 }
 
-export function SiteFooter() {
+type Props = {
+  locale: Locale;
+  footer: FooterContent;
+};
+
+export function SiteFooter({ locale, footer }: Props) {
+  const { footerColumns, footerMeta } = footer;
   return (
     <footer className="bg-footer text-offwhite">
       <div className="ds-container-wide py-12">
@@ -20,7 +29,7 @@ export function SiteFooter() {
                 return (
                   <li key={link.text}>
                     <Link
-                      href={link.href}
+                      href={localizeHref(link.href, locale)}
                       className="flex items-center gap-2.5 text-[15px] text-offwhite/90 transition-colors hover:text-white"
                     >
                       <Icon size={18} className="shrink-0 opacity-80" />
@@ -41,7 +50,7 @@ export function SiteFooter() {
           <span>{footerMeta.copyright}</span>
           <span>
             <Link
-              href={footerMeta.links[0].href}
+              href={localizeHref(footerMeta.links[0].href, locale)}
               className="underline underline-offset-2 hover:text-white"
             >
               {footerMeta.links[0].text}
