@@ -147,8 +147,8 @@ export function RequestQuote({ dict }: Props) {
                   aria-invalid={hasError}
                   aria-describedby={hasError ? `${f.name}-error` : undefined}
                   className={
-                    "h-[52px] w-full rounded-[3px] border bg-offwhite px-4 text-base text-black outline-none transition focus:border-brand " +
-                    (hasError ? "border-destructive" : "border-border")
+                    "h-[52px] w-full rounded-[3px] border bg-white px-4 text-base text-black outline-none transition placeholder:text-black/40 focus:border-brand focus:ring-1 focus:ring-brand/25 " +
+                    (hasError ? "border-destructive" : "border-black/25")
                   }
                 />
                 {hasError && (
@@ -174,8 +174,8 @@ export function RequestQuote({ dict }: Props) {
               aria-invalid={!!errors.message}
               aria-describedby={errors.message ? "message-error" : undefined}
               className={
-                "w-full rounded-[3px] border bg-offwhite px-4 py-3 text-base text-black outline-none transition focus:border-brand " +
-                (errors.message ? "border-destructive" : "border-border")
+                "w-full rounded-[3px] border bg-white px-4 py-3 text-base text-black outline-none transition placeholder:text-black/40 focus:border-brand focus:ring-1 focus:ring-brand/25 " +
+                (errors.message ? "border-destructive" : "border-black/25")
               }
             />
             {errors.message && (
